@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T19:34:24+00:00",
+ "generated_at": "2026-10-08T20:17:42+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.5244901048405826
   },
-  "points_mae": 3.2853549545149585,
+  "points_mae": 3.285354954514959,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10606,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-08T19:34:19+00:00"
+  "trained_at": "2026-10-08T20:17:41+00:00"
  },
  "default_goalies": [
   8474596,
@@ -925,7 +925,7 @@
      "date": "2026-04-08",
      "opp": "WSH",
      "home": 1,
-     "decision": NaN,
+     "decision": "-",
      "saves": 2,
      "ga": 0,
      "so": 0,
@@ -4028,7 +4028,7 @@
       "date": "2023-10-17",
       "opp": "SJS",
       "home": 0,
-      "decision": NaN,
+      "decision": "-",
       "saves": 1,
       "ga": 1,
       "so": 0,
@@ -6641,7 +6641,7 @@
       "date": "2023-12-07",
       "opp": "OTT",
       "home": 0,
-      "decision": NaN,
+      "decision": "-",
       "saves": 29,
       "ga": 2,
       "so": 0,
@@ -7156,7 +7156,7 @@
      "date": "2026-04-16",
      "opp": "STL",
      "home": 1,
-     "decision": NaN,
+     "decision": "-",
      "saves": 15,
      "ga": 3,
      "so": 0,
@@ -7246,7 +7246,7 @@
       "date": "2026-03-04",
       "opp": "CAR",
       "home": 1,
-      "decision": NaN,
+      "decision": "-",
       "saves": 18,
       "ga": 4,
       "so": 0,
@@ -10234,7 +10234,7 @@
      "date": "2026-04-14",
      "opp": "STL",
      "home": 0,
-     "decision": NaN,
+     "decision": "-",
      "saves": 17,
      "ga": 4,
      "so": 0,
@@ -10992,7 +10992,7 @@
       "date": "2026-03-26",
       "opp": "STL",
       "home": 0,
-      "decision": NaN,
+      "decision": "-",
       "saves": 11,
       "ga": 0,
       "so": 0,
