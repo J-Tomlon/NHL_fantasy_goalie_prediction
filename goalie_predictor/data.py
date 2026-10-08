@@ -27,7 +27,7 @@ def parse_game_log(player_id: int, name: str, season: int, log: dict) -> list[di
         sa = int(g.get("shotsAgainst") or 0)
         ga = int(g.get("goalsAgainst") or 0)
         so = int(g.get("shutouts") or 0)
-        decision = g.get("decision")
+        decision = g.get("decision") or ""  # absent when another goalie got the decision
         fp = fantasy_points(decision, sa, ga, so)
         rows.append({
             "player_id": player_id, "name": name, "season": season,

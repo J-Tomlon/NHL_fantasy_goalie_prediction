@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import math
 
 from .config import MY_GOALIES_PATH, SCORING, SITE_DATA_PATH, TRAINING_SEASONS_BACK
 from .data import build_dataset, current_goalies
@@ -66,6 +67,19 @@ class Workspace:
         return resolve_goalies(queries, self.roster)
 
 
+def _json_safe(obj):
+    """Replace NaN/inf (which browsers reject in JSON) with null, recursively."""
+    if isinstance(obj, float):
+        return obj if math.isfinite(obj) else None
+    if isinstance(obj, dict):
+        return {k: _json_safe(v) for k, v in obj.items()}
+    if isinstance(obj, (list, tuple)):
+        return [_json_safe(v) for v in obj]
+    if hasattr(obj, "item"):  # numpy scalars
+        return _json_safe(obj.item())
+    return obj
+
+
 def write_site(ws: Workspace, predictions: list[dict]) -> None:
     payload = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
@@ -76,6 +90,7 @@ def write_site(ws: Workspace, predictions: list[dict]) -> None:
         "goalies": sorted(predictions, key=lambda p: (p.get("error") is not None, p["name"])),
     }
     SITE_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    SITE_DATA_PATH.write_text(json.dumps(payload, indent=1, default=str))
+    text = json.dumps(_json_safe(payload), indent=1, default=str, allow_nan=False)
+    SITE_DATA_PATH.write_text(text)
     log(f"Wrote {SITE_DATA_PATH.relative_to(SITE_DATA_PATH.parents[2])} "
         f"({len(predictions)} goalies)")
