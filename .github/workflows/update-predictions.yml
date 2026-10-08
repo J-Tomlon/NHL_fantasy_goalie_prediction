@@ -1,0 +1,48 @@
+name: Update predictions
+
+on:
+  schedule:
+    - cron: "15 13 * * *"   # 6:15 AM Arizona
+    - cron: "15 20 * * *"   # 1:15 PM Arizona
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-predictions
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore NHL API cache
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: nhl-cache-${{ github.run_id }}
+          restore-keys: nhl-cache-
+      - name: Create .venv and install
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install --upgrade pip
+          .venv/bin/pip install -r requirements.txt
+      - name: Train model and predict every goalie
+        run: .venv/bin/python -m goalie_predictor update
+      - name: Commit updated predictions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/predictions.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update goalie predictions $(date -u +%Y-%m-%d)"
+            git push
+          fi
