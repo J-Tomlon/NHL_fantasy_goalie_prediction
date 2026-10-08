@@ -1,0 +1,2820 @@
+{
+ "generated_at": "2026-10-08T18:01:03+00:00",
+ "sample": true,
+ "scoring": {
+  "W": 3.0,
+  "GA": -1.5,
+  "SV": 0.2,
+  "SO": 4.0,
+  "OTL": 1.0
+ },
+ "metrics": {
+  "test_season": 20252026,
+  "model": {
+   "n": 560,
+   "brier": 0.19598335788073118,
+   "log_loss": 0.5807470976498225,
+   "accuracy": 0.7232142857142857,
+   "auc": 0.5945830159939071
+  },
+  "baseline_league_rate": {
+   "n": 560,
+   "brier": 0.20146763392857148,
+   "log_loss": 0.5928825051928808,
+   "accuracy": 0.7214285714285714,
+   "auc": 0.5
+  },
+  "baseline_career_rate": {
+   "n": 560,
+   "brier": 0.19696578904322365,
+   "log_loss": 0.5815844739567713,
+   "accuracy": 0.7214285714285714,
+   "auc": 0.571821845646103
+  },
+  "points_mae": 3.4907622554441136,
+  "points_mae_baseline": 3.5269426020408163,
+  "positive_rate": 0.7214285714285714,
+  "training_rows": 1752,
+  "train_seasons": [
+   20232024,
+   20242025,
+   20252026,
+   20262027
+  ],
+  "trained_at": "2026-10-08T18:01:03+00:00"
+ },
+ "default_goalies": [
+  8470001,
+  8470003
+ ],
+ "goalies": [
+  {
+   "id": 8470001,
+   "name": "Goalie1 WpgStarter",
+   "team": "WPG",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021440,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "DAL",
+    "state": "FUT"
+   },
+   "prob_positive": 0.6985,
+   "expected_points": 2.76,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "94% positive lately vs 74% career (save % 0.918)",
+     "tone": "good"
+    },
+    {
+     "label": "History vs DAL",
+     "detail": "34 career starts; adjusted positive rate 71% vs 74% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "DAL scoring 2.47 goals/game (league 2.65)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 60% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.7,
+   "career": {
+    "starts": 256,
+    "record": "121-114-21",
+    "shutouts": 12,
+    "pos_rate": 0.742,
+    "avg_points": 2.58,
+    "save_pct": 0.901
+   },
+   "season": {
+    "starts": 6,
+    "record": "4-2-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 4.08,
+    "save_pct": 0.925
+   },
+   "vs_opponent": {
+    "starts": 34,
+    "record": "19-12-3",
+    "shutouts": 1,
+    "pos_rate": 0.706,
+    "avg_points": 2.55,
+    "save_pct": 0.896,
+    "games": [
+     {
+      "date": "2026-10-22",
+      "opp": "DAL",
+      "home": 1,
+      "decision": "W",
+      "saves": 22,
+      "ga": 1,
+      "so": 0,
+      "points": 5.9
+     },
+     {
+      "date": "2026-01-24",
+      "opp": "DAL",
+      "home": 0,
+      "decision": "L",
+      "saves": 26,
+      "ga": 5,
+      "so": 0,
+      "points": -2.3
+     },
+     {
+      "date": "2026-01-18",
+      "opp": "DAL",
+      "home": 1,
+      "decision": "W",
+      "saves": 31,
+      "ga": 1,
+      "so": 0,
+      "points": 7.7
+     },
+     {
+      "date": "2026-01-04",
+      "opp": "DAL",
+      "home": 0,
+      "decision": "W",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 3.5
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "DAL",
+      "home": 1,
+      "decision": "O",
+      "saves": 27,
+      "ga": 5,
+      "so": 0,
+      "points": -1.1
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "COL",
+     "home": 1,
+     "decision": "W",
+     "saves": 23,
+     "ga": 4,
+     "so": 0,
+     "points": 1.6
+    },
+    {
+     "date": "2026-10-22",
+     "opp": "DAL",
+     "home": 1,
+     "decision": "W",
+     "saves": 22,
+     "ga": 1,
+     "so": 0,
+     "points": 5.9
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "W",
+     "saves": 29,
+     "ga": 1,
+     "so": 0,
+     "points": 7.3
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 32,
+     "ga": 3,
+     "so": 0,
+     "points": 1.9
+    },
+    {
+     "date": "2026-10-12",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "L",
+     "saves": 29,
+     "ga": 3,
+     "so": 0,
+     "points": 1.3
+    }
+   ]
+  },
+  {
+   "id": 8470010,
+   "name": "Goalie10 EdmBackup",
+   "team": "EDM",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021438,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "NYI",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7059,
+   "expected_points": 2.59,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "64% positive lately vs 76% career (save % 0.891)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs NYI",
+     "detail": "21 career starts; adjusted positive rate 88% vs 76% overall",
+     "tone": "good"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "NYI scoring 2.40 goals/game (league 2.65)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 53% of its last 15",
+     "tone": "neutral"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.1,
+   "career": {
+    "starts": 103,
+    "record": "58-36-9",
+    "shutouts": 7,
+    "pos_rate": 0.757,
+    "avg_points": 2.98,
+    "save_pct": 0.902
+   },
+   "season": {
+    "starts": 1,
+    "record": "1-0-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 2.9,
+    "save_pct": 0.88
+   },
+   "vs_opponent": {
+    "starts": 21,
+    "record": "16-3-2",
+    "shutouts": 1,
+    "pos_rate": 0.905,
+    "avg_points": 3.82,
+    "save_pct": 0.912,
+    "games": [
+     {
+      "date": "2026-10-16",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "W",
+      "saves": 22,
+      "ga": 3,
+      "so": 0,
+      "points": 2.9
+     },
+     {
+      "date": "2026-01-14",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "W",
+      "saves": 24,
+      "ga": 2,
+      "so": 0,
+      "points": 4.8
+     },
+     {
+      "date": "2025-12-19",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "O",
+      "saves": 21,
+      "ga": 3,
+      "so": 0,
+      "points": 0.7
+     },
+     {
+      "date": "2025-12-09",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "L",
+      "saves": 26,
+      "ga": 3,
+      "so": 0,
+      "points": 0.7
+     },
+     {
+      "date": "2025-10-10",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "W",
+      "saves": 29,
+      "ga": 4,
+      "so": 0,
+      "points": 2.8
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-16",
+     "opp": "NYI",
+     "home": 0,
+     "decision": "W",
+     "saves": 22,
+     "ga": 3,
+     "so": 0,
+     "points": 2.9
+    },
+    {
+     "date": "2026-02-19",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "L",
+     "saves": 23,
+     "ga": 6,
+     "so": 0,
+     "points": -4.4
+    },
+    {
+     "date": "2026-02-09",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 18,
+     "ga": 5,
+     "so": 0,
+     "points": -3.9
+    },
+    {
+     "date": "2026-02-07",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "W",
+     "saves": 24,
+     "ga": 2,
+     "so": 0,
+     "points": 4.8
+    },
+    {
+     "date": "2026-01-16",
+     "opp": "BOS",
+     "home": 0,
+     "decision": "W",
+     "saves": 35,
+     "ga": 0,
+     "so": 1,
+     "points": 14.0
+    }
+   ]
+  },
+  {
+   "id": 8470011,
+   "name": "Goalie11 VgkStarter",
+   "team": "VGK",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021439,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "BOS",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7401,
+   "expected_points": 3.19,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "95% positive lately vs 77% career (save % 0.922)",
+     "tone": "good"
+    },
+    {
+     "label": "History vs BOS",
+     "detail": "37 career starts; adjusted positive rate 69% vs 77% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "BOS scoring 3.33 goals/game (league 2.65)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 73% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.7,
+   "career": {
+    "starts": 241,
+    "record": "132-88-21",
+    "shutouts": 21,
+    "pos_rate": 0.768,
+    "avg_points": 3.57,
+    "save_pct": 0.914
+   },
+   "season": {
+    "starts": 6,
+    "record": "6-0-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 4.35,
+    "save_pct": 0.911
+   },
+   "vs_opponent": {
+    "starts": 37,
+    "record": "21-14-2",
+    "shutouts": 1,
+    "pos_rate": 0.676,
+    "avg_points": 2.96,
+    "save_pct": 0.905,
+    "games": [
+     {
+      "date": "2026-10-24",
+      "opp": "BOS",
+      "home": 1,
+      "decision": "W",
+      "saves": 27,
+      "ga": 4,
+      "so": 0,
+      "points": 2.4
+     },
+     {
+      "date": "2026-01-22",
+      "opp": "BOS",
+      "home": 1,
+      "decision": "W",
+      "saves": 19,
+      "ga": 3,
+      "so": 0,
+      "points": 2.3
+     },
+     {
+      "date": "2026-01-14",
+      "opp": "BOS",
+      "home": 0,
+      "decision": "W",
+      "saves": 26,
+      "ga": 3,
+      "so": 0,
+      "points": 3.7
+     },
+     {
+      "date": "2026-01-08",
+      "opp": "BOS",
+      "home": 0,
+      "decision": "W",
+      "saves": 21,
+      "ga": 2,
+      "so": 0,
+      "points": 4.2
+     },
+     {
+      "date": "2025-12-05",
+      "opp": "BOS",
+      "home": 0,
+      "decision": "L",
+      "saves": 26,
+      "ga": 2,
+      "so": 0,
+      "points": 2.2
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "W",
+     "saves": 27,
+     "ga": 4,
+     "so": 0,
+     "points": 2.4
+    },
+    {
+     "date": "2026-10-22",
+     "opp": "NYI",
+     "home": 0,
+     "decision": "W",
+     "saves": 20,
+     "ga": 3,
+     "so": 0,
+     "points": 2.5
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "NYI",
+     "home": 0,
+     "decision": "W",
+     "saves": 23,
+     "ga": 3,
+     "so": 0,
+     "points": 3.1
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "W",
+     "saves": 32,
+     "ga": 1,
+     "so": 0,
+     "points": 7.9
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "W",
+     "saves": 33,
+     "ga": 2,
+     "so": 0,
+     "points": 6.6
+    }
+   ]
+  },
+  {
+   "id": 8470012,
+   "name": "Goalie12 VgkBackup",
+   "team": "VGK",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021439,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "BOS",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7117,
+   "expected_points": 2.95,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "64% positive lately vs 77% career (save % 0.906)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs BOS",
+     "detail": "11 career starts; adjusted positive rate 87% vs 77% overall",
+     "tone": "good"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "BOS scoring 3.33 goals/game (league 2.65)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 73% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 7 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.3,
+   "career": {
+    "starts": 118,
+    "record": "59-47-12",
+    "shutouts": 8,
+    "pos_rate": 0.771,
+    "avg_points": 3.03,
+    "save_pct": 0.907
+   },
+   "season": {
+    "starts": 3,
+    "record": "1-2-0",
+    "shutouts": 1,
+    "pos_rate": 0.333,
+    "avg_points": 2.53,
+    "save_pct": 0.886
+   },
+   "vs_opponent": {
+    "starts": 11,
+    "record": "8-2-1",
+    "shutouts": 2,
+    "pos_rate": 0.909,
+    "avg_points": 4.43,
+    "save_pct": 0.912,
+    "games": [
+     {
+      "date": "2026-01-10",
+      "opp": "BOS",
+      "home": 1,
+      "decision": "W",
+      "saves": 29,
+      "ga": 0,
+      "so": 1,
+      "points": 12.8
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "BOS",
+      "home": 1,
+      "decision": "W",
+      "saves": 23,
+      "ga": 2,
+      "so": 0,
+      "points": 4.6
+     },
+     {
+      "date": "2024-10-30",
+      "opp": "BOS",
+      "home": 0,
+      "decision": "W",
+      "saves": 24,
+      "ga": 3,
+      "so": 0,
+      "points": 3.3
+     },
+     {
+      "date": "2024-10-22",
+      "opp": "BOS",
+      "home": 0,
+      "decision": "L",
+      "saves": 27,
+      "ga": 3,
+      "so": 0,
+      "points": 0.9
+     },
+     {
+      "date": "2023-12-31",
+      "opp": "BOS",
+      "home": 1,
+      "decision": "W",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 3.5
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "TOR",
+     "home": 0,
+     "decision": "W",
+     "saves": 31,
+     "ga": 0,
+     "so": 1,
+     "points": 13.2
+    },
+    {
+     "date": "2026-10-12",
+     "opp": "TOR",
+     "home": 1,
+     "decision": "L",
+     "saves": 28,
+     "ga": 6,
+     "so": 0,
+     "points": -3.4
+    },
+    {
+     "date": "2026-10-08",
+     "opp": "WPG",
+     "home": 1,
+     "decision": "L",
+     "saves": 19,
+     "ga": 4,
+     "so": 0,
+     "points": -2.2
+    },
+    {
+     "date": "2026-02-21",
+     "opp": "COL",
+     "home": 1,
+     "decision": "W",
+     "saves": 21,
+     "ga": 1,
+     "so": 0,
+     "points": 5.7
+    },
+    {
+     "date": "2026-02-15",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "O",
+     "saves": 21,
+     "ga": 2,
+     "so": 0,
+     "points": 2.2
+    }
+   ]
+  },
+  {
+   "id": 8470013,
+   "name": "Goalie13 ColStarter",
+   "team": "COL",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021437,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "TOR",
+    "state": "FUT"
+   },
+   "prob_positive": 0.6755,
+   "expected_points": 1.64,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "61% positive lately vs 62% career (save % 0.890)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs TOR",
+     "detail": "44 career starts; adjusted positive rate 86% vs 62% overall",
+     "tone": "good"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "TOR scoring 2.53 goals/game (league 2.65)",
+     "tone": "neutral"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 40% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.6,
+   "career": {
+    "starts": 242,
+    "record": "104-116-22",
+    "shutouts": 18,
+    "pos_rate": 0.62,
+    "avg_points": 2.03,
+    "save_pct": 0.89
+   },
+   "season": {
+    "starts": 5,
+    "record": "3-2-0",
+    "shutouts": 0,
+    "pos_rate": 0.8,
+    "avg_points": 3.86,
+    "save_pct": 0.92
+   },
+   "vs_opponent": {
+    "starts": 44,
+    "record": "26-13-5",
+    "shutouts": 6,
+    "pos_rate": 0.886,
+    "avg_points": 4.23,
+    "save_pct": 0.921,
+    "games": [
+     {
+      "date": "2026-02-03",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "L",
+      "saves": 24,
+      "ga": 6,
+      "so": 0,
+      "points": -4.2
+     },
+     {
+      "date": "2026-01-18",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "W",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 3.5
+     },
+     {
+      "date": "2026-01-08",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "L",
+      "saves": 20,
+      "ga": 3,
+      "so": 0,
+      "points": -0.5
+     },
+     {
+      "date": "2026-01-04",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "W",
+      "saves": 30,
+      "ga": 2,
+      "so": 0,
+      "points": 6.0
+     },
+     {
+      "date": "2025-12-19",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "W",
+      "saves": 25,
+      "ga": 2,
+      "so": 0,
+      "points": 5.0
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "L",
+     "saves": 31,
+     "ga": 5,
+     "so": 0,
+     "points": -1.3
+    },
+    {
+     "date": "2026-10-18",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "L",
+     "saves": 28,
+     "ga": 3,
+     "so": 0,
+     "points": 1.1
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "W",
+     "saves": 34,
+     "ga": 2,
+     "so": 0,
+     "points": 6.8
+    },
+    {
+     "date": "2026-10-10",
+     "opp": "DAL",
+     "home": 1,
+     "decision": "W",
+     "saves": 26,
+     "ga": 1,
+     "so": 0,
+     "points": 6.7
+    },
+    {
+     "date": "2026-10-08",
+     "opp": "EDM",
+     "home": 1,
+     "decision": "W",
+     "saves": 30,
+     "ga": 2,
+     "so": 0,
+     "points": 6.0
+    }
+   ]
+  },
+  {
+   "id": 8470014,
+   "name": "Goalie14 ColBackup",
+   "team": "COL",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021437,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "TOR",
+    "state": "FUT"
+   },
+   "prob_positive": 0.8117,
+   "expected_points": 4.05,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "65% positive lately vs 82% career (save % 0.905)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs TOR",
+     "detail": "17 career starts; adjusted positive rate 82% vs 82% overall",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "TOR scoring 2.53 goals/game (league 2.65)",
+     "tone": "neutral"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 40% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 4 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.4,
+   "career": {
+    "starts": 117,
+    "record": "66-47-4",
+    "shutouts": 8,
+    "pos_rate": 0.829,
+    "avg_points": 3.56,
+    "save_pct": 0.915
+   },
+   "season": {
+    "starts": 4,
+    "record": "2-2-0",
+    "shutouts": 0,
+    "pos_rate": 0.5,
+    "avg_points": 2.65,
+    "save_pct": 0.907
+   },
+   "vs_opponent": {
+    "starts": 17,
+    "record": "7-9-1",
+    "shutouts": 0,
+    "pos_rate": 0.824,
+    "avg_points": 2.66,
+    "save_pct": 0.909,
+    "games": [
+     {
+      "date": "2026-10-22",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "W",
+      "saves": 27,
+      "ga": 1,
+      "so": 0,
+      "points": 6.9
+     },
+     {
+      "date": "2025-12-03",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "W",
+      "saves": 33,
+      "ga": 3,
+      "so": 0,
+      "points": 5.1
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "O",
+      "saves": 22,
+      "ga": 3,
+      "so": 0,
+      "points": 0.9
+     },
+     {
+      "date": "2025-11-25",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "L",
+      "saves": 28,
+      "ga": 3,
+      "so": 0,
+      "points": 1.1
+     },
+     {
+      "date": "2025-10-22",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "L",
+      "saves": 31,
+      "ga": 2,
+      "so": 0,
+      "points": 3.2
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-22",
+     "opp": "TOR",
+     "home": 0,
+     "decision": "W",
+     "saves": 27,
+     "ga": 1,
+     "so": 0,
+     "points": 6.9
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "W",
+     "saves": 19,
+     "ga": 1,
+     "so": 0,
+     "points": 5.3
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "NYI",
+     "home": 1,
+     "decision": "L",
+     "saves": 28,
+     "ga": 4,
+     "so": 0,
+     "points": -0.4
+    },
+    {
+     "date": "2026-10-12",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "L",
+     "saves": 24,
+     "ga": 4,
+     "so": 0,
+     "points": -1.2
+    },
+    {
+     "date": "2026-02-11",
+     "opp": "VGK",
+     "home": 0,
+     "decision": "L",
+     "saves": 23,
+     "ga": 2,
+     "so": 0,
+     "points": 1.6
+    }
+   ]
+  },
+  {
+   "id": 8470015,
+   "name": "Goalie15 DalStarter",
+   "team": "DAL",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021440,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "WPG",
+    "state": "FUT"
+   },
+   "prob_positive": 0.722,
+   "expected_points": 2.96,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "56% positive lately vs 76% career (save % 0.899)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs WPG",
+     "detail": "34 career starts; adjusted positive rate 74% vs 76% overall",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "WPG scoring 3.00 goals/game (league 2.65)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 27% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 4 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.8,
+   "career": {
+    "starts": 246,
+    "record": "126-95-25",
+    "shutouts": 18,
+    "pos_rate": 0.756,
+    "avg_points": 3.01,
+    "save_pct": 0.905
+   },
+   "season": {
+    "starts": 7,
+    "record": "1-5-1",
+    "shutouts": 0,
+    "pos_rate": 0.571,
+    "avg_points": 1.46,
+    "save_pct": 0.899
+   },
+   "vs_opponent": {
+    "starts": 34,
+    "record": "15-14-5",
+    "shutouts": 3,
+    "pos_rate": 0.735,
+    "avg_points": 2.57,
+    "save_pct": 0.899,
+    "games": [
+     {
+      "date": "2026-10-22",
+      "opp": "WPG",
+      "home": 0,
+      "decision": "L",
+      "saves": 26,
+      "ga": 4,
+      "so": 0,
+      "points": -0.8
+     },
+     {
+      "date": "2026-01-24",
+      "opp": "WPG",
+      "home": 1,
+      "decision": "W",
+      "saves": 27,
+      "ga": 1,
+      "so": 0,
+      "points": 6.9
+     },
+     {
+      "date": "2026-01-18",
+      "opp": "WPG",
+      "home": 0,
+      "decision": "L",
+      "saves": 24,
+      "ga": 6,
+      "so": 0,
+      "points": -4.2
+     },
+     {
+      "date": "2026-01-16",
+      "opp": "WPG",
+      "home": 1,
+      "decision": "W",
+      "saves": 31,
+      "ga": 3,
+      "so": 0,
+      "points": 4.7
+     },
+     {
+      "date": "2026-01-04",
+      "opp": "WPG",
+      "home": 1,
+      "decision": "O",
+      "saves": 33,
+      "ga": 3,
+      "so": 0,
+      "points": 3.1
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-22",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "L",
+     "saves": 26,
+     "ga": 4,
+     "so": 0,
+     "points": -0.8
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "COL",
+     "home": 1,
+     "decision": "L",
+     "saves": 28,
+     "ga": 2,
+     "so": 0,
+     "points": 2.6
+    },
+    {
+     "date": "2026-10-18",
+     "opp": "NYI",
+     "home": 1,
+     "decision": "O",
+     "saves": 30,
+     "ga": 3,
+     "so": 0,
+     "points": 2.5
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "COL",
+     "home": 1,
+     "decision": "L",
+     "saves": 25,
+     "ga": 4,
+     "so": 0,
+     "points": -1.0
+    },
+    {
+     "date": "2026-10-12",
+     "opp": "COL",
+     "home": 1,
+     "decision": "W",
+     "saves": 28,
+     "ga": 3,
+     "so": 0,
+     "points": 4.1
+    }
+   ]
+  },
+  {
+   "id": 8470016,
+   "name": "Goalie16 DalBackup",
+   "team": "DAL",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021440,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "WPG",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7429,
+   "expected_points": 3.04,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "55% positive lately vs 72% career (save % 0.885)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs WPG",
+     "detail": "14 career starts; adjusted positive rate 66% vs 72% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "WPG scoring 3.00 goals/game (league 2.65)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 27% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.2,
+   "career": {
+    "starts": 113,
+    "record": "61-44-8",
+    "shutouts": 6,
+    "pos_rate": 0.717,
+    "avg_points": 2.96,
+    "save_pct": 0.905
+   },
+   "season": {
+    "starts": 2,
+    "record": "1-1-0",
+    "shutouts": 0,
+    "pos_rate": 0.5,
+    "avg_points": 3.0,
+    "save_pct": 0.909
+   },
+   "vs_opponent": {
+    "starts": 14,
+    "record": "9-4-1",
+    "shutouts": 0,
+    "pos_rate": 0.643,
+    "avg_points": 2.86,
+    "save_pct": 0.901,
+    "games": [
+     {
+      "date": "2025-11-27",
+      "opp": "WPG",
+      "home": 0,
+      "decision": "W",
+      "saves": 22,
+      "ga": 5,
+      "so": 0,
+      "points": -0.1
+     },
+     {
+      "date": "2025-10-12",
+      "opp": "WPG",
+      "home": 0,
+      "decision": "W",
+      "saves": 20,
+      "ga": 1,
+      "so": 0,
+      "points": 5.5
+     },
+     {
+      "date": "2025-02-15",
+      "opp": "WPG",
+      "home": 1,
+      "decision": "L",
+      "saves": 21,
+      "ga": 4,
+      "so": 0,
+      "points": -1.8
+     },
+     {
+      "date": "2024-11-25",
+      "opp": "WPG",
+      "home": 1,
+      "decision": "W",
+      "saves": 33,
+      "ga": 1,
+      "so": 0,
+      "points": 8.1
+     },
+     {
+      "date": "2024-02-09",
+      "opp": "WPG",
+      "home": 0,
+      "decision": "W",
+      "saves": 21,
+      "ga": 4,
+      "so": 0,
+      "points": 1.2
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "TOR",
+     "home": 1,
+     "decision": "W",
+     "saves": 31,
+     "ga": 1,
+     "so": 0,
+     "points": 7.7
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "L",
+     "saves": 29,
+     "ga": 5,
+     "so": 0,
+     "points": -1.7
+    },
+    {
+     "date": "2026-02-21",
+     "opp": "NYI",
+     "home": 0,
+     "decision": "W",
+     "saves": 26,
+     "ga": 3,
+     "so": 0,
+     "points": 3.7
+    },
+    {
+     "date": "2026-02-17",
+     "opp": "TOR",
+     "home": 1,
+     "decision": "L",
+     "saves": 19,
+     "ga": 4,
+     "so": 0,
+     "points": -2.2
+    },
+    {
+     "date": "2026-02-11",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "L",
+     "saves": 25,
+     "ga": 6,
+     "so": 0,
+     "points": -4.0
+    }
+   ]
+  },
+  {
+   "id": 8470002,
+   "name": "Goalie2 WpgBackup",
+   "team": "WPG",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021440,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "DAL",
+    "state": "FUT"
+   },
+   "prob_positive": 0.6154,
+   "expected_points": 1.7,
+   "verdict": "Lean positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "71% positive lately vs 73% career (save % 0.915)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs DAL",
+     "detail": "14 career starts; adjusted positive rate 61% vs 73% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "DAL scoring 2.47 goals/game (league 2.65)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 60% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 7 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.3,
+   "career": {
+    "starts": 103,
+    "record": "53-44-6",
+    "shutouts": 7,
+    "pos_rate": 0.728,
+    "avg_points": 2.72,
+    "save_pct": 0.901
+   },
+   "season": {
+    "starts": 3,
+    "record": "1-1-1",
+    "shutouts": 1,
+    "pos_rate": 0.667,
+    "avg_points": 5.97,
+    "save_pct": 0.946
+   },
+   "vs_opponent": {
+    "starts": 14,
+    "record": "5-9-0",
+    "shutouts": 0,
+    "pos_rate": 0.571,
+    "avg_points": 1.51,
+    "save_pct": 0.892,
+    "games": [
+     {
+      "date": "2026-01-16",
+      "opp": "DAL",
+      "home": 0,
+      "decision": "L",
+      "saves": 27,
+      "ga": 4,
+      "so": 0,
+      "points": -0.6
+     },
+     {
+      "date": "2025-12-31",
+      "opp": "DAL",
+      "home": 0,
+      "decision": "L",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 0.5
+     },
+     {
+      "date": "2025-12-21",
+      "opp": "DAL",
+      "home": 0,
+      "decision": "W",
+      "saves": 27,
+      "ga": 1,
+      "so": 0,
+      "points": 6.9
+     },
+     {
+      "date": "2025-10-20",
+      "opp": "DAL",
+      "home": 1,
+      "decision": "W",
+      "saves": 27,
+      "ga": 1,
+      "so": 0,
+      "points": 6.9
+     },
+     {
+      "date": "2025-01-26",
+      "opp": "DAL",
+      "home": 0,
+      "decision": "W",
+      "saves": 18,
+      "ga": 1,
+      "so": 0,
+      "points": 5.1
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "COL",
+     "home": 1,
+     "decision": "W",
+     "saves": 32,
+     "ga": 0,
+     "so": 1,
+     "points": 13.4
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 22,
+     "ga": 3,
+     "so": 0,
+     "points": -0.1
+    },
+    {
+     "date": "2026-10-10",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "O",
+     "saves": 33,
+     "ga": 2,
+     "so": 0,
+     "points": 4.6
+    },
+    {
+     "date": "2026-02-19",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 28,
+     "ga": 2,
+     "so": 0,
+     "points": 2.6
+    },
+    {
+     "date": "2026-02-17",
+     "opp": "NYI",
+     "home": 0,
+     "decision": "W",
+     "saves": 19,
+     "ga": 0,
+     "so": 1,
+     "points": 10.8
+    }
+   ]
+  },
+  {
+   "id": 8470003,
+   "name": "Goalie3 NyiStarter",
+   "team": "NYI",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021438,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "EDM",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7192,
+   "expected_points": 2.92,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "64% positive lately vs 77% career (save % 0.885)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs EDM",
+     "detail": "32 career starts; adjusted positive rate 70% vs 77% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "EDM scoring 2.60 goals/game (league 2.65)",
+     "tone": "neutral"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 27% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 4 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.7,
+   "career": {
+    "starts": 248,
+    "record": "115-110-23",
+    "shutouts": 19,
+    "pos_rate": 0.774,
+    "avg_points": 2.73,
+    "save_pct": 0.902
+   },
+   "season": {
+    "starts": 6,
+    "record": "2-3-1",
+    "shutouts": 0,
+    "pos_rate": 0.667,
+    "avg_points": 1.23,
+    "save_pct": 0.884
+   },
+   "vs_opponent": {
+    "starts": 32,
+    "record": "12-19-1",
+    "shutouts": 1,
+    "pos_rate": 0.688,
+    "avg_points": 1.77,
+    "save_pct": 0.892,
+    "games": [
+     {
+      "date": "2026-10-12",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "L",
+      "saves": 26,
+      "ga": 3,
+      "so": 0,
+      "points": 0.7
+     },
+     {
+      "date": "2026-01-14",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "L",
+      "saves": 26,
+      "ga": 4,
+      "so": 0,
+      "points": -0.8
+     },
+     {
+      "date": "2025-12-31",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "L",
+      "saves": 23,
+      "ga": 5,
+      "so": 0,
+      "points": -2.9
+     },
+     {
+      "date": "2025-12-27",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "L",
+      "saves": 30,
+      "ga": 2,
+      "so": 0,
+      "points": 3.0
+     },
+     {
+      "date": "2025-12-19",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "W",
+      "saves": 28,
+      "ga": 3,
+      "so": 0,
+      "points": 4.1
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-22",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 23,
+     "ga": 4,
+     "so": 0,
+     "points": -1.4
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 29,
+     "ga": 4,
+     "so": 0,
+     "points": -0.2
+    },
+    {
+     "date": "2026-10-18",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "W",
+     "saves": 21,
+     "ga": 3,
+     "so": 0,
+     "points": 2.7
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "COL",
+     "home": 0,
+     "decision": "W",
+     "saves": 25,
+     "ga": 3,
+     "so": 0,
+     "points": 3.5
+    },
+    {
+     "date": "2026-10-12",
+     "opp": "EDM",
+     "home": 1,
+     "decision": "L",
+     "saves": 26,
+     "ga": 3,
+     "so": 0,
+     "points": 0.7
+    }
+   ]
+  },
+  {
+   "id": 8470004,
+   "name": "Goalie4 NyiBackup",
+   "team": "NYI",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021438,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 0,
+    "opp": "EDM",
+    "state": "FUT"
+   },
+   "prob_positive": 0.743,
+   "expected_points": 2.4,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "68% positive lately vs 62% career (save % 0.888)",
+     "tone": "good"
+    },
+    {
+     "label": "History vs EDM",
+     "detail": "21 career starts; adjusted positive rate 50% vs 62% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "EDM scoring 2.60 goals/game (league 2.65)",
+     "tone": "neutral"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 27% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
+    }
+   ],
+   "starter_share_last10": 0.3,
+   "career": {
+    "starts": 111,
+    "record": "38-63-10",
+    "shutouts": 3,
+    "pos_rate": 0.613,
+    "avg_points": 1.32,
+    "save_pct": 0.884
+   },
+   "season": {
+    "starts": 3,
+    "record": "0-3-0",
+    "shutouts": 0,
+    "pos_rate": 0.333,
+    "avg_points": -0.7,
+    "save_pct": 0.867
+   },
+   "vs_opponent": {
+    "starts": 21,
+    "record": "2-17-2",
+    "shutouts": 0,
+    "pos_rate": 0.476,
+    "avg_points": -0.01,
+    "save_pct": 0.875,
+    "games": [
+     {
+      "date": "2026-10-24",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "L",
+      "saves": 20,
+      "ga": 5,
+      "so": 0,
+      "points": -3.5
+     },
+     {
+      "date": "2026-10-16",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "L",
+      "saves": 26,
+      "ga": 4,
+      "so": 0,
+      "points": -0.8
+     },
+     {
+      "date": "2025-12-09",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "W",
+      "saves": 23,
+      "ga": 2,
+      "so": 0,
+      "points": 4.6
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "L",
+      "saves": 31,
+      "ga": 5,
+      "so": 0,
+      "points": -1.3
+     },
+     {
+      "date": "2025-10-10",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "L",
+      "saves": 26,
+      "ga": 8,
+      "so": 0,
+      "points": -6.8
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "EDM",
+     "home": 0,
+     "decision": "L",
+     "saves": 20,
+     "ga": 5,
+     "so": 0,
+     "points": -3.5
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "EDM",
+     "home": 1,
+     "decision": "L",
+     "saves": 26,
+     "ga": 4,
+     "so": 0,
+     "points": -0.8
+    },
+    {
+     "date": "2026-10-08",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "L",
+     "saves": 26,
+     "ga": 2,
+     "so": 0,
+     "points": 2.2
+    },
+    {
+     "date": "2026-02-21",
+     "opp": "DAL",
+     "home": 1,
+     "decision": "L",
+     "saves": 26,
+     "ga": 4,
+     "so": 0,
+     "points": -0.8
+    },
+    {
+     "date": "2026-02-15",
+     "opp": "DAL",
+     "home": 1,
+     "decision": "W",
+     "saves": 24,
+     "ga": 4,
+     "so": 0,
+     "points": 1.8
+    }
+   ]
+  },
+  {
+   "id": 8470005,
+   "name": "Goalie5 BosStarter",
+   "team": "BOS",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021439,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "VGK",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7116,
+   "expected_points": 3.12,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "71% positive lately vs 73% career (save % 0.892)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs VGK",
+     "detail": "37 career starts; adjusted positive rate 63% vs 73% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "VGK scoring 3.20 goals/game (league 2.65)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 73% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.7,
+   "career": {
+    "starts": 259,
+    "record": "126-111-22",
+    "shutouts": 14,
+    "pos_rate": 0.73,
+    "avg_points": 2.45,
+    "save_pct": 0.897
+   },
+   "season": {
+    "starts": 7,
+    "record": "4-3-0",
+    "shutouts": 0,
+    "pos_rate": 0.571,
+    "avg_points": 1.59,
+    "save_pct": 0.88
+   },
+   "vs_opponent": {
+    "starts": 37,
+    "record": "16-17-4",
+    "shutouts": 2,
+    "pos_rate": 0.622,
+    "avg_points": 1.64,
+    "save_pct": 0.883,
+    "games": [
+     {
+      "date": "2026-10-24",
+      "opp": "VGK",
+      "home": 0,
+      "decision": "L",
+      "saves": 22,
+      "ga": 5,
+      "so": 0,
+      "points": -3.1
+     },
+     {
+      "date": "2026-01-22",
+      "opp": "VGK",
+      "home": 0,
+      "decision": "O",
+      "saves": 26,
+      "ga": 3,
+      "so": 0,
+      "points": 1.7
+     },
+     {
+      "date": "2026-01-08",
+      "opp": "VGK",
+      "home": 1,
+      "decision": "L",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 0.5
+     },
+     {
+      "date": "2025-12-05",
+      "opp": "VGK",
+      "home": 1,
+      "decision": "W",
+      "saves": 20,
+      "ga": 0,
+      "so": 1,
+      "points": 11.0
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "VGK",
+      "home": 0,
+      "decision": "L",
+      "saves": 18,
+      "ga": 3,
+      "so": 0,
+      "points": -0.9
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "VGK",
+     "home": 0,
+     "decision": "L",
+     "saves": 22,
+     "ga": 5,
+     "so": 0,
+     "points": -3.1
+    },
+    {
+     "date": "2026-10-22",
+     "opp": "EDM",
+     "home": 0,
+     "decision": "L",
+     "saves": 25,
+     "ga": 6,
+     "so": 0,
+     "points": -4.0
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "L",
+     "saves": 28,
+     "ga": 6,
+     "so": 0,
+     "points": -3.4
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "TOR",
+     "home": 0,
+     "decision": "W",
+     "saves": 26,
+     "ga": 1,
+     "so": 0,
+     "points": 6.7
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "W",
+     "saves": 26,
+     "ga": 1,
+     "so": 0,
+     "points": 6.7
+    }
+   ]
+  },
+  {
+   "id": 8470006,
+   "name": "Goalie6 BosBackup",
+   "team": "BOS",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021439,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "VGK",
+    "state": "FUT"
+   },
+   "prob_positive": 0.555,
+   "expected_points": 1.11,
+   "verdict": "Lean positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "69% positive lately vs 65% career (save % 0.898)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs VGK",
+     "detail": "11 career starts; adjusted positive rate 45% vs 65% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "VGK scoring 3.20 goals/game (league 2.65)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 73% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.3,
+   "career": {
+    "starts": 100,
+    "record": "37-53-10",
+    "shutouts": 2,
+    "pos_rate": 0.64,
+    "avg_points": 1.78,
+    "save_pct": 0.893
+   },
+   "season": {
+    "starts": 2,
+    "record": "1-1-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 5.1,
+    "save_pct": 0.943
+   },
+   "vs_opponent": {
+    "starts": 11,
+    "record": "3-7-1",
+    "shutouts": 1,
+    "pos_rate": 0.364,
+    "avg_points": 0.85,
+    "save_pct": 0.874,
+    "games": [
+     {
+      "date": "2026-01-14",
+      "opp": "VGK",
+      "home": 1,
+      "decision": "L",
+      "saves": 26,
+      "ga": 4,
+      "so": 0,
+      "points": -0.8
+     },
+     {
+      "date": "2026-01-10",
+      "opp": "VGK",
+      "home": 0,
+      "decision": "L",
+      "saves": 22,
+      "ga": 5,
+      "so": 0,
+      "points": -3.1
+     },
+     {
+      "date": "2025-11-19",
+      "opp": "VGK",
+      "home": 0,
+      "decision": "W",
+      "saves": 33,
+      "ga": 1,
+      "so": 0,
+      "points": 8.1
+     },
+     {
+      "date": "2025-11-11",
+      "opp": "VGK",
+      "home": 1,
+      "decision": "O",
+      "saves": 20,
+      "ga": 2,
+      "so": 0,
+      "points": 2.0
+     },
+     {
+      "date": "2024-10-20",
+      "opp": "VGK",
+      "home": 0,
+      "decision": "W",
+      "saves": 24,
+      "ga": 2,
+      "so": 0,
+      "points": 4.8
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "EDM",
+     "home": 1,
+     "decision": "L",
+     "saves": 40,
+     "ga": 3,
+     "so": 0,
+     "points": 3.5
+    },
+    {
+     "date": "2026-10-12",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "W",
+     "saves": 26,
+     "ga": 1,
+     "so": 0,
+     "points": 6.7
+    },
+    {
+     "date": "2026-02-23",
+     "opp": "NYI",
+     "home": 1,
+     "decision": "W",
+     "saves": 19,
+     "ga": 3,
+     "so": 0,
+     "points": 2.3
+    },
+    {
+     "date": "2026-02-21",
+     "opp": "WPG",
+     "home": 1,
+     "decision": "W",
+     "saves": 23,
+     "ga": 2,
+     "so": 0,
+     "points": 4.6
+    },
+    {
+     "date": "2026-02-11",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "W",
+     "saves": 20,
+     "ga": 2,
+     "so": 0,
+     "points": 4.0
+    }
+   ]
+  },
+  {
+   "id": 8470007,
+   "name": "Goalie7 TorStarter",
+   "team": "TOR",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021437,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "COL",
+    "state": "FUT"
+   },
+   "prob_positive": 0.8495,
+   "expected_points": 4.51,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "89% positive lately vs 84% career (save % 0.931)",
+     "tone": "good"
+    },
+    {
+     "label": "History vs COL",
+     "detail": "37 career starts; adjusted positive rate 79% vs 84% overall",
+     "tone": "bad"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "COL scoring 2.20 goals/game (league 2.65)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 47% of its last 15",
+     "tone": "neutral"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.8,
+   "career": {
+    "starts": 255,
+    "record": "150-86-19",
+    "shutouts": 33,
+    "pos_rate": 0.839,
+    "avg_points": 4.22,
+    "save_pct": 0.922
+   },
+   "season": {
+    "starts": 8,
+    "record": "3-5-0",
+    "shutouts": 1,
+    "pos_rate": 0.875,
+    "avg_points": 4.28,
+    "save_pct": 0.938
+   },
+   "vs_opponent": {
+    "starts": 37,
+    "record": "20-16-1",
+    "shutouts": 6,
+    "pos_rate": 0.784,
+    "avg_points": 4.28,
+    "save_pct": 0.921,
+    "games": [
+     {
+      "date": "2026-10-22",
+      "opp": "COL",
+      "home": 1,
+      "decision": "L",
+      "saves": 32,
+      "ga": 2,
+      "so": 0,
+      "points": 3.4
+     },
+     {
+      "date": "2026-02-03",
+      "opp": "COL",
+      "home": 1,
+      "decision": "W",
+      "saves": 27,
+      "ga": 3,
+      "so": 0,
+      "points": 3.9
+     },
+     {
+      "date": "2026-01-08",
+      "opp": "COL",
+      "home": 0,
+      "decision": "W",
+      "saves": 30,
+      "ga": 2,
+      "so": 0,
+      "points": 6.0
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "COL",
+      "home": 1,
+      "decision": "W",
+      "saves": 30,
+      "ga": 3,
+      "so": 0,
+      "points": 4.5
+     },
+     {
+      "date": "2025-11-25",
+      "opp": "COL",
+      "home": 1,
+      "decision": "W",
+      "saves": 29,
+      "ga": 2,
+      "so": 0,
+      "points": 5.8
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "DAL",
+     "home": 0,
+     "decision": "L",
+     "saves": 23,
+     "ga": 2,
+     "so": 0,
+     "points": 1.6
+    },
+    {
+     "date": "2026-10-22",
+     "opp": "COL",
+     "home": 1,
+     "decision": "L",
+     "saves": 32,
+     "ga": 2,
+     "so": 0,
+     "points": 3.4
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "EDM",
+     "home": 1,
+     "decision": "W",
+     "saves": 22,
+     "ga": 0,
+     "so": 1,
+     "points": 11.4
+    },
+    {
+     "date": "2026-10-18",
+     "opp": "VGK",
+     "home": 1,
+     "decision": "L",
+     "saves": 26,
+     "ga": 1,
+     "so": 0,
+     "points": 3.7
+    },
+    {
+     "date": "2026-10-16",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "L",
+     "saves": 21,
+     "ga": 3,
+     "so": 0,
+     "points": -0.3
+    }
+   ]
+  },
+  {
+   "id": 8470008,
+   "name": "Goalie8 TorBackup",
+   "team": "TOR",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021437,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "COL",
+    "state": "FUT"
+   },
+   "prob_positive": 0.4365,
+   "expected_points": 0.9,
+   "verdict": "Risky",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "38% positive lately vs 65% career (save % 0.862)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs COL",
+     "detail": "24 career starts; adjusted positive rate 63% vs 65% overall",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "COL scoring 2.20 goals/game (league 2.65)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 47% of its last 15",
+     "tone": "neutral"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.2,
+   "career": {
+    "starts": 104,
+    "record": "51-47-6",
+    "shutouts": 5,
+    "pos_rate": 0.644,
+    "avg_points": 2.13,
+    "save_pct": 0.891
+   },
+   "season": {
+    "starts": 1,
+    "record": "1-0-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 2.4,
+    "save_pct": 0.871
+   },
+   "vs_opponent": {
+    "starts": 24,
+    "record": "8-14-2",
+    "shutouts": 0,
+    "pos_rate": 0.625,
+    "avg_points": 1.51,
+    "save_pct": 0.892,
+    "games": [
+     {
+      "date": "2026-01-18",
+      "opp": "COL",
+      "home": 0,
+      "decision": "O",
+      "saves": 15,
+      "ga": 3,
+      "so": 0,
+      "points": -0.5
+     },
+     {
+      "date": "2026-01-04",
+      "opp": "COL",
+      "home": 1,
+      "decision": "L",
+      "saves": 29,
+      "ga": 3,
+      "so": 0,
+      "points": 1.3
+     },
+     {
+      "date": "2025-12-19",
+      "opp": "COL",
+      "home": 1,
+      "decision": "L",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 0.5
+     },
+     {
+      "date": "2025-12-15",
+      "opp": "COL",
+      "home": 0,
+      "decision": "O",
+      "saves": 19,
+      "ga": 0,
+      "so": 0,
+      "points": 4.8
+     },
+     {
+      "date": "2025-12-03",
+      "opp": "COL",
+      "home": 0,
+      "decision": "L",
+      "saves": 24,
+      "ga": 5,
+      "so": 0,
+      "points": -2.7
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-12",
+     "opp": "VGK",
+     "home": 0,
+     "decision": "W",
+     "saves": 27,
+     "ga": 4,
+     "so": 0,
+     "points": 2.4
+    },
+    {
+     "date": "2026-02-23",
+     "opp": "WPG",
+     "home": 0,
+     "decision": "L",
+     "saves": 23,
+     "ga": 4,
+     "so": 0,
+     "points": -1.4
+    },
+    {
+     "date": "2026-02-21",
+     "opp": "EDM",
+     "home": 0,
+     "decision": "L",
+     "saves": 25,
+     "ga": 2,
+     "so": 0,
+     "points": 2.0
+    },
+    {
+     "date": "2026-02-11",
+     "opp": "EDM",
+     "home": 0,
+     "decision": "W",
+     "saves": 30,
+     "ga": 0,
+     "so": 1,
+     "points": 13.0
+    },
+    {
+     "date": "2026-02-09",
+     "opp": "DAL",
+     "home": 1,
+     "decision": "L",
+     "saves": 29,
+     "ga": 5,
+     "so": 0,
+     "points": -1.7
+    }
+   ]
+  },
+  {
+   "id": 8470009,
+   "name": "Goalie9 EdmStarter",
+   "team": "EDM",
+   "headshot": null,
+   "next_game": {
+    "game_id": 2026021438,
+    "date": "2026-10-26",
+    "start_utc": "2026-10-26T23:00:00Z",
+    "home": 1,
+    "opp": "NYI",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7991,
+   "expected_points": 3.46,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "71% positive lately vs 75% career (save % 0.913)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs NYI",
+     "detail": "32 career starts; adjusted positive rate 78% vs 75% overall",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "NYI scoring 2.40 goals/game (league 2.65)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 53% of its last 15",
+     "tone": "neutral"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.9,
+   "career": {
+    "starts": 256,
+    "record": "139-97-20",
+    "shutouts": 22,
+    "pos_rate": 0.75,
+    "avg_points": 3.28,
+    "save_pct": 0.909
+   },
+   "season": {
+    "starts": 8,
+    "record": "5-3-0",
+    "shutouts": 1,
+    "pos_rate": 0.75,
+    "avg_points": 3.92,
+    "save_pct": 0.914
+   },
+   "vs_opponent": {
+    "starts": 32,
+    "record": "23-9-0",
+    "shutouts": 4,
+    "pos_rate": 0.781,
+    "avg_points": 4.03,
+    "save_pct": 0.914,
+    "games": [
+     {
+      "date": "2026-10-24",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "W",
+      "saves": 28,
+      "ga": 2,
+      "so": 0,
+      "points": 5.6
+     },
+     {
+      "date": "2026-10-12",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "W",
+      "saves": 25,
+      "ga": 0,
+      "so": 1,
+      "points": 12.0
+     },
+     {
+      "date": "2025-12-31",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "W",
+      "saves": 26,
+      "ga": 3,
+      "so": 0,
+      "points": 3.7
+     },
+     {
+      "date": "2025-12-27",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "W",
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 6.7
+     },
+     {
+      "date": "2025-11-27",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "W",
+      "saves": 18,
+      "ga": 3,
+      "so": 0,
+      "points": 2.1
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-10-24",
+     "opp": "NYI",
+     "home": 1,
+     "decision": "W",
+     "saves": 28,
+     "ga": 2,
+     "so": 0,
+     "points": 5.6
+    },
+    {
+     "date": "2026-10-22",
+     "opp": "BOS",
+     "home": 1,
+     "decision": "W",
+     "saves": 25,
+     "ga": 3,
+     "so": 0,
+     "points": 3.5
+    },
+    {
+     "date": "2026-10-20",
+     "opp": "TOR",
+     "home": 0,
+     "decision": "L",
+     "saves": 25,
+     "ga": 4,
+     "so": 0,
+     "points": -1.0
+    },
+    {
+     "date": "2026-10-18",
+     "opp": "BOS",
+     "home": 0,
+     "decision": "W",
+     "saves": 25,
+     "ga": 2,
+     "so": 0,
+     "points": 5.0
+    },
+    {
+     "date": "2026-10-14",
+     "opp": "TOR",
+     "home": 1,
+     "decision": "L",
+     "saves": 25,
+     "ga": 4,
+     "so": 0,
+     "points": -1.0
+    }
+   ]
+  }
+ ]
+}

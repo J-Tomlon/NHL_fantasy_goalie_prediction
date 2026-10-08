@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crease Check</title>
+  <meta name="description" content="Will my fantasy goalie go positive in his next game?">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23c8102e'/><circle cx='16' cy='16' r='6' fill='white'/></svg>">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <span class="puck" aria-hidden="true"></span>
+        <div>
+          <h1>Crease Check</h1>
+          <p class="tag">Will your fantasy goalie go positive next game?</p>
+        </div>
+      </div>
+      <div id="scoring" class="scoring" aria-label="League scoring"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="sample-banner" class="banner" hidden>
+      Showing <strong>sample data</strong>. Run <code>python -m goalie_predictor update</code>
+      (or let the GitHub Action run) to load real NHL predictions.
+    </div>
+
+    <section class="picker" aria-label="Choose goalies">
+      <label for="search" class="eyebrow">My goalies</label>
+      <div class="search-box">
+        <input id="search" type="search" placeholder="Add a goalie — type a name or team" autocomplete="off">
+        <ul id="results" class="results" role="listbox" hidden></ul>
+      </div>
+    </section>
+
+    <section id="cards" class="cards" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>No goalies picked yet. Search above, or tap one in the table below.</p>
+
+    <section class="board">
+      <div class="board-head">
+        <h2>Every goalie's next game</h2>
+        <p class="muted">Sorted by chance of a positive night. Handy for streaming pickups. Click a row to add him.</p>
+      </div>
+      <div class="table-scroll">
+        <table id="all">
+          <thead><tr>
+            <th data-k="name">Goalie</th><th data-k="team">Team</th><th data-k="opp">Next</th>
+            <th data-k="share" class="num">Start share</th>
+            <th data-k="prob" class="num">Positive</th><th data-k="exp" class="num">Exp. pts</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <div id="metrics"></div>
+    <p class="muted">Predictions assume the goalie starts. Data from the public NHL API. Not affiliated with the NHL.</p>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <button class="remove" title="Remove" aria-label="Remove">×</button>
+      <div class="card-top">
+        <img class="shot" alt="" loading="lazy">
+        <div class="who">
+          <h3 class="name"></h3>
+          <p class="matchup"></p>
+        </div>
+        <div class="gauge" role="img">
+          <svg viewBox="0 0 120 120"><circle class="track" cx="60" cy="60" r="50"/><circle class="arc" cx="60" cy="60" r="50"/></svg>
+          <div class="gauge-text"><span class="pct"></span><span class="lbl">positive</span></div>
+        </div>
+      </div>
+      <div class="verdict-row">
+        <span class="verdict"></span>
+        <span class="exp"></span>
+      </div>
+      <p class="warn" hidden></p>
+      <ul class="signals"></ul>
+      <table class="stats">
+        <thead><tr><th></th><th>GS</th><th>W-L-OTL</th><th>SV%</th><th>Pos%</th><th>Avg pts</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <details class="h2h">
+        <summary></summary>
+        <ul class="games"></ul>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
