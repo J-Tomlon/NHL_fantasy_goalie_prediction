@@ -55,7 +55,7 @@ jobs:
             git commit -m "Update goalie predictions $(date -u +%Y-%m-%d)"
             # main may have moved while we ran (e.g. you edited a file); rebase and retry
             for i in 1 2 3; do
-              git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+              git pull --rebase --autostash -X theirs origin main && git push origin HEAD:main && exit 0
               sleep 5
             done
             echo "::error::Could not push predictions after 3 tries"
