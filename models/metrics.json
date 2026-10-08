@@ -1,0 +1,60 @@
+{
+  "test_season": 20252026,
+  "model": {
+    "n": 2624,
+    "brier": 0.2094182577523729,
+    "log_loss": 0.6096700196871941,
+    "accuracy": 0.6996951219512195,
+    "auc": 0.5418788637846566
+  },
+  "baseline_league_rate": {
+    "n": 2624,
+    "brier": 0.21059926300482518,
+    "log_loss": 0.6122922717402403,
+    "accuracy": 0.6996951219512195,
+    "auc": 0.5
+  },
+  "baseline_career_rate": {
+    "n": 2624,
+    "brier": 0.2121981133665551,
+    "log_loss": 0.6166631969128695,
+    "accuracy": 0.6996951219512195,
+    "auc": 0.5244901048405826
+  },
+  "points_mae": 3.2853549545149585,
+  "points_mae_baseline": 3.3015498645244645,
+  "positive_rate": 0.6996951219512195,
+  "coefficients": {
+    "career_pos": -0.1091,
+    "career_fp": 0.0076,
+    "career_svpct": 0.2282,
+    "experience": -0.082,
+    "season_pos": 0.073,
+    "recent_pos": -0.0681,
+    "recent_fp": -0.1249,
+    "recent_svpct": 0.0694,
+    "recent_win": 0.0551,
+    "h2h_pos": 0.0632,
+    "h2h_fp": -0.0158,
+    "h2h_svpct": -0.0212,
+    "h2h_n": 0.0117,
+    "home": 0.0706,
+    "rest_days": 0.0322,
+    "b2b": 0.0083,
+    "team_win": 0.0168,
+    "team_sa_pg": -0.062,
+    "team_ga_pg": -0.0914,
+    "opp_gf_pg": -0.0757,
+    "opp_sf_pg": 0.0325,
+    "opp_win": -0.029
+  },
+  "training_rows": 10606,
+  "train_seasons": [
+    20222023,
+    20232024,
+    20242025,
+    20252026,
+    20262027
+  ],
+  "trained_at": "2026-10-08T18:57:59+00:00"
+}
