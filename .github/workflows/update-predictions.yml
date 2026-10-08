@@ -3,8 +3,8 @@ name: Update predictions
 on:
   schedule:
     - cron: "15 13 * * *"   # 6:15 AM Arizona
-    - cron: "15 20 * * *"   # 1:15 PM Arizona
-  workflow_dispatch: {}
+    - cron: "15 20 * * *"   # 1:15 PM Arizona (after morning skates)
+  workflow_dispatch: {}      # "Run workflow" button in the Actions tab
 
 permissions:
   contents: write
@@ -18,23 +18,32 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
+      # Always build from the latest main, even on a "Re-run" of an old run.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # Completed seasons never change, so keep the API cache between runs.
       - name: Restore NHL API cache
         uses: actions/cache@v4
         with:
           path: data/cache
           key: nhl-cache-${{ github.run_id }}
           restore-keys: nhl-cache-
+
       - name: Create .venv and install
         run: |
           python -m venv .venv
           .venv/bin/pip install --upgrade pip
           .venv/bin/pip install -r requirements.txt
+
       - name: Train model and predict every goalie
         run: .venv/bin/python -m goalie_predictor update
+
       - name: Commit updated predictions
         run: |
           git config user.name "github-actions[bot]"
@@ -44,5 +53,11 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update goalie predictions $(date -u +%Y-%m-%d)"
-            git push
+            # main may have moved while we ran (e.g. you edited a file); rebase and retry
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+              sleep 5
+            done
+            echo "::error::Could not push predictions after 3 tries"
+            exit 1
           fi
