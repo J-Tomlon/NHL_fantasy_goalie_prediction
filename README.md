@@ -16,7 +16,7 @@ Two ways to use it:
   remembered in your browser. A table shows every goalie's next game, sorted by
   chance of going positive (useful for streaming pickups). A GitHub Action
   refreshes the data twice a day.
-- **Command line** — `python -m goalie_predictor predict "Hellebuyck" "Sorokin"`.
+- **Command line** — `python -m goalie_predictor predict 
 
 ---
 
