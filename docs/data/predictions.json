@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-13T19:52:35+00:00",
+ "generated_at": "2026-10-13T23:44:53+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,8 +12,8 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.20941074439071297,
-   "log_loss": 0.6096505382402218,
+   "brier": 0.2094107443907129,
+   "log_loss": 0.6096505382402215,
    "accuracy": 0.6996951219512195,
    "auc": 0.5419542041294803
   },
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-13T19:52:29+00:00"
+  "trained_at": "2026-10-13T23:44:48+00:00"
  },
  "default_goalies": [
   8474596,
@@ -233,7 +233,7 @@
     "start_utc": "2026-10-13T22:15:00Z",
     "home": 0,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6963,
    "expected_points": 2.11,
@@ -376,7 +376,7 @@
     "start_utc": "2026-10-13T22:30:00Z",
     "home": 0,
     "opp": "MTL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7421,
    "expected_points": 2.72,
@@ -715,7 +715,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7388,
    "expected_points": 2.87,
@@ -1194,7 +1194,7 @@
     "start_utc": "2026-10-14T00:00:00Z",
     "home": 0,
     "opp": "CHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6415,
    "expected_points": 1.94,
@@ -1357,7 +1357,7 @@
     "start_utc": "2026-10-14T00:00:00Z",
     "home": 1,
     "opp": "PIT",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.5331,
    "expected_points": 0.91,
@@ -1510,7 +1510,7 @@
     "start_utc": "2026-10-13T22:45:00Z",
     "home": 1,
     "opp": "WSH",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6481,
    "expected_points": 2.13,
@@ -1653,7 +1653,7 @@
     "start_utc": "2026-10-14T00:15:00Z",
     "home": 0,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7469,
    "expected_points": 2.72,
@@ -1819,7 +1819,7 @@
     "start_utc": "2026-10-13T22:15:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7345,
    "expected_points": 2.76,
@@ -2328,7 +2328,7 @@
     "start_utc": "2026-10-13T22:45:00Z",
     "home": 0,
     "opp": "CAR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6926,
    "expected_points": 2.46,
@@ -2501,7 +2501,7 @@
     "start_utc": "2026-10-14T00:15:00Z",
     "home": 1,
     "opp": "MIN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7301,
    "expected_points": 2.78,
@@ -2623,7 +2623,7 @@
     "start_utc": "2026-10-13T22:30:00Z",
     "home": 0,
     "opp": "MTL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6867,
    "expected_points": 2.06,
@@ -2756,7 +2756,7 @@
     "start_utc": "2026-10-14T00:15:00Z",
     "home": 1,
     "opp": "MIN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7481,
    "expected_points": 3.02,
@@ -2922,7 +2922,7 @@
     "start_utc": "2026-10-13T22:15:00Z",
     "home": 0,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7679,
    "expected_points": 3.09,
@@ -2986,7 +2986,7 @@
     "start_utc": "2026-10-13T23:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6769,
    "expected_points": 2.27,
@@ -3159,7 +3159,7 @@
     "start_utc": "2026-10-13T22:00:00Z",
     "home": 1,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6616,
    "expected_points": 1.9,
@@ -3475,7 +3475,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7298,
    "expected_points": 2.6,
@@ -4056,7 +4056,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 1,
     "opp": "TBL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.8326,
    "expected_points": 4.02,
@@ -4189,7 +4189,7 @@
     "start_utc": "2026-10-14T00:15:00Z",
     "home": 0,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7695,
    "expected_points": 3.25,
@@ -4521,7 +4521,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 1,
     "opp": "TBL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.8275,
    "expected_points": 3.76,
@@ -4694,7 +4694,7 @@
     "start_utc": "2026-10-13T23:45:00Z",
     "home": 1,
     "opp": "VAN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7662,
    "expected_points": 3.12,
@@ -4867,7 +4867,7 @@
     "start_utc": "2026-10-13T22:30:00Z",
     "home": 1,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7594,
    "expected_points": 3.17,
@@ -5000,7 +5000,7 @@
     "start_utc": "2026-10-13T22:15:00Z",
     "home": 0,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7296,
    "expected_points": 2.49,
@@ -5173,7 +5173,7 @@
     "start_utc": "2026-10-13T22:00:00Z",
     "home": 0,
     "opp": "DET",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7102,
    "expected_points": 2.53,
@@ -5519,7 +5519,7 @@
     "start_utc": "2026-10-13T22:30:00Z",
     "home": 1,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7366,
    "expected_points": 2.86,
@@ -5835,7 +5835,7 @@
     "start_utc": "2026-10-14T00:15:00Z",
     "home": 0,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7466,
    "expected_points": 2.73,
@@ -5998,7 +5998,7 @@
     "start_utc": "2026-10-13T22:15:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7502,
    "expected_points": 2.98,
@@ -6151,7 +6151,7 @@
     "start_utc": "2026-10-13T23:30:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6834,
    "expected_points": 2.3,
@@ -6304,7 +6304,7 @@
     "start_utc": "2026-10-13T23:00:00Z",
     "home": 0,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.687,
    "expected_points": 2.27,
@@ -6457,7 +6457,7 @@
     "start_utc": "2026-10-13T22:00:00Z",
     "home": 1,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7357,
    "expected_points": 2.73,
@@ -6630,7 +6630,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 1,
     "opp": "TBL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7511,
    "expected_points": 2.83,
@@ -6796,7 +6796,7 @@
     "start_utc": "2026-10-13T23:30:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6637,
    "expected_points": 2.06,
@@ -6969,7 +6969,7 @@
     "start_utc": "2026-10-13T23:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.717,
    "expected_points": 2.67,
@@ -7624,7 +7624,7 @@
     "start_utc": "2026-10-13T23:45:00Z",
     "home": 0,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.5679,
    "expected_points": 1.53,
@@ -7787,7 +7787,7 @@
     "start_utc": "2026-10-13T23:45:00Z",
     "home": 0,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6153,
    "expected_points": 1.69,
@@ -7920,7 +7920,7 @@
     "start_utc": "2026-10-13T23:30:00Z",
     "home": 1,
     "opp": "STL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.776,
    "expected_points": 3.28,
@@ -8093,7 +8093,7 @@
     "start_utc": "2026-10-13T22:45:00Z",
     "home": 0,
     "opp": "CAR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6551,
    "expected_points": 2.31,
@@ -8612,7 +8612,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7001,
    "expected_points": 2.28,
@@ -8962,7 +8962,7 @@
     "start_utc": "2026-10-13T22:00:00Z",
     "home": 0,
     "opp": "DET",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6653,
    "expected_points": 1.92,
@@ -9095,7 +9095,7 @@
     "start_utc": "2026-10-13T23:00:00Z",
     "home": 0,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6886,
    "expected_points": 2.13,
@@ -9268,7 +9268,7 @@
     "start_utc": "2026-10-13T22:45:00Z",
     "home": 1,
     "opp": "WSH",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7512,
    "expected_points": 3.04,
@@ -9441,7 +9441,7 @@
     "start_utc": "2026-10-13T22:00:00Z",
     "home": 0,
     "opp": "DET",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7571,
    "expected_points": 3.04,
@@ -9505,7 +9505,7 @@
     "start_utc": "2026-10-13T23:30:00Z",
     "home": 1,
     "opp": "STL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6811,
    "expected_points": 2.26,
@@ -9668,7 +9668,7 @@
     "start_utc": "2026-10-13T22:30:00Z",
     "home": 1,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6842,
    "expected_points": 2.25,
@@ -10099,7 +10099,7 @@
     "start_utc": "2026-10-13T23:45:00Z",
     "home": 1,
     "opp": "VAN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7756,
    "expected_points": 3.16,
@@ -10435,7 +10435,7 @@
     "start_utc": "2026-10-14T00:00:00Z",
     "home": 0,
     "opp": "CHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7323,
    "expected_points": 2.75,
@@ -10557,7 +10557,7 @@
     "start_utc": "2026-10-14T00:00:00Z",
     "home": 1,
     "opp": "PIT",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6213,
    "expected_points": 1.78,
@@ -10730,7 +10730,7 @@
     "start_utc": "2026-10-13T23:15:00Z",
     "home": 1,
     "opp": "TBL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7402,
    "expected_points": 2.67,
@@ -10856,7 +10856,7 @@
     "start_utc": "2026-10-14T00:15:00Z",
     "home": 1,
     "opp": "MIN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7124,
    "expected_points": 2.58,
@@ -11029,7 +11029,7 @@
     "start_utc": "2026-10-13T23:45:00Z",
     "home": 0,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.692,
    "expected_points": 2.27,
@@ -11368,7 +11368,7 @@
     "start_utc": "2026-10-13T22:30:00Z",
     "home": 0,
     "opp": "MTL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6564,
    "expected_points": 1.94,
