@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T17:47:29+00:00",
+ "generated_at": "2026-10-15T23:05:11+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,8 +12,8 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.20941585806369242,
-   "log_loss": 0.6096625770883843,
+   "brier": 0.20941585806369245,
+   "log_loss": 0.6096625770883846,
    "accuracy": 0.6996951219512195,
    "auc": 0.5418982172677306
   },
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-15T17:47:24+00:00"
+  "trained_at": "2026-10-15T23:05:06+00:00"
  },
  "default_goalies": [
   8474596,
@@ -233,7 +233,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "VAN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6817,
    "expected_points": 2.19,
@@ -376,7 +376,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "TOR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.729,
    "expected_points": 2.73,
@@ -715,7 +715,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7644,
    "expected_points": 3.2,
@@ -888,7 +888,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6876,
    "expected_points": 2.39,
@@ -2670,7 +2670,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "TOR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6652,
    "expected_points": 2.12,
@@ -2958,7 +2958,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "VAN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7617,
    "expected_points": 3.14,
@@ -3022,7 +3022,7 @@
     "start_utc": "2026-10-15T23:30:00Z",
     "home": 0,
     "opp": "DET",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6385,
    "expected_points": 1.86,
@@ -3195,7 +3195,7 @@
     "start_utc": "2026-10-15T23:30:00Z",
     "home": 1,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6538,
    "expected_points": 1.79,
@@ -3531,7 +3531,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7687,
    "expected_points": 3.1,
@@ -4081,7 +4081,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.8258,
    "expected_points": 3.95,
@@ -4495,7 +4495,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.8218,
    "expected_points": 3.61,
@@ -4668,7 +4668,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7365,
    "expected_points": 2.64,
@@ -4984,7 +4984,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "VAN",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7095,
    "expected_points": 2.43,
@@ -5157,7 +5157,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7057,
    "expected_points": 2.58,
@@ -6217,7 +6217,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "TBL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.713,
    "expected_points": 2.55,
@@ -6339,7 +6339,7 @@
     "start_utc": "2026-10-15T23:30:00Z",
     "home": 1,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7132,
    "expected_points": 2.51,
@@ -6512,7 +6512,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7521,
    "expected_points": 2.81,
@@ -6851,7 +6851,7 @@
     "start_utc": "2026-10-15T23:30:00Z",
     "home": 0,
     "opp": "DET",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7158,
    "expected_points": 2.6,
@@ -7506,7 +7506,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.57,
    "expected_points": 1.38,
@@ -7679,7 +7679,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.5858,
    "expected_points": 1.41,
@@ -7822,7 +7822,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7981,
    "expected_points": 3.54,
@@ -8464,128 +8464,6 @@
    ]
   },
   {
-   "id": 8483575,
-   "name": "Matt Murray",
-   "team": "NSH",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NSH/8483575.png",
-   "next_game": {
-    "game_id": 2026020115,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
-    "home": 1,
-    "opp": "SJS",
-    "state": "FUT"
-   },
-   "prob_positive": 0.7316,
-   "expected_points": 2.85,
-   "verdict": "Likely positive",
-   "signals": [
-    {
-     "label": "Recent form",
-     "detail": "63% positive lately vs 68% career (save % 0.892)",
-     "tone": "bad"
-    },
-    {
-     "label": "History vs SJS",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
-    },
-    {
-     "label": "Opponent offense",
-     "detail": "SJS scoring 2.73 goals/game (league 2.82)",
-     "tone": "neutral"
-    },
-    {
-     "label": "Team support",
-     "detail": "His team has won 40% of its last 15",
-     "tone": "bad"
-    },
-    {
-     "label": "Venue & rest",
-     "detail": "Home game, 5 days rest",
-     "tone": "good"
-    }
-   ],
-   "starter_share_last10": 0.1,
-   "career": {
-    "starts": 5,
-    "record": "2-2-1",
-    "shutouts": 1,
-    "pos_rate": 0.6,
-    "avg_points": 2.4,
-    "save_pct": 0.888
-   },
-   "season": {
-    "starts": 1,
-    "record": "0-0-1",
-    "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 1.6,
-    "save_pct": 0.9
-   },
-   "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
-    "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
-   },
-   "last5": [
-    {
-     "date": "2026-10-10",
-     "opp": "OTT",
-     "home": 0,
-     "decision": "O",
-     "saves": 18,
-     "ga": 2,
-     "so": 0,
-     "points": 1.6
-    },
-    {
-     "date": "2024-01-08",
-     "opp": "MIN",
-     "home": 0,
-     "decision": "W",
-     "saves": 23,
-     "ga": 0,
-     "so": 1,
-     "points": 11.6
-    },
-    {
-     "date": "2023-03-25",
-     "opp": "VAN",
-     "home": 1,
-     "decision": "L",
-     "saves": 21,
-     "ga": 3,
-     "so": 0,
-     "points": -0.3
-    },
-    {
-     "date": "2023-03-14",
-     "opp": "VAN",
-     "home": 0,
-     "decision": "L",
-     "saves": 14,
-     "ga": 5,
-     "so": 0,
-     "points": -4.7
-    },
-    {
-     "date": "2023-03-02",
-     "opp": "CHI",
-     "home": 0,
-     "decision": "W",
-     "saves": 19,
-     "ga": 2,
-     "so": 0,
-     "points": 3.8
-    }
-   ]
-  },
-  {
    "id": 8480022,
    "name": "Michael DiPietro",
    "team": "BOS",
@@ -8698,7 +8576,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.662,
    "expected_points": 1.87,
@@ -8861,7 +8739,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "TBL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7089,
    "expected_points": 2.4,
@@ -9187,7 +9065,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.745,
    "expected_points": 2.9,
@@ -9251,7 +9129,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6697,
    "expected_points": 2.18,
@@ -9855,7 +9733,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7332,
    "expected_points": 2.51,
@@ -10028,7 +9906,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 1,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6841,
    "expected_points": 2.33,
@@ -10496,7 +10374,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7146,
    "expected_points": 2.41,
@@ -10795,7 +10673,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6497,
    "expected_points": 1.92,
@@ -11104,7 +10982,7 @@
     "start_utc": "2026-10-15T23:00:00Z",
     "home": 0,
     "opp": "TOR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6288,
    "expected_points": 1.82,
