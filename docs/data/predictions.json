@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T23:05:11+00:00",
+ "generated_at": "2026-10-16T17:24:04+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.20941585806369245,
-   "log_loss": 0.6096625770883846,
+   "brier": 0.2094131607590662,
+   "log_loss": 0.6096559871099301,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5418982172677306
+   "auc": 0.5419355418422305
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -26,15 +26,15 @@
   },
   "baseline_career_rate": {
    "n": 2624,
-   "brier": 0.21219691406041657,
-   "log_loss": 0.6166591063678123,
+   "brier": 0.21219698333039275,
+   "log_loss": 0.6166593428627523,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5245108407153047
+   "auc": 0.524504619952888
   },
-  "points_mae": 3.2853419601656255,
+  "points_mae": 3.2853393185783437,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
-  "training_rows": 10710,
+  "training_rows": 10732,
   "train_seasons": [
    20222023,
    20232024,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-15T23:05:06+00:00"
+  "trained_at": "2026-10-16T17:23:56+00:00"
  },
  "default_goalies": [
   8474596,
@@ -55,15 +55,15 @@
    "team": "VGK",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8478499.png",
    "next_game": {
-    "game_id": 2026020118,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T02:00:00Z",
+    "game_id": 2026020134,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
     "home": 1,
-    "opp": "CGY",
+    "opp": "PIT",
     "state": "FUT"
    },
-   "prob_positive": 0.8014,
-   "expected_points": 3.66,
+   "prob_positive": 0.7627,
+   "expected_points": 3.35,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -72,14 +72,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs CGY",
-     "detail": "8 career starts; adjusted positive rate 74% vs 71% overall",
-     "tone": "neutral"
+     "label": "History vs PIT",
+     "detail": "6 career starts; adjusted positive rate 78% vs 71% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "CGY scoring 2.13 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "PIT scoring 3.87 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -88,7 +88,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
+     "detail": "Home game, 4 days rest",
      "tone": "good"
     }
    ],
@@ -110,62 +110,62 @@
     "save_pct": 0.903
    },
    "vs_opponent": {
-    "starts": 8,
-    "record": "4-2-1",
-    "shutouts": 1,
-    "pos_rate": 0.75,
-    "avg_points": 3.84,
-    "save_pct": 0.917,
+    "starts": 6,
+    "record": "2-2-2",
+    "shutouts": 0,
+    "pos_rate": 0.833,
+    "avg_points": 2.8,
+    "save_pct": 0.911,
     "games": [
      {
-      "date": "2025-10-18",
-      "opp": "CGY",
+      "date": "2026-03-12",
+      "opp": "PIT",
       "home": 1,
       "decision": "W",
-      "saves": 26,
-      "ga": 1,
-      "so": 0,
-      "points": 6.7
-     },
-     {
-      "date": "2025-10-14",
-      "opp": "CGY",
-      "home": 0,
-      "decision": "-",
-      "saves": 8,
+      "saves": 24,
       "ga": 2,
       "so": 0,
-      "points": -1.4
+      "points": 4.8
      },
      {
-      "date": "2024-10-28",
-      "opp": "CGY",
-      "home": 1,
-      "decision": "W",
-      "saves": 16,
-      "ga": 0,
-      "so": 1,
-      "points": 10.2
-     },
-     {
-      "date": "2024-03-14",
-      "opp": "CGY",
+      "date": "2026-03-01",
+      "opp": "PIT",
       "home": 0,
       "decision": "L",
-      "saves": 33,
-      "ga": 3,
+      "saves": 17,
+      "ga": 5,
       "so": 0,
-      "points": 2.1
+      "points": -4.1
      },
      {
-      "date": "2023-11-27",
-      "opp": "CGY",
+      "date": "2023-11-19",
+      "opp": "PIT",
       "home": 0,
-      "decision": "O",
-      "saves": 32,
+      "decision": "L",
+      "saves": 29,
       "ga": 2,
       "so": 0,
-      "points": 4.4
+      "points": 2.8
+     },
+     {
+      "date": "2023-01-05",
+      "opp": "PIT",
+      "home": 1,
+      "decision": "W",
+      "saves": 38,
+      "ga": 2,
+      "so": 0,
+      "points": 7.6
+     },
+     {
+      "date": "2022-01-15",
+      "opp": "PIT",
+      "home": 1,
+      "decision": "O",
+      "saves": 25,
+      "ga": 2,
+      "so": 0,
+      "points": 3.0
      }
     ]
    },
@@ -228,31 +228,31 @@
    "team": "FLA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8481033.png",
    "next_game": {
-    "game_id": 2026020112,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020124,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T22:00:00Z",
     "home": 1,
-    "opp": "VAN",
-    "state": "PRE"
+    "opp": "SEA",
+    "state": "FUT"
    },
-   "prob_positive": 0.6817,
-   "expected_points": 2.19,
+   "prob_positive": 0.6539,
+   "expected_points": 2.0,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "61% positive lately vs 66% career (save % 0.878)",
+     "detail": "69% positive lately vs 67% career (save % 0.880)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs SEA",
+     "detail": "2 career starts; adjusted positive rate 62% vs 67% overall",
      "tone": "bad"
     },
     {
-     "label": "History vs VAN",
-     "detail": "2 career starts; adjusted positive rate 76% vs 66% overall",
-     "tone": "good"
-    },
-    {
      "label": "Opponent offense",
-     "detail": "VAN scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "SEA scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -265,54 +265,64 @@
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.2,
+   "starter_share_last10": 0.3,
    "career": {
-    "starts": 67,
-    "record": "27-26-11",
+    "starts": 68,
+    "record": "28-26-11",
     "shutouts": 3,
-    "pos_rate": 0.657,
-    "avg_points": 1.84,
+    "pos_rate": 0.662,
+    "avg_points": 1.86,
     "save_pct": 0.889
    },
    "season": {
-    "starts": 2,
-    "record": "1-0-1",
+    "starts": 3,
+    "record": "2-0-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 1.95,
-    "save_pct": 0.881
+    "avg_points": 2.37,
+    "save_pct": 0.883
    },
    "vs_opponent": {
     "starts": 2,
-    "record": "2-0-0",
+    "record": "1-1-0",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 4.45,
-    "save_pct": 0.925,
+    "pos_rate": 0.5,
+    "avg_points": 4.1,
+    "save_pct": 0.933,
     "games": [
      {
-      "date": "2026-02-04",
-      "opp": "VAN",
+      "date": "2026-01-31",
+      "opp": "SEA",
       "home": 1,
-      "decision": "W",
-      "saves": 21,
-      "ga": 2,
+      "decision": "L",
+      "saves": 19,
+      "ga": 3,
       "so": 0,
-      "points": 4.2
+      "points": -0.7
      },
      {
-      "date": "2025-04-16",
-      "opp": "VAN",
+      "date": "2023-12-07",
+      "opp": "SEA",
       "home": 0,
       "decision": "W",
-      "saves": 16,
+      "saves": 37,
       "ga": 1,
       "so": 0,
-      "points": 4.7
+      "points": 8.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "VAN",
+     "home": 1,
+     "decision": "W",
+     "saves": 16,
+     "ga": 2,
+     "so": 0,
+     "points": 3.2
+    },
     {
      "date": "2026-10-13",
      "opp": "CBJ",
@@ -352,16 +362,6 @@
      "ga": 4,
      "so": 0,
      "points": -2.0
-    },
-    {
-     "date": "2026-03-03",
-     "opp": "BUF",
-     "home": 0,
-     "decision": "L",
-     "saves": 25,
-     "ga": 3,
-     "so": 0,
-     "points": 0.5
     }
    ]
   },
@@ -371,15 +371,15 @@
    "team": "BUF",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BUF/8479312.png",
    "next_game": {
-    "game_id": 2026020108,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020126,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "TOR",
-    "state": "PRE"
+    "opp": "MTL",
+    "state": "FUT"
    },
-   "prob_positive": 0.729,
-   "expected_points": 2.73,
+   "prob_positive": 0.7366,
+   "expected_points": 2.68,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -388,14 +388,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs TOR",
-     "detail": "5 career starts; adjusted positive rate 86% vs 72% overall",
+     "label": "History vs MTL",
+     "detail": "7 career starts; adjusted positive rate 80% vs 72% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "TOR scoring 3.07 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "MTL scoring 2.67 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -419,62 +419,62 @@
    },
    "season": null,
    "vs_opponent": {
-    "starts": 5,
-    "record": "3-1-1",
+    "starts": 7,
+    "record": "3-4-0",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 3.76,
-    "save_pct": 0.918,
+    "pos_rate": 0.857,
+    "avg_points": 1.21,
+    "save_pct": 0.881,
     "games": [
      {
-      "date": "2026-03-14",
-      "opp": "TOR",
-      "home": 1,
-      "decision": "W",
-      "saves": 16,
-      "ga": 2,
-      "so": 0,
-      "points": 3.2
-     },
-     {
-      "date": "2025-10-24",
-      "opp": "TOR",
-      "home": 1,
-      "decision": "W",
-      "saves": 31,
-      "ga": 3,
-      "so": 0,
-      "points": 4.7
-     },
-     {
-      "date": "2023-11-17",
-      "opp": "TOR",
+      "date": "2026-01-31",
+      "opp": "MTL",
       "home": 1,
       "decision": "L",
-      "saves": 26,
+      "saves": 27,
       "ga": 3,
       "so": 0,
-      "points": 0.7
+      "points": 0.9
      },
      {
-      "date": "2023-04-10",
-      "opp": "TOR",
-      "home": 1,
-      "decision": "O",
-      "saves": 23,
-      "ga": 2,
+      "date": "2025-10-20",
+      "opp": "MTL",
+      "home": 0,
+      "decision": "L",
+      "saves": 28,
+      "ga": 3,
       "so": 0,
-      "points": 2.6
+      "points": 1.1
      },
      {
-      "date": "2023-03-29",
-      "opp": "TOR",
+      "date": "2024-12-21",
+      "opp": "MTL",
+      "home": 0,
+      "decision": "L",
+      "saves": 19,
+      "ga": 5,
+      "so": 0,
+      "points": -3.7
+     },
+     {
+      "date": "2024-04-15",
+      "opp": "MTL",
+      "home": 1,
+      "decision": "W",
+      "saves": 17,
+      "ga": 4,
+      "so": 0,
+      "points": 0.4
+     },
+     {
+      "date": "2023-03-30",
+      "opp": "MTL",
       "home": 0,
       "decision": "W",
-      "saves": 38,
+      "saves": 18,
       "ga": 2,
       "so": 0,
-      "points": 7.6
+      "points": 3.6
      }
     ]
    },
@@ -537,31 +537,31 @@
    "team": "SJS",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/SJS/8477968.png",
    "next_game": {
-    "game_id": 2026020115,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020127,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "NSH",
+    "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.6917,
-   "expected_points": 2.32,
+   "prob_positive": 0.6952,
+   "expected_points": 2.38,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "70% positive lately vs 70% career (save % 0.889)",
-     "tone": "neutral"
+     "detail": "78% positive lately vs 70% career (save % 0.903)",
+     "tone": "good"
     },
     {
-     "label": "History vs NSH",
-     "detail": "9 career starts; adjusted positive rate 68% vs 70% overall",
-     "tone": "neutral"
+     "label": "History vs DET",
+     "detail": "7 career starts; adjusted positive rate 79% vs 70% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "NSH scoring 2.73 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "DET scoring 2.67 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -570,88 +570,98 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
+     "detail": "Road game, 2 days rest",
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.3,
+   "starter_share_last10": 0.4,
    "career": {
-    "starts": 195,
-    "record": "93-69-29",
+    "starts": 196,
+    "record": "94-69-29",
     "shutouts": 9,
-    "pos_rate": 0.703,
-    "avg_points": 2.83,
-    "save_pct": 0.903
+    "pos_rate": 0.704,
+    "avg_points": 2.85,
+    "save_pct": 0.904
    },
    "season": {
-    "starts": 1,
-    "record": "1-0-0",
+    "starts": 2,
+    "record": "2-0-0",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 4.8,
-    "save_pct": 0.923
+    "avg_points": 5.6,
+    "save_pct": 0.933
    },
    "vs_opponent": {
-    "starts": 9,
-    "record": "5-4-0",
-    "shutouts": 1,
-    "pos_rate": 0.667,
-    "avg_points": 3.24,
+    "starts": 7,
+    "record": "4-1-2",
+    "shutouts": 0,
+    "pos_rate": 0.857,
+    "avg_points": 3.27,
     "save_pct": 0.908,
     "games": [
      {
-      "date": "2026-04-13",
-      "opp": "NSH",
-      "home": 0,
-      "decision": "W",
-      "saves": 26,
+      "date": "2025-11-02",
+      "opp": "DET",
+      "home": 1,
+      "decision": "O",
+      "saves": 30,
       "ga": 2,
       "so": 0,
-      "points": 5.2
+      "points": 4.0
      },
      {
-      "date": "2026-03-24",
-      "opp": "NSH",
-      "home": 0,
-      "decision": "L",
-      "saves": 13,
-      "ga": 6,
-      "so": 0,
-      "points": -6.4
-     },
-     {
-      "date": "2025-02-01",
-      "opp": "NSH",
-      "home": 1,
-      "decision": "W",
-      "saves": 25,
-      "ga": 0,
-      "so": 1,
-      "points": 12.0
-     },
-     {
-      "date": "2024-04-15",
-      "opp": "NSH",
-      "home": 1,
-      "decision": "W",
-      "saves": 28,
-      "ga": 2,
-      "so": 0,
-      "points": 5.6
-     },
-     {
-      "date": "2022-01-22",
-      "opp": "NSH",
+      "date": "2024-12-31",
+      "opp": "DET",
       "home": 0,
       "decision": "L",
       "saves": 21,
       "ga": 3,
       "so": 0,
       "points": -0.3
+     },
+     {
+      "date": "2024-11-13",
+      "opp": "DET",
+      "home": 1,
+      "decision": "O",
+      "saves": 28,
+      "ga": 3,
+      "so": 0,
+      "points": 2.1
+     },
+     {
+      "date": "2024-04-11",
+      "opp": "DET",
+      "home": 1,
+      "decision": "W",
+      "saves": 25,
+      "ga": 5,
+      "so": 0,
+      "points": 0.5
+     },
+     {
+      "date": "2024-03-17",
+      "opp": "DET",
+      "home": 1,
+      "decision": "W",
+      "saves": 25,
+      "ga": 3,
+      "so": 0,
+      "points": 3.5
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "NSH",
+     "home": 0,
+     "decision": "W",
+     "saves": 32,
+     "ga": 2,
+     "so": 0,
+     "points": 6.4
+    },
     {
      "date": "2026-10-08",
      "opp": "STL",
@@ -691,16 +701,6 @@
      "ga": 5,
      "so": 0,
      "points": -3.3
-    },
-    {
-     "date": "2026-04-06",
-     "opp": "CHI",
-     "home": 1,
-     "decision": "W",
-     "saves": 27,
-     "ga": 2,
-     "so": 0,
-     "points": 5.4
     }
    ]
   },
@@ -710,36 +710,36 @@
    "team": "TBL",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8476883.png",
    "next_game": {
-    "game_id": 2026020111,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020123,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T20:00:00Z",
     "home": 1,
-    "opp": "SEA",
-    "state": "PRE"
+    "opp": "VAN",
+    "state": "FUT"
    },
-   "prob_positive": 0.7644,
-   "expected_points": 3.2,
+   "prob_positive": 0.7724,
+   "expected_points": 3.33,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "80% positive lately vs 80% career (save % 0.907)",
+     "detail": "80% positive lately vs 80% career (save % 0.903)",
      "tone": "neutral"
     },
     {
-     "label": "History vs SEA",
-     "detail": "8 career starts; adjusted positive rate 84% vs 80% overall",
+     "label": "History vs VAN",
+     "detail": "14 career starts; adjusted positive rate 84% vs 80% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "SEA scoring 2.93 goals/game (league 2.82)",
+     "detail": "VAN scoring 2.73 goals/game (league 2.82)",
      "tone": "neutral"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 53% of its last 15",
-     "tone": "neutral"
+     "detail": "His team has won 60% of its last 15",
+     "tone": "good"
     },
     {
      "label": "Venue & rest",
@@ -749,82 +749,92 @@
    ],
    "starter_share_last10": 0.8,
    "career": {
-    "starts": 593,
-    "record": "372-180-39",
+    "starts": 594,
+    "record": "373-180-39",
     "shutouts": 42,
     "pos_rate": 0.798,
-    "avg_points": 3.94,
+    "avg_points": 3.93,
     "save_pct": 0.916
    },
    "season": {
-    "starts": 5,
-    "record": "3-2-0",
+    "starts": 6,
+    "record": "4-2-0",
     "shutouts": 0,
-    "pos_rate": 0.6,
-    "avg_points": 1.92,
+    "pos_rate": 0.667,
+    "avg_points": 2.15,
     "save_pct": 0.886
    },
    "vs_opponent": {
-    "starts": 8,
-    "record": "7-0-1",
-    "shutouts": 1,
-    "pos_rate": 0.875,
-    "avg_points": 5.45,
-    "save_pct": 0.932,
+    "starts": 14,
+    "record": "11-3-0",
+    "shutouts": 0,
+    "pos_rate": 0.857,
+    "avg_points": 4.3,
+    "save_pct": 0.923,
     "games": [
      {
-      "date": "2026-03-26",
-      "opp": "SEA",
-      "home": 1,
-      "decision": "O",
-      "saves": 16,
-      "ga": 4,
-      "so": 0,
-      "points": -1.8
-     },
-     {
-      "date": "2026-03-17",
-      "opp": "SEA",
+      "date": "2026-03-19",
+      "opp": "VAN",
       "home": 0,
       "decision": "W",
-      "saves": 16,
+      "saves": 19,
       "ga": 2,
       "so": 0,
-      "points": 3.2
+      "points": 3.8
      },
      {
-      "date": "2025-02-23",
-      "opp": "SEA",
+      "date": "2024-12-08",
+      "opp": "VAN",
+      "home": 0,
+      "decision": "W",
+      "saves": 23,
+      "ga": 2,
+      "so": 0,
+      "points": 4.6
+     },
+     {
+      "date": "2024-10-15",
+      "opp": "VAN",
+      "home": 1,
+      "decision": "W",
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 6.7
+     },
+     {
+      "date": "2023-12-12",
+      "opp": "VAN",
+      "home": 0,
+      "decision": "L",
+      "saves": 18,
+      "ga": 3,
+      "so": 0,
+      "points": -0.9
+     },
+     {
+      "date": "2023-01-12",
+      "opp": "VAN",
       "home": 1,
       "decision": "W",
       "saves": 36,
-      "ga": 1,
+      "ga": 4,
       "so": 0,
-      "points": 8.7
-     },
-     {
-      "date": "2023-12-09",
-      "opp": "SEA",
-      "home": 0,
-      "decision": "W",
-      "saves": 26,
-      "ga": 3,
-      "so": 0,
-      "points": 3.7
-     },
-     {
-      "date": "2023-01-16",
-      "opp": "SEA",
-      "home": 0,
-      "decision": "W",
-      "saves": 22,
-      "ga": 1,
-      "so": 0,
-      "points": 5.9
+      "points": 4.2
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "SEA",
+     "home": 1,
+     "decision": "W",
+     "saves": 24,
+     "ga": 3,
+     "so": 0,
+     "points": 3.3
+    },
     {
      "date": "2026-10-13",
      "opp": "NYR",
@@ -864,16 +874,6 @@
      "ga": 1,
      "so": 0,
      "points": 5.5
-    },
-    {
-     "date": "2026-10-01",
-     "opp": "NYR",
-     "home": 0,
-     "decision": "L",
-     "saves": 20,
-     "ga": 4,
-     "so": 0,
-     "points": -2.0
     }
    ]
   },
@@ -883,15 +883,15 @@
    "team": "TOR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8476932.png",
    "next_game": {
-    "game_id": 2026020108,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020125,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 1,
-    "opp": "BUF",
-    "state": "PRE"
+    "opp": "NYI",
+    "state": "FUT"
    },
-   "prob_positive": 0.6876,
-   "expected_points": 2.39,
+   "prob_positive": 0.7237,
+   "expected_points": 2.79,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -900,23 +900,23 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs BUF",
-     "detail": "6 career starts; adjusted positive rate 70% vs 73% overall",
+     "label": "History vs NYI",
+     "detail": "5 career starts; adjusted positive rate 57% vs 73% overall",
      "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "BUF scoring 2.93 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "NYI scoring 2.40 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 27% of its last 15",
+     "detail": "His team has won 20% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
+     "detail": "Home game, 4 days rest",
      "tone": "good"
     }
    ],
@@ -938,62 +938,62 @@
     "save_pct": 0.875
    },
    "vs_opponent": {
-    "starts": 6,
-    "record": "4-1-1",
-    "shutouts": 3,
-    "pos_rate": 0.667,
-    "avg_points": 7.52,
-    "save_pct": 0.943,
+    "starts": 5,
+    "record": "2-3-0",
+    "shutouts": 0,
+    "pos_rate": 0.4,
+    "avg_points": 1.36,
+    "save_pct": 0.886,
     "games": [
      {
-      "date": "2025-10-24",
-      "opp": "BUF",
-      "home": 0,
-      "decision": "L",
-      "saves": 25,
-      "ga": 5,
-      "so": 0,
-      "points": -2.5
-     },
-     {
-      "date": "2025-04-15",
-      "opp": "BUF",
-      "home": 0,
-      "decision": "W",
-      "saves": 35,
-      "ga": 0,
-      "so": 1,
-      "points": 14.0
-     },
-     {
-      "date": "2024-02-15",
-      "opp": "BUF",
-      "home": 0,
-      "decision": "W",
-      "saves": 45,
-      "ga": 0,
-      "so": 1,
-      "points": 16.0
-     },
-     {
-      "date": "2021-12-07",
-      "opp": "BUF",
-      "home": 0,
-      "decision": "W",
-      "saves": 25,
-      "ga": 0,
-      "so": 1,
-      "points": 12.0
-     },
-     {
-      "date": "2021-10-28",
-      "opp": "BUF",
+      "date": "2026-09-30",
+      "opp": "NYI",
       "home": 1,
-      "decision": "O",
-      "saves": 25,
+      "decision": "W",
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 6.7
+     },
+     {
+      "date": "2024-03-28",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "L",
+      "saves": 21,
+      "ga": 3,
+      "so": 0,
+      "points": -0.3
+     },
+     {
+      "date": "2024-01-27",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "W",
+      "saves": 21,
+      "ga": 2,
+      "so": 0,
+      "points": 4.2
+     },
+     {
+      "date": "2023-12-02",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "L",
+      "saves": 23,
       "ga": 4,
       "so": 0,
-      "points": 0.0
+      "points": -1.4
+     },
+     {
+      "date": "2022-02-27",
+      "opp": "NYI",
+      "home": 1,
+      "decision": "L",
+      "saves": 18,
+      "ga": 4,
+      "so": 0,
+      "points": -2.4
      }
     ]
    },
@@ -1064,7 +1064,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.6847,
-   "expected_points": 2.25,
+   "expected_points": 2.26,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -1236,8 +1236,8 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.5962,
-   "expected_points": 1.53,
+   "prob_positive": 0.596,
+   "expected_points": 1.54,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -1372,15 +1372,15 @@
    "team": "CHI",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CHI/8482821.png",
    "next_game": {
-    "game_id": 2026020114,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020130,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 1,
-    "opp": "WPG",
+    "opp": "DAL",
     "state": "FUT"
    },
-   "prob_positive": 0.6226,
-   "expected_points": 1.48,
+   "prob_positive": 0.6141,
+   "expected_points": 1.39,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -1389,18 +1389,18 @@
      "tone": "bad"
     },
     {
-     "label": "History vs WPG",
+     "label": "History vs DAL",
      "detail": "4 career starts; adjusted positive rate 65% vs 58% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "WPG scoring 2.60 goals/game (league 2.82)",
+     "detail": "DAL scoring 2.67 goals/game (league 2.82)",
      "tone": "good"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 27% of its last 15",
+     "detail": "His team has won 33% of its last 15",
      "tone": "bad"
     },
     {
@@ -1409,7 +1409,7 @@
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.3,
+   "starter_share_last10": 0.2,
    "career": {
     "starts": 103,
     "record": "25-64-14",
@@ -1428,51 +1428,51 @@
    },
    "vs_opponent": {
     "starts": 4,
-    "record": "0-3-1",
+    "record": "1-2-1",
     "shutouts": 0,
     "pos_rate": 0.75,
-    "avg_points": 1.52,
-    "save_pct": 0.908,
+    "avg_points": 1.85,
+    "save_pct": 0.897,
     "games": [
      {
-      "date": "2024-10-11",
-      "opp": "WPG",
+      "date": "2026-03-08",
+      "opp": "DAL",
       "home": 0,
       "decision": "O",
-      "saves": 33,
-      "ga": 2,
+      "saves": 27,
+      "ga": 4,
       "so": 0,
-      "points": 4.6
+      "points": 0.4
      },
      {
-      "date": "2023-12-02",
-      "opp": "WPG",
+      "date": "2025-12-27",
+      "opp": "DAL",
       "home": 0,
-      "decision": "L",
-      "saves": 25,
+      "decision": "W",
+      "saves": 28,
       "ga": 3,
       "so": 0,
-      "points": 0.5
+      "points": 4.1
      },
      {
-      "date": "2022-12-09",
-      "opp": "WPG",
+      "date": "2024-12-29",
+      "opp": "DAL",
       "home": 1,
       "decision": "L",
-      "saves": 29,
-      "ga": 3,
+      "saves": 30,
+      "ga": 5,
       "so": 0,
-      "points": 1.3
+      "points": -1.5
      },
      {
-      "date": "2022-11-05",
-      "opp": "WPG",
+      "date": "2024-11-07",
+      "opp": "DAL",
       "home": 0,
       "decision": "L",
-      "saves": 21,
-      "ga": 3,
+      "saves": 37,
+      "ga": 2,
       "so": 0,
-      "points": -0.3
+      "points": 4.4
      }
     ]
    },
@@ -1542,8 +1542,8 @@
     "opp": "WPG",
     "state": "FUT"
    },
-   "prob_positive": 0.6838,
-   "expected_points": 2.3,
+   "prob_positive": 0.6903,
+   "expected_points": 2.37,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -1558,7 +1558,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "WPG scoring 2.60 goals/game (league 2.82)",
+     "detail": "WPG scoring 2.53 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -1678,15 +1678,15 @@
    "team": "MIN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8475717.png",
    "next_game": {
-    "game_id": 2026020116,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020135,
+    "date": "2026-10-18",
+    "start_utc": "2026-10-18T22:00:00Z",
     "home": 1,
-    "opp": "STL",
+    "opp": "CBJ",
     "state": "FUT"
    },
-   "prob_positive": 0.719,
-   "expected_points": 2.67,
+   "prob_positive": 0.7704,
+   "expected_points": 3.1,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -1695,14 +1695,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs STL",
-     "detail": "6 career starts; adjusted positive rate 76% vs 67% overall",
-     "tone": "good"
+     "label": "History vs CBJ",
+     "detail": "8 career starts; adjusted positive rate 64% vs 67% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "STL scoring 3.40 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -1711,7 +1711,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
+     "detail": "Home game, 5 days rest",
      "tone": "good"
     }
    ],
@@ -1733,62 +1733,62 @@
     "save_pct": 0.8
    },
    "vs_opponent": {
-    "starts": 6,
-    "record": "2-3-1",
+    "starts": 8,
+    "record": "3-4-1",
     "shutouts": 0,
-    "pos_rate": 0.833,
-    "avg_points": 2.4,
-    "save_pct": 0.908,
+    "pos_rate": 0.625,
+    "avg_points": 0.83,
+    "save_pct": 0.873,
     "games": [
      {
-      "date": "2025-11-03",
-      "opp": "STL",
+      "date": "2025-11-13",
+      "opp": "CBJ",
       "home": 0,
       "decision": "L",
+      "saves": 20,
+      "ga": 5,
+      "so": 0,
+      "points": -3.5
+     },
+     {
+      "date": "2024-12-05",
+      "opp": "CBJ",
+      "home": 1,
+      "decision": "W",
       "saves": 19,
       "ga": 3,
       "so": 0,
-      "points": -0.7
+      "points": 2.3
      },
      {
-      "date": "2025-04-09",
-      "opp": "STL",
-      "home": 1,
-      "decision": "W",
-      "saves": 23,
-      "ga": 3,
-      "so": 0,
-      "points": 3.1
-     },
-     {
-      "date": "2017-04-09",
-      "opp": "STL",
+      "date": "2024-03-07",
+      "opp": "CBJ",
       "home": 0,
       "decision": "L",
-      "saves": 24,
+      "saves": 30,
       "ga": 3,
       "so": 0,
-      "points": 0.3
+      "points": 1.5
      },
      {
-      "date": "2017-03-31",
-      "opp": "STL",
+      "date": "2021-05-08",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "O",
+      "saves": 31,
+      "ga": 5,
+      "so": 0,
+      "points": -0.3
+     },
+     {
+      "date": "2021-03-28",
+      "opp": "CBJ",
       "home": 1,
       "decision": "W",
-      "saves": 27,
+      "saves": 16,
       "ga": 1,
       "so": 0,
-      "points": 6.9
-     },
-     {
-      "date": "2017-03-21",
-      "opp": "STL",
-      "home": 1,
-      "decision": "L",
-      "saves": 25,
-      "ga": 3,
-      "so": 0,
-      "points": 0.5
+      "points": 4.7
      }
     ]
    },
@@ -1858,8 +1858,8 @@
     "opp": "NYR",
     "state": "FUT"
    },
-   "prob_positive": 0.723,
-   "expected_points": 2.66,
+   "prob_positive": 0.7252,
+   "expected_points": 2.67,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -1874,7 +1874,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "NYR scoring 2.87 goals/game (league 2.82)",
+     "detail": "NYR scoring 2.80 goals/game (league 2.82)",
      "tone": "neutral"
     },
     {
@@ -2024,31 +2024,31 @@
    "team": "VGK",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8479394.png",
    "next_game": {
-    "game_id": 2026020118,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T02:00:00Z",
+    "game_id": 2026020134,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
     "home": 1,
-    "opp": "CGY",
+    "opp": "PIT",
     "state": "FUT"
    },
-   "prob_positive": 0.7987,
-   "expected_points": 3.48,
+   "prob_positive": 0.7233,
+   "expected_points": 2.78,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "86% positive lately vs 72% career (save % 0.918)",
+     "detail": "86% positive lately vs 72% career (save % 0.915)",
      "tone": "good"
     },
     {
-     "label": "History vs CGY",
-     "detail": "7 career starts; adjusted positive rate 88% vs 72% overall",
-     "tone": "good"
+     "label": "History vs PIT",
+     "detail": "13 career starts; adjusted positive rate 65% vs 72% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "CGY scoring 2.13 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "PIT scoring 3.87 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -2057,88 +2057,98 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 3 days rest",
+     "detail": "Home game, 2 days rest",
      "tone": "good"
     }
    ],
    "starter_share_last10": 0.7,
    "career": {
-    "starts": 241,
-    "record": "110-96-32",
+    "starts": 242,
+    "record": "111-96-32",
     "shutouts": 6,
-    "pos_rate": 0.722,
-    "avg_points": 2.75,
+    "pos_rate": 0.723,
+    "avg_points": 2.76,
     "save_pct": 0.905
    },
    "season": {
-    "starts": 5,
-    "record": "3-2-0",
+    "starts": 6,
+    "record": "4-2-0",
     "shutouts": 0,
-    "pos_rate": 0.8,
-    "avg_points": 2.8,
-    "save_pct": 0.906
+    "pos_rate": 0.833,
+    "avg_points": 3.27,
+    "save_pct": 0.911
    },
    "vs_opponent": {
-    "starts": 7,
-    "record": "3-2-2",
+    "starts": 13,
+    "record": "5-6-2",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 3.21,
-    "save_pct": 0.916,
+    "pos_rate": 0.615,
+    "avg_points": 2.28,
+    "save_pct": 0.9,
     "games": [
      {
-      "date": "2026-04-02",
-      "opp": "CGY",
-      "home": 1,
-      "decision": "W",
-      "saves": 19,
-      "ga": 3,
-      "so": 0,
-      "points": 2.3
-     },
-     {
-      "date": "2024-01-06",
-      "opp": "CGY",
-      "home": 1,
-      "decision": "W",
-      "saves": 22,
-      "ga": 2,
-      "so": 0,
-      "points": 4.4
-     },
-     {
-      "date": "2022-11-21",
-      "opp": "CGY",
+      "date": "2024-01-08",
+      "opp": "PIT",
       "home": 1,
       "decision": "L",
-      "saves": 25,
-      "ga": 3,
+      "saves": 35,
+      "ga": 4,
       "so": 0,
-      "points": 0.5
+      "points": 1.0
      },
      {
-      "date": "2021-11-16",
-      "opp": "CGY",
+      "date": "2023-12-04",
+      "opp": "PIT",
       "home": 1,
       "decision": "W",
-      "saves": 33,
+      "saves": 31,
       "ga": 1,
       "so": 0,
-      "points": 8.1
+      "points": 7.7
      },
      {
-      "date": "2021-10-30",
-      "opp": "CGY",
+      "date": "2023-03-11",
+      "opp": "PIT",
       "home": 0,
       "decision": "L",
-      "saves": 32,
-      "ga": 3,
+      "saves": 27,
+      "ga": 4,
       "so": 0,
-      "points": 1.9
+      "points": -0.6
+     },
+     {
+      "date": "2022-11-25",
+      "opp": "PIT",
+      "home": 1,
+      "decision": "L",
+      "saves": 17,
+      "ga": 4,
+      "so": 0,
+      "points": -2.6
+     },
+     {
+      "date": "2022-02-15",
+      "opp": "PIT",
+      "home": 0,
+      "decision": "O",
+      "saves": 29,
+      "ga": 5,
+      "so": 0,
+      "points": -0.7
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "CGY",
+     "home": 1,
+     "decision": "W",
+     "saves": 28,
+     "ga": 2,
+     "so": 0,
+     "points": 5.6
+    },
     {
      "date": "2026-10-12",
      "opp": "MIN",
@@ -2178,16 +2188,6 @@
      "ga": 4,
      "so": 0,
      "points": -2.8
-    },
-    {
-     "date": "2026-09-29",
-     "opp": "CHI",
-     "home": 1,
-     "decision": "W",
-     "saves": 24,
-     "ga": 2,
-     "so": 0,
-     "points": 4.8
     }
    ]
   },
@@ -2204,8 +2204,8 @@
     "opp": "CHI",
     "state": "FUT"
    },
-   "prob_positive": 0.7697,
-   "expected_points": 3.09,
+   "prob_positive": 0.7678,
+   "expected_points": 3.04,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2220,7 +2220,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "CHI scoring 2.27 goals/game (league 2.82)",
+     "detail": "CHI scoring 2.33 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -2377,8 +2377,8 @@
     "opp": "NJD",
     "state": "FUT"
    },
-   "prob_positive": 0.7427,
-   "expected_points": 2.95,
+   "prob_positive": 0.7304,
+   "expected_points": 2.84,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2393,8 +2393,8 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "NJD scoring 2.60 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "NJD scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -2543,15 +2543,15 @@
    "team": "WPG",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WPG/8483532.png",
    "next_game": {
-    "game_id": 2026020114,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
-    "home": 0,
-    "opp": "CHI",
+    "game_id": 2026020122,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T19:30:00Z",
+    "home": 1,
+    "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.7407,
-   "expected_points": 2.76,
+   "prob_positive": 0.7266,
+   "expected_points": 2.67,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2560,24 +2560,24 @@
      "tone": "bad"
     },
     {
-     "label": "History vs CHI",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
-    },
-    {
-     "label": "Opponent offense",
-     "detail": "CHI scoring 2.27 goals/game (league 2.82)",
+     "label": "History vs CAR",
+     "detail": "1 career starts; adjusted positive rate 71% vs 66% overall",
      "tone": "good"
     },
     {
+     "label": "Opponent offense",
+     "detail": "CAR scoring 3.73 goals/game (league 2.82)",
+     "tone": "bad"
+    },
+    {
      "label": "Team support",
-     "detail": "His team has won 53% of its last 15",
+     "detail": "His team has won 47% of its last 15",
      "tone": "neutral"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 6 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
     }
    ],
    "starter_share_last10": 0.2,
@@ -2598,13 +2598,24 @@
     "save_pct": 0.872
    },
    "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
+    "starts": 1,
+    "record": "1-0-0",
     "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
+    "pos_rate": 1.0,
+    "avg_points": 2.3,
+    "save_pct": 0.864,
+    "games": [
+     {
+      "date": "2026-01-31",
+      "opp": "CAR",
+      "home": 1,
+      "decision": "W",
+      "saves": 19,
+      "ga": 3,
+      "so": 0,
+      "points": 2.3
+     }
+    ]
    },
    "last5": [
     {
@@ -2665,14 +2676,14 @@
    "team": "BUF",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BUF/8481551.png",
    "next_game": {
-    "game_id": 2026020108,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020126,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "TOR",
-    "state": "PRE"
+    "opp": "MTL",
+    "state": "FUT"
    },
-   "prob_positive": 0.6652,
+   "prob_positive": 0.6839,
    "expected_points": 2.12,
    "verdict": "Likely positive",
    "signals": [
@@ -2682,14 +2693,14 @@
      "tone": "good"
     },
     {
-     "label": "History vs TOR",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
+     "label": "History vs MTL",
+     "detail": "1 career starts; adjusted positive rate 79% vs 75% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "TOR scoring 3.07 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "MTL scoring 2.67 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -2698,11 +2709,11 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 3 days rest",
+     "detail": "Road game, 5 days rest",
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.5,
+   "starter_share_last10": 0.4,
    "career": {
     "starts": 17,
     "record": "8-5-2",
@@ -2720,13 +2731,24 @@
     "save_pct": 0.864
    },
    "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
+    "starts": 1,
+    "record": "1-0-0",
     "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
+    "pos_rate": 1.0,
+    "avg_points": 2.5,
+    "save_pct": 0.87,
+    "games": [
+     {
+      "date": "2026-01-15",
+      "opp": "MTL",
+      "home": 1,
+      "decision": "W",
+      "saves": 20,
+      "ga": 3,
+      "so": 0,
+      "points": 2.5
+     }
+    ]
    },
    "last5": [
     {
@@ -2787,15 +2809,15 @@
    "team": "WPG",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WPG/8476945.png",
    "next_game": {
-    "game_id": 2026020114,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
-    "home": 0,
-    "opp": "CHI",
+    "game_id": 2026020122,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T19:30:00Z",
+    "home": 1,
+    "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.7624,
-   "expected_points": 3.05,
+   "prob_positive": 0.7222,
+   "expected_points": 2.83,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2804,27 +2826,27 @@
      "tone": "bad"
     },
     {
-     "label": "History vs CHI",
-     "detail": "32 career starts; adjusted positive rate 89% vs 81% overall",
-     "tone": "good"
+     "label": "History vs CAR",
+     "detail": "10 career starts; adjusted positive rate 67% vs 81% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "CHI scoring 2.27 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "CAR scoring 3.73 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 53% of its last 15",
+     "detail": "His team has won 47% of its last 15",
      "tone": "neutral"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.2,
+   "starter_share_last10": 0.1,
    "career": {
     "starts": 615,
     "record": "344-208-55",
@@ -2835,62 +2857,62 @@
    },
    "season": null,
    "vs_opponent": {
-    "starts": 32,
-    "record": "23-8-1",
-    "shutouts": 2,
-    "pos_rate": 0.906,
-    "avg_points": 4.28,
-    "save_pct": 0.921,
+    "starts": 10,
+    "record": "4-5-0",
+    "shutouts": 0,
+    "pos_rate": 0.6,
+    "avg_points": 1.44,
+    "save_pct": 0.887,
     "games": [
      {
-      "date": "2026-03-31",
-      "opp": "CHI",
-      "home": 0,
-      "decision": "W",
-      "saves": 18,
-      "ga": 3,
-      "so": 0,
-      "points": 2.1
-     },
-     {
-      "date": "2026-03-03",
-      "opp": "CHI",
-      "home": 1,
-      "decision": "W",
-      "saves": 17,
-      "ga": 2,
-      "so": 0,
-      "points": 3.4
-     },
-     {
-      "date": "2026-01-19",
-      "opp": "CHI",
+      "date": "2025-03-09",
+      "opp": "CAR",
       "home": 0,
       "decision": "L",
-      "saves": 22,
-      "ga": 1,
-      "so": 0,
-      "points": 2.9
-     },
-     {
-      "date": "2025-10-30",
-      "opp": "CHI",
-      "home": 1,
-      "decision": "W",
-      "saves": 21,
+      "saves": 23,
       "ga": 3,
       "so": 0,
-      "points": 2.7
+      "points": 0.1
      },
      {
-      "date": "2025-04-12",
-      "opp": "CHI",
+      "date": "2024-03-02",
+      "opp": "CAR",
       "home": 0,
       "decision": "W",
-      "saves": 28,
+      "saves": 32,
+      "ga": 3,
+      "so": 0,
+      "points": 4.9
+     },
+     {
+      "date": "2021-12-07",
+      "opp": "CAR",
+      "home": 1,
+      "decision": "L",
+      "saves": 30,
       "ga": 4,
       "so": 0,
-      "points": 2.6
+      "points": 0.0
+     },
+     {
+      "date": "2020-01-21",
+      "opp": "CAR",
+      "home": 0,
+      "decision": "L",
+      "saves": 25,
+      "ga": 4,
+      "so": 0,
+      "points": -1.0
+     },
+     {
+      "date": "2019-12-17",
+      "opp": "CAR",
+      "home": 1,
+      "decision": "L",
+      "saves": 18,
+      "ga": 5,
+      "so": 0,
+      "points": -3.9
      }
     ]
    },
@@ -2953,15 +2975,15 @@
    "team": "FLA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8484900.png",
    "next_game": {
-    "game_id": 2026020112,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020124,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T22:00:00Z",
     "home": 1,
-    "opp": "VAN",
-    "state": "PRE"
+    "opp": "SEA",
+    "state": "FUT"
    },
-   "prob_positive": 0.7617,
-   "expected_points": 3.14,
+   "prob_positive": 0.7598,
+   "expected_points": 3.09,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2970,14 +2992,14 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs VAN",
+     "label": "History vs SEA",
      "detail": "No career starts against them yet",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "VAN scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "SEA scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -3017,16 +3039,16 @@
    "team": "PHI",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PHI/8478435.png",
    "next_game": {
-    "game_id": 2026020110,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:30:00Z",
-    "home": 0,
-    "opp": "DET",
-    "state": "PRE"
+    "game_id": 2026020128,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
+    "home": 1,
+    "opp": "OTT",
+    "state": "FUT"
    },
-   "prob_positive": 0.6385,
-   "expected_points": 1.86,
-   "verdict": "Lean positive",
+   "prob_positive": 0.6511,
+   "expected_points": 1.95,
+   "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
@@ -3034,27 +3056,27 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs DET",
-     "detail": "6 career starts; adjusted positive rate 52% vs 74% overall",
-     "tone": "bad"
-    },
-    {
-     "label": "Opponent offense",
-     "detail": "DET scoring 2.60 goals/game (league 2.82)",
+     "label": "History vs OTT",
+     "detail": "4 career starts; adjusted positive rate 85% vs 74% overall",
      "tone": "good"
     },
     {
+     "label": "Opponent offense",
+     "detail": "OTT scoring 2.80 goals/game (league 2.82)",
+     "tone": "neutral"
+    },
+    {
      "label": "Team support",
-     "detail": "His team has won 40% of its last 15",
+     "detail": "His team has won 33% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 2 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 4 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.5,
+   "starter_share_last10": 0.4,
    "career": {
     "starts": 150,
     "record": "75-50-23",
@@ -3072,37 +3094,17 @@
     "save_pct": 0.875
    },
    "vs_opponent": {
-    "starts": 6,
-    "record": "1-4-1",
-    "shutouts": 0,
-    "pos_rate": 0.333,
-    "avg_points": -0.87,
-    "save_pct": 0.844,
+    "starts": 4,
+    "record": "1-1-2",
+    "shutouts": 1,
+    "pos_rate": 1.0,
+    "avg_points": 5.08,
+    "save_pct": 0.94,
     "games": [
      {
-      "date": "2026-04-09",
-      "opp": "DET",
-      "home": 0,
-      "decision": "L",
-      "saves": 4,
-      "ga": 4,
-      "so": 0,
-      "points": -5.2
-     },
-     {
-      "date": "2026-03-28",
-      "opp": "DET",
-      "home": 0,
-      "decision": "W",
-      "saves": 32,
-      "ga": 3,
-      "so": 0,
-      "points": 4.9
-     },
-     {
-      "date": "2024-11-27",
-      "opp": "DET",
-      "home": 0,
+      "date": "2026-02-05",
+      "opp": "OTT",
+      "home": 1,
       "decision": "O",
       "saves": 25,
       "ga": 2,
@@ -3110,24 +3112,34 @@
       "points": 3.0
      },
      {
-      "date": "2023-10-22",
-      "opp": "DET",
+      "date": "2025-10-23",
+      "opp": "OTT",
       "home": 0,
       "decision": "L",
-      "saves": 24,
-      "ga": 6,
+      "saves": 31,
+      "ga": 2,
       "so": 0,
-      "points": -4.2
+      "points": 3.2
      },
      {
-      "date": "2023-02-16",
-      "opp": "DET",
+      "date": "2024-12-19",
+      "opp": "OTT",
       "home": 1,
-      "decision": "L",
-      "saves": 19,
-      "ga": 5,
+      "decision": "O",
+      "saves": 26,
+      "ga": 3,
       "so": 0,
-      "points": -3.7
+      "points": 1.7
+     },
+     {
+      "date": "2021-11-14",
+      "opp": "OTT",
+      "home": 0,
+      "decision": "W",
+      "saves": 27,
+      "ga": 0,
+      "so": 1,
+      "points": 12.4
      }
     ]
    },
@@ -3190,92 +3202,82 @@
    "team": "DET",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8480193.png",
    "next_game": {
-    "game_id": 2026020110,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:30:00Z",
+    "game_id": 2026020127,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 1,
-    "opp": "PHI",
-    "state": "PRE"
+    "opp": "SJS",
+    "state": "FUT"
    },
-   "prob_positive": 0.6538,
-   "expected_points": 1.79,
+   "prob_positive": 0.6764,
+   "expected_points": 1.99,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "77% positive lately vs 69% career (save % 0.906)",
+     "detail": "78% positive lately vs 69% career (save % 0.910)",
      "tone": "good"
     },
     {
-     "label": "History vs PHI",
-     "detail": "4 career starts; adjusted positive rate 72% vs 69% overall",
-     "tone": "neutral"
+     "label": "History vs SJS",
+     "detail": "3 career starts; adjusted positive rate 81% vs 69% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "PHI scoring 2.40 goals/game (league 2.82)",
+     "detail": "SJS scoring 2.67 goals/game (league 2.82)",
      "tone": "good"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 20% of its last 15",
+     "detail": "His team has won 27% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 5 days rest",
+     "detail": "Home game, 2 days rest",
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.1,
+   "starter_share_last10": 0.2,
    "career": {
-    "starts": 93,
-    "record": "32-49-10",
+    "starts": 94,
+    "record": "33-49-10",
     "shutouts": 2,
-    "pos_rate": 0.688,
-    "avg_points": 1.99,
+    "pos_rate": 0.691,
+    "avg_points": 2.02,
     "save_pct": 0.897
    },
    "season": {
-    "starts": 1,
-    "record": "0-0-1",
+    "starts": 2,
+    "record": "1-0-1",
     "shutouts": 1,
     "pos_rate": 1.0,
-    "avg_points": 11.0,
-    "save_pct": 1.0
+    "avg_points": 7.95,
+    "save_pct": 0.979
    },
    "vs_opponent": {
-    "starts": 4,
-    "record": "2-2-0",
+    "starts": 3,
+    "record": "2-1-0",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 3.02,
-    "save_pct": 0.911,
+    "pos_rate": 1.0,
+    "avg_points": 3.23,
+    "save_pct": 0.905,
     "games": [
      {
-      "date": "2025-10-13",
-      "opp": "PHI",
+      "date": "2025-11-08",
+      "opp": "SJS",
       "home": 0,
       "decision": "L",
-      "saves": 17,
-      "ga": 3,
-      "so": 0,
-      "points": -1.1
-     },
-     {
-      "date": "2025-01-14",
-      "opp": "PHI",
-      "home": 1,
-      "decision": "W",
-      "saves": 23,
+      "saves": 20,
       "ga": 2,
       "so": 0,
-      "points": 4.6
+      "points": 1.0
      },
      {
-      "date": "2024-01-04",
-      "opp": "PHI",
-      "home": 0,
+      "date": "2024-03-16",
+      "opp": "SJS",
+      "home": 1,
       "decision": "W",
       "saves": 39,
       "ga": 2,
@@ -3283,18 +3285,28 @@
       "points": 7.8
      },
      {
-      "date": "2022-12-20",
-      "opp": "PHI",
+      "date": "2023-03-14",
+      "opp": "SJS",
       "home": 0,
-      "decision": "L",
-      "saves": 34,
-      "ga": 4,
+      "decision": "W",
+      "saves": 27,
+      "ga": 5,
       "so": 0,
-      "points": 0.8
+      "points": 0.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "PHI",
+     "home": 1,
+     "decision": "W",
+     "saves": 17,
+     "ga": 1,
+     "so": 0,
+     "points": 4.9
+    },
     {
      "date": "2026-10-10",
      "opp": "MTL",
@@ -3334,16 +3346,6 @@
      "ga": 2,
      "so": 0,
      "points": 3.4
-    },
-    {
-     "date": "2026-04-07",
-     "opp": "MTL",
-     "home": 0,
-     "decision": "O",
-     "saves": 29,
-     "ga": 3,
-     "so": 0,
-     "points": 2.3
     }
    ]
   },
@@ -3360,8 +3362,8 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.7272,
-   "expected_points": 2.9,
+   "prob_positive": 0.7275,
+   "expected_points": 2.91,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3526,15 +3528,15 @@
    "team": "TBL",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TBL/8483710.png",
    "next_game": {
-    "game_id": 2026020111,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020123,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T20:00:00Z",
     "home": 1,
-    "opp": "SEA",
-    "state": "PRE"
+    "opp": "VAN",
+    "state": "FUT"
    },
-   "prob_positive": 0.7687,
-   "expected_points": 3.1,
+   "prob_positive": 0.7632,
+   "expected_points": 3.03,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3543,19 +3545,19 @@
      "tone": "bad"
     },
     {
-     "label": "History vs SEA",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
+     "label": "History vs VAN",
+     "detail": "1 career starts; adjusted positive rate 57% vs 68% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "SEA scoring 2.93 goals/game (league 2.82)",
+     "detail": "VAN scoring 2.73 goals/game (league 2.82)",
      "tone": "neutral"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 53% of its last 15",
-     "tone": "neutral"
+     "detail": "His team has won 60% of its last 15",
+     "tone": "good"
     },
     {
      "label": "Venue & rest",
@@ -3581,13 +3583,24 @@
     "save_pct": 0.944
    },
    "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
+    "starts": 1,
+    "record": "0-1-0",
     "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
+    "pos_rate": 0.0,
+    "avg_points": -1.5,
+    "save_pct": 0.833,
+    "games": [
+     {
+      "date": "2025-01-11",
+      "opp": "VAN",
+      "home": 1,
+      "decision": "L",
+      "saves": 15,
+      "ga": 3,
+      "so": 0,
+      "points": -1.5
+     }
+    ]
    },
    "last5": [
     {
@@ -3648,16 +3661,16 @@
    "team": "CGY",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8482445.png",
    "next_game": {
-    "game_id": 2026020118,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T02:00:00Z",
-    "home": 0,
-    "opp": "VGK",
+    "game_id": 2026020136,
+    "date": "2026-10-18",
+    "start_utc": "2026-10-19T00:00:00Z",
+    "home": 1,
+    "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.6178,
-   "expected_points": 1.67,
-   "verdict": "Lean positive",
+   "prob_positive": 0.6664,
+   "expected_points": 2.2,
+   "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
@@ -3665,13 +3678,13 @@
      "tone": "bad"
     },
     {
-     "label": "History vs VGK",
+     "label": "History vs CAR",
      "detail": "1 career starts; adjusted positive rate 70% vs 64% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "VGK scoring 3.80 goals/game (league 2.82)",
+     "detail": "CAR scoring 3.73 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -3681,11 +3694,11 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.3,
+   "starter_share_last10": 0.2,
    "career": {
     "starts": 34,
     "record": "12-15-7",
@@ -3704,21 +3717,21 @@
    },
    "vs_opponent": {
     "starts": 1,
-    "record": "1-0-0",
+    "record": "0-0-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 5.3,
-    "save_pct": 0.919,
+    "avg_points": 2.7,
+    "save_pct": 0.941,
     "games": [
      {
-      "date": "2025-12-20",
-      "opp": "VGK",
-      "home": 1,
-      "decision": "W",
-      "saves": 34,
-      "ga": 3,
+      "date": "2025-11-30",
+      "opp": "CAR",
+      "home": 0,
+      "decision": "O",
+      "saves": 16,
+      "ga": 1,
       "so": 0,
-      "points": 5.3
+      "points": 2.7
      }
     ]
    },
@@ -3781,70 +3794,91 @@
    "team": "EDM",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8482221.png",
    "next_game": {
-    "game_id": 2026020117,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T01:00:00Z",
-    "home": 1,
+    "game_id": 2026020133,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
+    "home": 0,
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.7043,
-   "expected_points": 2.65,
+   "prob_positive": 0.6562,
+   "expected_points": 2.01,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "62% positive lately vs 70% career (save % 0.883)",
+     "detail": "62% positive lately vs 69% career (save % 0.890)",
      "tone": "bad"
     },
     {
      "label": "History vs UTA",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
+     "detail": "1 career starts; adjusted positive rate 57% vs 69% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "UTA scoring 3.87 goals/game (league 2.82)",
+     "detail": "UTA scoring 3.67 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 67% of its last 15",
+     "detail": "His team has won 60% of its last 15",
      "tone": "good"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
-     "tone": "good"
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.4,
+   "starter_share_last10": 0.5,
    "career": {
-    "starts": 40,
-    "record": "21-16-2",
+    "starts": 41,
+    "record": "21-17-2",
     "shutouts": 0,
-    "pos_rate": 0.7,
-    "avg_points": 2.28,
+    "pos_rate": 0.683,
+    "avg_points": 2.22,
     "save_pct": 0.895
    },
    "season": {
-    "starts": 4,
-    "record": "4-0-0",
+    "starts": 5,
+    "record": "4-1-0",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 3.98,
-    "save_pct": 0.903
+    "pos_rate": 0.6,
+    "avg_points": 3.08,
+    "save_pct": 0.897
    },
    "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
+    "starts": 1,
+    "record": "0-1-0",
     "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
+    "pos_rate": 0.0,
+    "avg_points": -0.5,
+    "save_pct": 0.87,
+    "games": [
+     {
+      "date": "2026-10-15",
+      "opp": "UTA",
+      "home": 1,
+      "decision": "L",
+      "saves": 20,
+      "ga": 3,
+      "so": 0,
+      "points": -0.5
+     }
+    ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "UTA",
+     "home": 1,
+     "decision": "L",
+     "saves": 20,
+     "ga": 3,
+     "so": 0,
+     "points": -0.5
+    },
     {
      "date": "2026-10-13",
      "opp": "LAK",
@@ -3884,16 +3918,6 @@
      "ga": 7,
      "so": 0,
      "points": -4.5
-    },
-    {
-     "date": "2025-01-20",
-     "opp": "SEA",
-     "home": 0,
-     "decision": "L",
-     "saves": 28,
-     "ga": 5,
-     "so": 0,
-     "points": -1.9
     }
    ]
   },
@@ -3903,30 +3927,30 @@
    "team": "CGY",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8481692.png",
    "next_game": {
-    "game_id": 2026020118,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T02:00:00Z",
-    "home": 0,
-    "opp": "VGK",
+    "game_id": 2026020136,
+    "date": "2026-10-18",
+    "start_utc": "2026-10-19T00:00:00Z",
+    "home": 1,
+    "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.5745,
-   "expected_points": 1.26,
+   "prob_positive": 0.6278,
+   "expected_points": 1.81,
    "verdict": "Lean positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "55% positive lately vs 70% career (save % 0.886)",
+     "detail": "47% positive lately vs 70% career (save % 0.878)",
      "tone": "bad"
     },
     {
-     "label": "History vs VGK",
-     "detail": "7 career starts; adjusted positive rate 71% vs 70% overall",
-     "tone": "neutral"
+     "label": "History vs CAR",
+     "detail": "3 career starts; adjusted positive rate 81% vs 70% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "VGK scoring 3.80 goals/game (league 2.82)",
+     "detail": "CAR scoring 3.73 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -3936,88 +3960,78 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 2 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 3 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.6,
+   "starter_share_last10": 0.7,
    "career": {
-    "starts": 128,
-    "record": "61-55-12",
+    "starts": 129,
+    "record": "61-56-12",
     "shutouts": 5,
-    "pos_rate": 0.703,
-    "avg_points": 2.57,
-    "save_pct": 0.901
+    "pos_rate": 0.698,
+    "avg_points": 2.52,
+    "save_pct": 0.9
    },
    "season": {
-    "starts": 4,
-    "record": "1-3-0",
+    "starts": 5,
+    "record": "1-4-0",
     "shutouts": 0,
-    "pos_rate": 0.25,
-    "avg_points": -1.3,
-    "save_pct": 0.839
+    "pos_rate": 0.2,
+    "avg_points": -1.76,
+    "save_pct": 0.834
    },
    "vs_opponent": {
-    "starts": 7,
-    "record": "2-3-2",
+    "starts": 3,
+    "record": "2-0-1",
     "shutouts": 0,
-    "pos_rate": 0.714,
-    "avg_points": 1.04,
-    "save_pct": 0.881,
+    "pos_rate": 1.0,
+    "avg_points": 3.93,
+    "save_pct": 0.913,
     "games": [
      {
-      "date": "2026-04-02",
-      "opp": "VGK",
-      "home": 0,
-      "decision": "L",
-      "saves": 28,
-      "ga": 6,
-      "so": 0,
-      "points": -3.4
-     },
-     {
-      "date": "2025-10-18",
-      "opp": "VGK",
-      "home": 0,
-      "decision": "L",
-      "saves": 14,
-      "ga": 5,
-      "so": 0,
-      "points": -4.7
-     },
-     {
-      "date": "2025-10-14",
-      "opp": "VGK",
-      "home": 1,
-      "decision": "L",
-      "saves": 26,
-      "ga": 3,
-      "so": 0,
-      "points": 0.7
-     },
-     {
-      "date": "2025-04-15",
-      "opp": "VGK",
+      "date": "2026-03-07",
+      "opp": "CAR",
       "home": 1,
       "decision": "W",
-      "saves": 38,
+      "saves": 25,
       "ga": 4,
       "so": 0,
-      "points": 4.6
+      "points": 2.0
      },
      {
-      "date": "2025-04-05",
-      "opp": "VGK",
-      "home": 1,
+      "date": "2025-03-02",
+      "opp": "CAR",
+      "home": 0,
       "decision": "O",
       "saves": 31,
-      "ga": 3,
+      "ga": 2,
       "so": 0,
-      "points": 2.7
+      "points": 4.2
+     },
+     {
+      "date": "2023-12-07",
+      "opp": "CAR",
+      "home": 1,
+      "decision": "W",
+      "saves": 28,
+      "ga": 2,
+      "so": 0,
+      "points": 5.6
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "VGK",
+     "home": 0,
+     "decision": "L",
+     "saves": 27,
+     "ga": 6,
+     "so": 0,
+     "points": -3.6
+    },
     {
      "date": "2026-10-13",
      "opp": "ANA",
@@ -4057,16 +4071,6 @@
      "ga": 6,
      "so": 0,
      "points": -3.8
-    },
-    {
-     "date": "2026-04-14",
-     "opp": "COL",
-     "home": 1,
-     "decision": "L",
-     "saves": 35,
-     "ga": 2,
-     "so": 0,
-     "points": 4.0
     }
    ]
   },
@@ -4076,30 +4080,30 @@
    "team": "NYR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYR/8482193.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020129,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "NJD",
-    "state": "PRE"
+    "opp": "CBJ",
+    "state": "FUT"
    },
-   "prob_positive": 0.8258,
-   "expected_points": 3.95,
+   "prob_positive": 0.8075,
+   "expected_points": 3.67,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "94% positive lately vs 82% career (save % 0.939)",
+     "detail": "83% positive lately vs 77% career (save % 0.925)",
      "tone": "good"
     },
     {
-     "label": "History vs NJD",
+     "label": "History vs CBJ",
      "detail": "No career starts against them yet",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "NJD scoring 2.60 goals/game (league 2.82)",
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -4113,22 +4117,22 @@
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.4,
+   "starter_share_last10": 0.5,
    "career": {
-    "starts": 6,
-    "record": "5-0-1",
+    "starts": 7,
+    "record": "5-1-1",
     "shutouts": 1,
-    "pos_rate": 1.0,
-    "avg_points": 6.57,
-    "save_pct": 0.952
+    "pos_rate": 0.857,
+    "avg_points": 5.03,
+    "save_pct": 0.933
    },
    "season": {
-    "starts": 3,
-    "record": "3-0-0",
+    "starts": 4,
+    "record": "3-1-0",
     "shutouts": 1,
-    "pos_rate": 1.0,
-    "avg_points": 7.23,
-    "save_pct": 0.957
+    "pos_rate": 0.75,
+    "avg_points": 4.38,
+    "save_pct": 0.915
    },
    "vs_opponent": {
     "starts": 0,
@@ -4140,6 +4144,16 @@
     "games": []
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "NJD",
+     "home": 0,
+     "decision": "L",
+     "saves": 9,
+     "ga": 4,
+     "so": 0,
+     "points": -4.2
+    },
     {
      "date": "2026-10-13",
      "opp": "TBL",
@@ -4179,16 +4193,6 @@
      "ga": 2,
      "so": 0,
      "points": 5.8
-    },
-    {
-     "date": "2026-03-27",
-     "opp": "CHI",
-     "home": 1,
-     "decision": "W",
-     "saves": 27,
-     "ga": 1,
-     "so": 0,
-     "points": 6.9
     }
    ]
   },
@@ -4198,15 +4202,15 @@
    "team": "MIN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8479406.png",
    "next_game": {
-    "game_id": 2026020116,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020135,
+    "date": "2026-10-18",
+    "start_utc": "2026-10-18T22:00:00Z",
     "home": 1,
-    "opp": "STL",
+    "opp": "CBJ",
     "state": "FUT"
    },
-   "prob_positive": 0.765,
-   "expected_points": 3.3,
+   "prob_positive": 0.8084,
+   "expected_points": 3.81,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4215,14 +4219,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs STL",
-     "detail": "10 career starts; adjusted positive rate 72% vs 76% overall",
-     "tone": "bad"
+     "label": "History vs CBJ",
+     "detail": "5 career starts; adjusted positive rate 78% vs 76% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "STL scoring 3.40 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -4246,62 +4250,62 @@
    },
    "season": null,
    "vs_opponent": {
-    "starts": 10,
-    "record": "5-4-0",
-    "shutouts": 1,
-    "pos_rate": 0.7,
-    "avg_points": 2.9,
-    "save_pct": 0.906,
+    "starts": 5,
+    "record": "3-1-1",
+    "shutouts": 0,
+    "pos_rate": 0.8,
+    "avg_points": 3.94,
+    "save_pct": 0.915,
     "games": [
      {
-      "date": "2026-04-13",
-      "opp": "STL",
-      "home": 0,
-      "decision": "L",
-      "saves": 16,
-      "ga": 5,
-      "so": 0,
-      "points": -4.3
-     },
-     {
-      "date": "2026-03-01",
-      "opp": "STL",
+      "date": "2025-10-11",
+      "opp": "CBJ",
       "home": 1,
       "decision": "L",
-      "saves": 21,
-      "ga": 2,
+      "saves": 25,
+      "ga": 6,
       "so": 0,
-      "points": 1.2
+      "points": -4.0
      },
      {
-      "date": "2025-10-09",
-      "opp": "STL",
+      "date": "2024-10-19",
+      "opp": "CBJ",
       "home": 0,
       "decision": "W",
-      "saves": 26,
-      "ga": 0,
-      "so": 1,
-      "points": 12.2
-     },
-     {
-      "date": "2025-03-15",
-      "opp": "STL",
-      "home": 1,
-      "decision": "L",
       "saves": 23,
-      "ga": 4,
+      "ga": 1,
       "so": 0,
-      "points": -1.4
+      "points": 6.1
      },
      {
-      "date": "2025-01-07",
-      "opp": "STL",
+      "date": "2024-10-10",
+      "opp": "CBJ",
       "home": 1,
-      "decision": "-",
-      "saves": 14,
-      "ga": 4,
+      "decision": "W",
+      "saves": 31,
+      "ga": 2,
       "so": 0,
-      "points": -3.2
+      "points": 6.2
+     },
+     {
+      "date": "2023-10-21",
+      "opp": "CBJ",
+      "home": 1,
+      "decision": "O",
+      "saves": 49,
+      "ga": 5,
+      "so": 0,
+      "points": 3.3
+     },
+     {
+      "date": "2022-04-22",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "W",
+      "saves": 33,
+      "ga": 1,
+      "so": 0,
+      "points": 8.1
      }
     ]
    },
@@ -4364,15 +4368,15 @@
    "team": "EDM",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8475883.png",
    "next_game": {
-    "game_id": 2026020117,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T01:00:00Z",
-    "home": 1,
+    "game_id": 2026020133,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
+    "home": 0,
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.76,
-   "expected_points": 3.4,
+   "prob_positive": 0.7381,
+   "expected_points": 3.04,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4387,18 +4391,18 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "UTA scoring 3.87 goals/game (league 2.82)",
+     "detail": "UTA scoring 3.67 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 67% of its last 15",
+     "detail": "His team has won 60% of its last 15",
      "tone": "good"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 7 days rest",
-     "tone": "good"
+     "detail": "Road game, 7 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.0,
@@ -4490,15 +4494,15 @@
    "team": "NYR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYR/8478048.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020129,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "NJD",
-    "state": "PRE"
+    "opp": "CBJ",
+    "state": "FUT"
    },
-   "prob_positive": 0.8218,
-   "expected_points": 3.61,
+   "prob_positive": 0.8141,
+   "expected_points": 3.52,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4507,13 +4511,13 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs NJD",
-     "detail": "20 career starts; adjusted positive rate 80% vs 80% overall",
-     "tone": "neutral"
+     "label": "History vs CBJ",
+     "detail": "12 career starts; adjusted positive rate 76% vs 80% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "NJD scoring 2.60 goals/game (league 2.82)",
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -4523,7 +4527,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 6 days rest",
+     "detail": "Road game, 7 days rest",
      "tone": "neutral"
     }
    ],
@@ -4545,62 +4549,62 @@
     "save_pct": 0.927
    },
    "vs_opponent": {
-    "starts": 20,
-    "record": "12-7-1",
-    "shutouts": 2,
-    "pos_rate": 0.8,
-    "avg_points": 3.71,
-    "save_pct": 0.911,
+    "starts": 12,
+    "record": "8-3-1",
+    "shutouts": 4,
+    "pos_rate": 0.75,
+    "avg_points": 5.65,
+    "save_pct": 0.929,
     "games": [
      {
-      "date": "2026-03-31",
-      "opp": "NJD",
-      "home": 1,
-      "decision": "W",
-      "saves": 22,
-      "ga": 1,
-      "so": 0,
-      "points": 5.9
-     },
-     {
-      "date": "2025-04-05",
-      "opp": "NJD",
+      "date": "2026-03-19",
+      "opp": "CBJ",
       "home": 0,
       "decision": "L",
-      "saves": 12,
-      "ga": 3,
-      "so": 0,
-      "points": -2.1
-     },
-     {
-      "date": "2025-01-09",
-      "opp": "NJD",
-      "home": 1,
-      "decision": "W",
-      "saves": 21,
-      "ga": 2,
-      "so": 0,
-      "points": 4.2
-     },
-     {
-      "date": "2024-12-02",
-      "opp": "NJD",
-      "home": 1,
-      "decision": "L",
-      "saves": 23,
+      "saves": 31,
       "ga": 5,
       "so": 0,
-      "points": -2.9
+      "points": -1.3
      },
      {
-      "date": "2024-04-03",
-      "opp": "NJD",
+      "date": "2026-03-02",
+      "opp": "CBJ",
+      "home": 1,
+      "decision": "O",
+      "saves": 24,
+      "ga": 5,
+      "so": 0,
+      "points": -1.7
+     },
+     {
+      "date": "2025-11-15",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "W",
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 6.7
+     },
+     {
+      "date": "2025-03-15",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "W",
+      "saves": 21,
+      "ga": 0,
+      "so": 1,
+      "points": 11.2
+     },
+     {
+      "date": "2025-01-18",
+      "opp": "CBJ",
       "home": 1,
       "decision": "W",
-      "saves": 17,
-      "ga": 3,
-      "so": 0,
-      "points": 1.9
+      "saves": 27,
+      "ga": 0,
+      "so": 1,
+      "points": 12.4
      }
     ]
    },
@@ -4663,15 +4667,15 @@
    "team": "NYI",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYI/8478009.png",
    "next_game": {
-    "game_id": 2026020109,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020125,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "OTT",
-    "state": "LIVE"
+    "opp": "TOR",
+    "state": "FUT"
    },
-   "prob_positive": 0.7365,
-   "expected_points": 2.64,
+   "prob_positive": 0.7661,
+   "expected_points": 3.04,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4680,27 +4684,27 @@
      "tone": "bad"
     },
     {
-     "label": "History vs OTT",
-     "detail": "8 career starts; adjusted positive rate 84% vs 78% overall",
+     "label": "History vs TOR",
+     "detail": "14 career starts; adjusted positive rate 89% vs 78% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "OTT scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "TOR scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 33% of its last 15",
+     "detail": "His team has won 27% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 2 days rest",
+     "detail": "Road game, 4 days rest",
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.8,
+   "starter_share_last10": 0.7,
    "career": {
     "starts": 307,
     "record": "156-114-36",
@@ -4718,62 +4722,62 @@
     "save_pct": 0.934
    },
    "vs_opponent": {
-    "starts": 8,
-    "record": "5-2-1",
+    "starts": 14,
+    "record": "8-6-0",
     "shutouts": 0,
-    "pos_rate": 0.875,
-    "avg_points": 4.11,
-    "save_pct": 0.923,
+    "pos_rate": 0.929,
+    "avg_points": 3.6,
+    "save_pct": 0.918,
     "games": [
      {
-      "date": "2026-04-11",
-      "opp": "OTT",
-      "home": 1,
-      "decision": "L",
-      "saves": 13,
-      "ga": 2,
-      "so": 0,
-      "points": -0.4
-     },
-     {
-      "date": "2026-03-19",
-      "opp": "OTT",
+      "date": "2026-09-30",
+      "opp": "TOR",
       "home": 0,
       "decision": "L",
       "saves": 24,
+      "ga": 2,
+      "so": 0,
+      "points": 1.8
+     },
+     {
+      "date": "2026-04-09",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "W",
+      "saves": 13,
       "ga": 3,
       "so": 0,
-      "points": 0.3
+      "points": 1.1
      },
      {
-      "date": "2025-10-18",
-      "opp": "OTT",
+      "date": "2026-03-17",
+      "opp": "TOR",
       "home": 0,
       "decision": "W",
-      "saves": 28,
-      "ga": 4,
+      "saves": 26,
+      "ga": 1,
       "so": 0,
-      "points": 2.6
+      "points": 6.7
      },
      {
-      "date": "2024-12-08",
-      "opp": "OTT",
-      "home": 0,
-      "decision": "W",
+      "date": "2025-01-02",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "L",
       "saves": 29,
       "ga": 2,
       "so": 0,
-      "points": 5.8
+      "points": 2.8
      },
      {
-      "date": "2023-10-26",
-      "opp": "OTT",
-      "home": 1,
-      "decision": "W",
-      "saves": 45,
+      "date": "2024-12-31",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "L",
+      "saves": 22,
       "ga": 2,
       "so": 0,
-      "points": 9.0
+      "points": 1.4
      }
     ]
    },
@@ -4843,13 +4847,13 @@
     "opp": "BUF",
     "state": "FUT"
    },
-   "prob_positive": 0.751,
-   "expected_points": 2.98,
+   "prob_positive": 0.7479,
+   "expected_points": 2.96,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "77% positive lately vs 67% career (save % 0.913)",
+     "detail": "77% positive lately vs 67% career (save % 0.912)",
      "tone": "good"
     },
     {
@@ -4859,8 +4863,8 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "BUF scoring 2.93 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "BUF scoring 3.07 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -4979,15 +4983,15 @@
    "team": "FLA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8474593.png",
    "next_game": {
-    "game_id": 2026020112,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020124,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T22:00:00Z",
     "home": 1,
-    "opp": "VAN",
-    "state": "PRE"
+    "opp": "SEA",
+    "state": "FUT"
    },
-   "prob_positive": 0.7095,
-   "expected_points": 2.43,
+   "prob_positive": 0.7189,
+   "expected_points": 2.52,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4996,14 +5000,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs VAN",
-     "detail": "23 career starts; adjusted positive rate 74% vs 74% overall",
+     "label": "History vs SEA",
+     "detail": "10 career starts; adjusted positive rate 71% vs 74% overall",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "VAN scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "SEA scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -5012,7 +5016,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 3 days rest",
+     "detail": "Home game, 5 days rest",
      "tone": "good"
     }
    ],
@@ -5034,62 +5038,62 @@
     "save_pct": 0.904
    },
    "vs_opponent": {
-    "starts": 23,
-    "record": "13-7-3",
-    "shutouts": 3,
-    "pos_rate": 0.739,
-    "avg_points": 3.5,
-    "save_pct": 0.908,
+    "starts": 10,
+    "record": "6-3-0",
+    "shutouts": 0,
+    "pos_rate": 0.7,
+    "avg_points": 2.06,
+    "save_pct": 0.889,
     "games": [
      {
-      "date": "2026-01-23",
-      "opp": "VAN",
+      "date": "2026-01-25",
+      "opp": "SEA",
       "home": 0,
-      "decision": "W",
-      "saves": 21,
-      "ga": 4,
-      "so": 0,
-      "points": 1.2
-     },
-     {
-      "date": "2025-12-14",
-      "opp": "VAN",
-      "home": 1,
       "decision": "L",
-      "saves": 13,
-      "ga": 2,
-      "so": 0,
-      "points": -0.4
-     },
-     {
-      "date": "2025-03-24",
-      "opp": "VAN",
-      "home": 1,
-      "decision": "O",
-      "saves": 25,
+      "saves": 15,
       "ga": 3,
       "so": 0,
-      "points": 1.5
+      "points": -1.5
      },
      {
-      "date": "2024-10-30",
-      "opp": "VAN",
+      "date": "2026-01-14",
+      "opp": "SEA",
+      "home": 1,
+      "decision": "W",
+      "saves": 15,
+      "ga": 2,
+      "so": 0,
+      "points": 3.0
+     },
+     {
+      "date": "2025-01-06",
+      "opp": "SEA",
       "home": 0,
       "decision": "W",
-      "saves": 20,
-      "ga": 0,
-      "so": 1,
-      "points": 11.0
+      "saves": 22,
+      "ga": 2,
+      "so": 0,
+      "points": 4.4
      },
      {
-      "date": "2024-04-16",
-      "opp": "VAN",
-      "home": 0,
+      "date": "2024-12-06",
+      "opp": "SEA",
+      "home": 1,
+      "decision": "W",
+      "saves": 17,
+      "ga": 2,
+      "so": 0,
+      "points": 3.4
+     },
+     {
+      "date": "2024-03-04",
+      "opp": "SEA",
+      "home": 1,
       "decision": "L",
-      "saves": 27,
+      "saves": 26,
       "ga": 4,
       "so": 0,
-      "points": -0.6
+      "points": -0.8
      }
     ]
    },
@@ -5152,15 +5156,15 @@
    "team": "NJD",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8474596.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
-    "home": 1,
-    "opp": "NYR",
-    "state": "PRE"
+    "game_id": 2026020121,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T17:00:00Z",
+    "home": 0,
+    "opp": "WSH",
+    "state": "FUT"
    },
-   "prob_positive": 0.7057,
-   "expected_points": 2.58,
+   "prob_positive": 0.669,
+   "expected_points": 2.13,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -5169,27 +5173,27 @@
      "tone": "good"
     },
     {
-     "label": "History vs NYR",
-     "detail": "7 career starts; adjusted positive rate 73% vs 74% overall",
-     "tone": "neutral"
+     "label": "History vs WSH",
+     "detail": "15 career starts; adjusted positive rate 69% vs 74% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "NYR scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "WSH scoring 3.33 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 47% of its last 15",
+     "detail": "His team has won 53% of its last 15",
      "tone": "neutral"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
-     "tone": "good"
+     "detail": "Road game, 4 days rest",
+     "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.6,
+   "starter_share_last10": 0.5,
    "career": {
     "starts": 476,
     "record": "225-197-43",
@@ -5207,62 +5211,62 @@
     "save_pct": 0.885
    },
    "vs_opponent": {
-    "starts": 7,
-    "record": "1-5-0",
-    "shutouts": 0,
-    "pos_rate": 0.714,
-    "avg_points": -0.07,
-    "save_pct": 0.868,
+    "starts": 15,
+    "record": "7-7-1",
+    "shutouts": 1,
+    "pos_rate": 0.667,
+    "avg_points": 2.18,
+    "save_pct": 0.891,
     "games": [
      {
-      "date": "2023-01-05",
-      "opp": "NYR",
-      "home": 1,
-      "decision": "L",
-      "saves": 27,
-      "ga": 3,
-      "so": 0,
-      "points": 0.9
-     },
-     {
-      "date": "2021-10-16",
-      "opp": "NYR",
-      "home": 1,
-      "decision": "L",
-      "saves": 21,
-      "ga": 2,
-      "so": 0,
-      "points": 1.2
-     },
-     {
-      "date": "2018-12-31",
-      "opp": "NYR",
-      "home": 1,
-      "decision": "L",
-      "saves": 21,
-      "ga": 2,
-      "so": 0,
-      "points": 1.2
-     },
-     {
-      "date": "2018-03-17",
-      "opp": "NYR",
+      "date": "2026-04-02",
+      "opp": "WSH",
       "home": 1,
       "decision": "W",
-      "saves": 17,
+      "saves": 29,
       "ga": 3,
       "so": 0,
-      "points": 1.9
+      "points": 4.3
      },
      {
-      "date": "2016-11-01",
-      "opp": "NYR",
+      "date": "2026-03-20",
+      "opp": "WSH",
       "home": 0,
       "decision": "L",
-      "saves": 16,
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 3.7
+     },
+     {
+      "date": "2025-12-27",
+      "opp": "WSH",
+      "home": 1,
+      "decision": "O",
+      "saves": 29,
       "ga": 4,
       "so": 0,
-      "points": -2.8
+      "points": 0.8
+     },
+     {
+      "date": "2025-11-15",
+      "opp": "WSH",
+      "home": 0,
+      "decision": "W",
+      "saves": 29,
+      "ga": 2,
+      "so": 0,
+      "points": 5.8
+     },
+     {
+      "date": "2024-11-30",
+      "opp": "WSH",
+      "home": 1,
+      "decision": "L",
+      "saves": 26,
+      "ga": 6,
+      "so": 0,
+      "points": -3.8
      }
     ]
    },
@@ -5332,8 +5336,8 @@
     "opp": "CHI",
     "state": "FUT"
    },
-   "prob_positive": 0.7504,
-   "expected_points": 2.81,
+   "prob_positive": 0.7472,
+   "expected_points": 2.77,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -5348,7 +5352,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "CHI scoring 2.27 goals/game (league 2.82)",
+     "detail": "CHI scoring 2.33 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -5505,8 +5509,8 @@
     "opp": "BUF",
     "state": "FUT"
    },
-   "prob_positive": 0.711,
-   "expected_points": 2.6,
+   "prob_positive": 0.7069,
+   "expected_points": 2.57,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -5521,8 +5525,8 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "BUF scoring 2.93 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "BUF scoring 3.07 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -5658,8 +5662,8 @@
     "opp": "ANA",
     "state": "FUT"
    },
-   "prob_positive": 0.7281,
-   "expected_points": 2.8,
+   "prob_positive": 0.7272,
+   "expected_points": 2.79,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -5794,31 +5798,31 @@
    "team": "MIN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8482661.png",
    "next_game": {
-    "game_id": 2026020116,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020135,
+    "date": "2026-10-18",
+    "start_utc": "2026-10-18T22:00:00Z",
     "home": 1,
-    "opp": "STL",
+    "opp": "CBJ",
     "state": "FUT"
    },
-   "prob_positive": 0.7432,
-   "expected_points": 3.04,
+   "prob_positive": 0.787,
+   "expected_points": 3.51,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "95% positive lately vs 78% career (save % 0.930)",
+     "detail": "95% positive lately vs 78% career (save % 0.920)",
      "tone": "good"
     },
     {
-     "label": "History vs STL",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
+     "label": "History vs CBJ",
+     "detail": "1 career starts; adjusted positive rate 82% vs 78% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "STL scoring 3.40 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -5833,31 +5837,52 @@
    ],
    "starter_share_last10": 0.8,
    "career": {
-    "starts": 44,
-    "record": "24-13-7",
+    "starts": 45,
+    "record": "25-13-7",
     "shutouts": 5,
-    "pos_rate": 0.795,
-    "avg_points": 3.83,
-    "save_pct": 0.913
+    "pos_rate": 0.8,
+    "avg_points": 3.77,
+    "save_pct": 0.912
    },
    "season": {
-    "starts": 6,
-    "record": "4-1-1",
+    "starts": 7,
+    "record": "5-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 4.48,
-    "save_pct": 0.933
+    "avg_points": 4.01,
+    "save_pct": 0.92
    },
    "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
+    "starts": 1,
+    "record": "1-0-0",
     "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
+    "pos_rate": 1.0,
+    "avg_points": 5.4,
+    "save_pct": 0.931,
+    "games": [
+     {
+      "date": "2025-12-18",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "W",
+      "saves": 27,
+      "ga": 2,
+      "so": 0,
+      "points": 5.4
+     }
+    ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "STL",
+     "home": 1,
+     "decision": "W",
+     "saves": 21,
+     "ga": 4,
+     "so": 0,
+     "points": 1.2
+    },
     {
      "date": "2026-10-12",
      "opp": "VGK",
@@ -5897,16 +5922,6 @@
      "ga": 3,
      "so": 0,
      "points": 1.5
-    },
-    {
-     "date": "2026-10-03",
-     "opp": "BOS",
-     "home": 1,
-     "decision": "W",
-     "saves": 26,
-     "ga": 1,
-     "so": 0,
-     "points": 6.7
     }
    ]
   },
@@ -5923,7 +5938,7 @@
     "opp": "NYR",
     "state": "FUT"
    },
-   "prob_positive": 0.7293,
+   "prob_positive": 0.7306,
    "expected_points": 2.72,
    "verdict": "Likely positive",
    "signals": [
@@ -5939,7 +5954,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "NYR scoring 2.87 goals/game (league 2.82)",
+     "detail": "NYR scoring 2.80 goals/game (league 2.82)",
      "tone": "neutral"
     },
     {
@@ -6059,31 +6074,31 @@
    "team": "STL",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/STL/8480981.png",
    "next_game": {
-    "game_id": 2026020116,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020131,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T00:00:00Z",
     "home": 0,
-    "opp": "MIN",
+    "opp": "NSH",
     "state": "FUT"
    },
-   "prob_positive": 0.697,
-   "expected_points": 2.48,
+   "prob_positive": 0.6919,
+   "expected_points": 2.39,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "94% positive lately vs 74% career (save % 0.913)",
+     "detail": "86% positive lately vs 74% career (save % 0.907)",
      "tone": "good"
     },
     {
-     "label": "History vs MIN",
-     "detail": "3 career starts; adjusted positive rate 84% vs 74% overall",
-     "tone": "good"
+     "label": "History vs NSH",
+     "detail": "7 career starts; adjusted positive rate 64% vs 74% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.07 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "NSH scoring 2.73 goals/game (league 2.82)",
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -6098,62 +6113,92 @@
    ],
    "starter_share_last10": 0.7,
    "career": {
-    "starts": 110,
-    "record": "60-36-11",
+    "starts": 111,
+    "record": "60-37-11",
     "shutouts": 9,
-    "pos_rate": 0.745,
-    "avg_points": 3.27,
-    "save_pct": 0.908
+    "pos_rate": 0.739,
+    "avg_points": 3.23,
+    "save_pct": 0.907
    },
    "season": {
-    "starts": 4,
-    "record": "2-1-1",
+    "starts": 5,
+    "record": "2-2-1",
     "shutouts": 1,
-    "pos_rate": 1.0,
-    "avg_points": 4.23,
-    "save_pct": 0.921
+    "pos_rate": 0.8,
+    "avg_points": 3.2,
+    "save_pct": 0.906
    },
    "vs_opponent": {
-    "starts": 3,
-    "record": "3-0-0",
+    "starts": 7,
+    "record": "4-3-0",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 4.97,
-    "save_pct": 0.931,
+    "pos_rate": 0.571,
+    "avg_points": 1.01,
+    "save_pct": 0.865,
     "games": [
      {
-      "date": "2026-04-13",
-      "opp": "MIN",
-      "home": 1,
-      "decision": "W",
-      "saves": 28,
-      "ga": 3,
+      "date": "2026-02-02",
+      "opp": "NSH",
+      "home": 0,
+      "decision": "L",
+      "saves": 22,
+      "ga": 6,
       "so": 0,
-      "points": 4.1
+      "points": -4.6
      },
      {
-      "date": "2026-03-01",
-      "opp": "MIN",
+      "date": "2025-12-27",
+      "opp": "NSH",
+      "home": 1,
+      "decision": "W",
+      "saves": 30,
+      "ga": 2,
+      "so": 0,
+      "points": 6.0
+     },
+     {
+      "date": "2025-12-15",
+      "opp": "NSH",
+      "home": 1,
+      "decision": "L",
+      "saves": 21,
+      "ga": 4,
+      "so": 0,
+      "points": -1.8
+     },
+     {
+      "date": "2025-03-27",
+      "opp": "NSH",
+      "home": 0,
+      "decision": "W",
+      "saves": 16,
+      "ga": 2,
+      "so": 0,
+      "points": 3.2
+     },
+     {
+      "date": "2025-03-18",
+      "opp": "NSH",
       "home": 0,
       "decision": "W",
       "saves": 22,
       "ga": 1,
       "so": 0,
       "points": 5.9
-     },
-     {
-      "date": "2025-03-15",
-      "opp": "MIN",
-      "home": 0,
-      "decision": "W",
-      "saves": 17,
-      "ga": 1,
-      "so": 0,
-      "points": 4.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "MIN",
+     "home": 0,
+     "decision": "L",
+     "saves": 33,
+     "ga": 5,
+     "so": 0,
+     "points": -0.9
+    },
     {
      "date": "2026-10-13",
      "opp": "OTT",
@@ -6193,16 +6238,6 @@
      "ga": 0,
      "so": 1,
      "points": 12.0
-    },
-    {
-     "date": "2026-04-16",
-     "opp": "UTA",
-     "home": 0,
-     "decision": "W",
-     "saves": 20,
-     "ga": 3,
-     "so": 0,
-     "points": 2.5
     }
    ]
   },
@@ -6212,15 +6247,15 @@
    "team": "SEA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8478916.png",
    "next_game": {
-    "game_id": 2026020111,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020124,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T22:00:00Z",
     "home": 0,
-    "opp": "TBL",
-    "state": "PRE"
+    "opp": "FLA",
+    "state": "FUT"
    },
-   "prob_positive": 0.713,
-   "expected_points": 2.55,
+   "prob_positive": 0.6915,
+   "expected_points": 2.34,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -6229,14 +6264,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs TBL",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
+     "label": "History vs FLA",
+     "detail": "6 career starts; adjusted positive rate 80% vs 75% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "TBL scoring 2.33 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "FLA scoring 3.07 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -6245,7 +6280,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 4 days rest",
+     "detail": "Road game, 6 days rest",
      "tone": "neutral"
     }
    ],
@@ -6267,13 +6302,64 @@
     "save_pct": 0.913
    },
    "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
-    "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
+    "starts": 6,
+    "record": "3-1-2",
+    "shutouts": 1,
+    "pos_rate": 0.833,
+    "avg_points": 5.05,
+    "save_pct": 0.935,
+    "games": [
+     {
+      "date": "2026-03-24",
+      "opp": "FLA",
+      "home": 0,
+      "decision": "O",
+      "saves": 20,
+      "ga": 4,
+      "so": 0,
+      "points": -1.0
+     },
+     {
+      "date": "2026-03-15",
+      "opp": "FLA",
+      "home": 1,
+      "decision": "W",
+      "saves": 23,
+      "ga": 2,
+      "so": 0,
+      "points": 4.6
+     },
+     {
+      "date": "2025-02-22",
+      "opp": "FLA",
+      "home": 0,
+      "decision": "W",
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 6.7
+     },
+     {
+      "date": "2024-12-10",
+      "opp": "FLA",
+      "home": 1,
+      "decision": "O",
+      "saves": 32,
+      "ga": 1,
+      "so": 0,
+      "points": 5.9
+     },
+     {
+      "date": "2023-12-12",
+      "opp": "FLA",
+      "home": 1,
+      "decision": "W",
+      "saves": 24,
+      "ga": 0,
+      "so": 1,
+      "points": 11.8
+     }
+    ]
    },
    "last5": [
     {
@@ -6334,15 +6420,15 @@
    "team": "DET",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/DET/8476434.png",
    "next_game": {
-    "game_id": 2026020110,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:30:00Z",
+    "game_id": 2026020127,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 1,
-    "opp": "PHI",
-    "state": "PRE"
+    "opp": "SJS",
+    "state": "FUT"
    },
-   "prob_positive": 0.7132,
-   "expected_points": 2.51,
+   "prob_positive": 0.7294,
+   "expected_points": 2.64,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -6351,27 +6437,27 @@
      "tone": "bad"
     },
     {
-     "label": "History vs PHI",
-     "detail": "13 career starts; adjusted positive rate 76% vs 74% overall",
+     "label": "History vs SJS",
+     "detail": "22 career starts; adjusted positive rate 73% vs 74% overall",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "PHI scoring 2.40 goals/game (league 2.82)",
+     "detail": "SJS scoring 2.67 goals/game (league 2.82)",
      "tone": "good"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 20% of its last 15",
+     "detail": "His team has won 27% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
+     "detail": "Home game, 4 days rest",
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.8,
+   "starter_share_last10": 0.7,
    "career": {
     "starts": 556,
     "record": "231-241-67",
@@ -6389,62 +6475,62 @@
     "save_pct": 0.863
    },
    "vs_opponent": {
-    "starts": 13,
-    "record": "7-4-2",
-    "shutouts": 0,
-    "pos_rate": 0.769,
-    "avg_points": 3.2,
-    "save_pct": 0.91,
+    "starts": 22,
+    "record": "10-7-4",
+    "shutouts": 1,
+    "pos_rate": 0.727,
+    "avg_points": 2.68,
+    "save_pct": 0.902,
     "games": [
      {
-      "date": "2026-04-09",
-      "opp": "PHI",
+      "date": "2026-01-16",
+      "opp": "SJS",
       "home": 1,
       "decision": "W",
-      "saves": 13,
+      "saves": 20,
       "ga": 2,
       "so": 0,
-      "points": 2.6
+      "points": 4.0
      },
      {
-      "date": "2026-04-02",
-      "opp": "PHI",
+      "date": "2024-02-29",
+      "opp": "SJS",
       "home": 0,
       "decision": "W",
-      "saves": 32,
-      "ga": 2,
-      "so": 0,
-      "points": 6.4
-     },
-     {
-      "date": "2026-03-28",
-      "opp": "PHI",
-      "home": 1,
-      "decision": "L",
-      "saves": 17,
-      "ga": 4,
-      "so": 0,
-      "points": -2.6
-     },
-     {
-      "date": "2025-01-11",
-      "opp": "PHI",
-      "home": 0,
-      "decision": "L",
       "saves": 24,
-      "ga": 6,
-      "so": 0,
-      "points": -4.2
-     },
-     {
-      "date": "2023-01-02",
-      "opp": "PHI",
-      "home": 1,
-      "decision": "L",
-      "saves": 29,
       "ga": 4,
       "so": 0,
-      "points": -0.2
+      "points": 1.8
+     },
+     {
+      "date": "2024-01-31",
+      "opp": "SJS",
+      "home": 1,
+      "decision": "W",
+      "saves": 26,
+      "ga": 2,
+      "so": 0,
+      "points": 5.2
+     },
+     {
+      "date": "2024-01-20",
+      "opp": "SJS",
+      "home": 0,
+      "decision": "L",
+      "saves": 14,
+      "ga": 4,
+      "so": 0,
+      "points": -3.2
+     },
+     {
+      "date": "2023-11-12",
+      "opp": "SJS",
+      "home": 1,
+      "decision": "W",
+      "saves": 25,
+      "ga": 1,
+      "so": 0,
+      "points": 6.5
      }
     ]
    },
@@ -6507,15 +6593,15 @@
    "team": "NYR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYR/8476914.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020129,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "NJD",
-    "state": "PRE"
+    "opp": "CBJ",
+    "state": "FUT"
    },
-   "prob_positive": 0.7521,
-   "expected_points": 2.81,
+   "prob_positive": 0.7312,
+   "expected_points": 2.64,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -6524,13 +6610,13 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs NJD",
-     "detail": "10 career starts; adjusted positive rate 84% vs 71% overall",
-     "tone": "good"
+     "label": "History vs CBJ",
+     "detail": "4 career starts; adjusted positive rate 61% vs 71% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "NJD scoring 2.60 goals/game (league 2.82)",
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -6555,62 +6641,52 @@
    },
    "season": null,
    "vs_opponent": {
-    "starts": 10,
-    "record": "6-3-1",
+    "starts": 4,
+    "record": "2-2-0",
     "shutouts": 0,
-    "pos_rate": 0.9,
-    "avg_points": 3.25,
-    "save_pct": 0.911,
+    "pos_rate": 0.5,
+    "avg_points": 2.0,
+    "save_pct": 0.891,
     "games": [
      {
-      "date": "2026-03-16",
-      "opp": "NJD",
-      "home": 0,
-      "decision": "O",
-      "saves": 30,
-      "ga": 4,
-      "so": 0,
-      "points": 1.0
-     },
-     {
-      "date": "2024-03-23",
-      "opp": "NJD",
+      "date": "2026-04-12",
+      "opp": "CBJ",
       "home": 0,
       "decision": "W",
-      "saves": 18,
+      "saves": 33,
       "ga": 2,
       "so": 0,
-      "points": 3.6
+      "points": 6.6
      },
      {
-      "date": "2023-12-29",
-      "opp": "NJD",
+      "date": "2026-02-26",
+      "opp": "CBJ",
       "home": 1,
+      "decision": "W",
+      "saves": 36,
+      "ga": 2,
+      "so": 0,
+      "points": 7.2
+     },
+     {
+      "date": "2024-12-27",
+      "opp": "CBJ",
+      "home": 0,
       "decision": "L",
-      "saves": 24,
+      "saves": 27,
       "ga": 6,
       "so": 0,
-      "points": -4.2
+      "points": -3.6
      },
      {
-      "date": "2022-01-08",
-      "opp": "NJD",
-      "home": 1,
-      "decision": "W",
-      "saves": 27,
-      "ga": 3,
-      "so": 0,
-      "points": 3.9
-     },
-     {
-      "date": "2022-01-06",
-      "opp": "NJD",
+      "date": "2023-12-01",
+      "opp": "CBJ",
       "home": 0,
       "decision": "L",
-      "saves": 25,
-      "ga": 2,
+      "saves": 19,
+      "ga": 4,
       "so": 0,
-      "points": 2.0
+      "points": -2.2
      }
     ]
    },
@@ -6673,15 +6749,15 @@
    "team": "STL",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/STL/8476412.png",
    "next_game": {
-    "game_id": 2026020116,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020131,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T00:00:00Z",
     "home": 0,
-    "opp": "MIN",
+    "opp": "NSH",
     "state": "FUT"
    },
-   "prob_positive": 0.6794,
-   "expected_points": 2.19,
+   "prob_positive": 0.6826,
+   "expected_points": 2.27,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -6690,14 +6766,14 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs MIN",
-     "detail": "20 career starts; adjusted positive rate 71% vs 73% overall",
-     "tone": "neutral"
+     "label": "History vs NSH",
+     "detail": "12 career starts; adjusted positive rate 69% vs 73% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.07 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "NSH scoring 2.73 goals/game (league 2.82)",
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -6706,7 +6782,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 5 days rest",
+     "detail": "Road game, 7 days rest",
      "tone": "neutral"
     }
    ],
@@ -6728,62 +6804,62 @@
     "save_pct": 0.847
    },
    "vs_opponent": {
-    "starts": 20,
-    "record": "10-8-1",
-    "shutouts": 1,
-    "pos_rate": 0.7,
-    "avg_points": 2.38,
-    "save_pct": 0.896,
+    "starts": 12,
+    "record": "6-5-1",
+    "shutouts": 2,
+    "pos_rate": 0.667,
+    "avg_points": 3.66,
+    "save_pct": 0.911,
     "games": [
      {
-      "date": "2025-10-09",
-      "opp": "MIN",
-      "home": 1,
-      "decision": "L",
-      "saves": 16,
-      "ga": 5,
-      "so": 0,
-      "points": -4.3
-     },
-     {
-      "date": "2025-01-07",
-      "opp": "MIN",
+      "date": "2025-12-11",
+      "opp": "NSH",
       "home": 0,
       "decision": "L",
-      "saves": 20,
-      "ga": 5,
+      "saves": 19,
+      "ga": 6,
       "so": 0,
-      "points": -3.5
+      "points": -5.2
      },
      {
-      "date": "2024-11-19",
-      "opp": "MIN",
+      "date": "2025-03-23",
+      "opp": "NSH",
       "home": 1,
-      "decision": "L",
-      "saves": 24,
-      "ga": 3,
-      "so": 0,
-      "points": 0.3
-     },
-     {
-      "date": "2024-10-15",
-      "opp": "MIN",
-      "home": 1,
-      "decision": "L",
-      "saves": 23,
-      "ga": 3,
-      "so": 0,
-      "points": 0.1
-     },
-     {
-      "date": "2024-03-23",
-      "opp": "MIN",
-      "home": 0,
       "decision": "W",
-      "saves": 30,
+      "saves": 31,
+      "ga": 1,
+      "so": 0,
+      "points": 7.7
+     },
+     {
+      "date": "2024-04-04",
+      "opp": "NSH",
+      "home": 0,
+      "decision": "L",
+      "saves": 25,
       "ga": 4,
       "so": 0,
-      "points": 3.0
+      "points": -1.0
+     },
+     {
+      "date": "2024-02-17",
+      "opp": "NSH",
+      "home": 1,
+      "decision": "L",
+      "saves": 28,
+      "ga": 4,
+      "so": 0,
+      "points": -0.4
+     },
+     {
+      "date": "2023-01-19",
+      "opp": "NSH",
+      "home": 1,
+      "decision": "W",
+      "saves": 24,
+      "ga": 2,
+      "so": 0,
+      "points": 4.8
      }
     ]
    },
@@ -6846,111 +6922,131 @@
    "team": "PHI",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/PHI/8479361.png",
    "next_game": {
-    "game_id": 2026020110,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:30:00Z",
-    "home": 0,
-    "opp": "DET",
-    "state": "PRE"
+    "game_id": 2026020128,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
+    "home": 1,
+    "opp": "OTT",
+    "state": "FUT"
    },
-   "prob_positive": 0.7158,
-   "expected_points": 2.6,
+   "prob_positive": 0.717,
+   "expected_points": 2.51,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "63% positive lately vs 74% career (save % 0.893)",
+     "detail": "63% positive lately vs 74% career (save % 0.895)",
      "tone": "bad"
     },
     {
-     "label": "History vs DET",
-     "detail": "4 career starts; adjusted positive rate 75% vs 74% overall",
+     "label": "History vs OTT",
+     "detail": "7 career starts; adjusted positive rate 73% vs 74% overall",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "DET scoring 2.60 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "OTT scoring 2.80 goals/game (league 2.82)",
+     "tone": "neutral"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 40% of its last 15",
+     "detail": "His team has won 33% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 4 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.4,
+   "starter_share_last10": 0.5,
    "career": {
-    "starts": 117,
-    "record": "60-44-11",
+    "starts": 118,
+    "record": "60-45-11",
     "shutouts": 4,
-    "pos_rate": 0.744,
-    "avg_points": 2.99,
+    "pos_rate": 0.746,
+    "avg_points": 2.98,
     "save_pct": 0.906
    },
    "season": {
-    "starts": 4,
-    "record": "0-2-2",
+    "starts": 5,
+    "record": "0-3-2",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 2.4,
-    "save_pct": 0.914
+    "pos_rate": 0.8,
+    "avg_points": 2.28,
+    "save_pct": 0.916
    },
    "vs_opponent": {
-    "starts": 4,
-    "record": "2-1-1",
+    "starts": 7,
+    "record": "1-5-0",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 3.75,
-    "save_pct": 0.92,
+    "pos_rate": 0.714,
+    "avg_points": -0.01,
+    "save_pct": 0.874,
     "games": [
      {
-      "date": "2026-01-21",
-      "opp": "DET",
-      "home": 1,
-      "decision": "O",
-      "saves": 39,
-      "ga": 2,
-      "so": 0,
-      "points": 5.8
-     },
-     {
-      "date": "2025-04-17",
-      "opp": "DET",
-      "home": 1,
-      "decision": "W",
-      "saves": 31,
-      "ga": 3,
-      "so": 0,
-      "points": 4.7
-     },
-     {
-      "date": "2024-12-27",
-      "opp": "DET",
-      "home": 0,
-      "decision": "W",
-      "saves": 23,
-      "ga": 2,
-      "so": 0,
-      "points": 4.6
-     },
-     {
-      "date": "2024-12-14",
-      "opp": "DET",
+      "date": "2026-10-08",
+      "opp": "OTT",
       "home": 0,
       "decision": "L",
-      "saves": 22,
-      "ga": 3,
+      "saves": 24,
+      "ga": 2,
       "so": 0,
-      "points": -0.1
+      "points": 1.8
+     },
+     {
+      "date": "2026-03-21",
+      "opp": "OTT",
+      "home": 0,
+      "decision": "L",
+      "saves": 39,
+      "ga": 5,
+      "so": 0,
+      "points": 0.3
+     },
+     {
+      "date": "2026-02-28",
+      "opp": "OTT",
+      "home": 1,
+      "decision": "L",
+      "saves": 23,
+      "ga": 5,
+      "so": 0,
+      "points": -2.9
+     },
+     {
+      "date": "2025-12-27",
+      "opp": "OTT",
+      "home": 1,
+      "decision": "W",
+      "saves": 26,
+      "ga": 5,
+      "so": 0,
+      "points": 0.7
+     },
+     {
+      "date": "2025-01-25",
+      "opp": "OTT",
+      "home": 0,
+      "decision": "L",
+      "saves": 21,
+      "ga": 2,
+      "so": 0,
+      "points": 1.2
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "DET",
+     "home": 0,
+     "decision": "L",
+     "saves": 24,
+     "ga": 2,
+     "so": 0,
+     "points": 1.8
+    },
     {
      "date": "2026-10-11",
      "opp": "CAR",
@@ -6990,16 +7086,6 @@
      "ga": 3,
      "so": 0,
      "points": 4.7
-    },
-    {
-     "date": "2026-04-11",
-     "opp": "FLA",
-     "home": 1,
-     "decision": "L",
-     "saves": 19,
-     "ga": 4,
-     "so": 0,
-     "points": -2.2
     }
    ]
   },
@@ -7009,16 +7095,16 @@
    "team": "NSH",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NSH/8481020.png",
    "next_game": {
-    "game_id": 2026020115,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020131,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T00:00:00Z",
     "home": 1,
-    "opp": "SJS",
+    "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.6844,
-   "expected_points": 2.16,
-   "verdict": "Likely positive",
+   "prob_positive": 0.6363,
+   "expected_points": 1.8,
+   "verdict": "Lean positive",
    "signals": [
     {
      "label": "Recent form",
@@ -7026,14 +7112,14 @@
      "tone": "good"
     },
     {
-     "label": "History vs SJS",
-     "detail": "3 career starts; adjusted positive rate 82% vs 72% overall",
-     "tone": "good"
+     "label": "History vs STL",
+     "detail": "3 career starts; adjusted positive rate 70% vs 72% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "SJS scoring 2.73 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "STL scoring 3.60 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -7060,39 +7146,39 @@
     "starts": 3,
     "record": "2-1-0",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 3.0,
-    "save_pct": 0.904,
+    "pos_rate": 0.667,
+    "avg_points": 2.7,
+    "save_pct": 0.9,
     "games": [
      {
-      "date": "2026-04-13",
-      "opp": "SJS",
-      "home": 1,
+      "date": "2025-03-23",
+      "opp": "STL",
+      "home": 0,
       "decision": "L",
-      "saves": 20,
-      "ga": 2,
+      "saves": 14,
+      "ga": 3,
       "so": 0,
-      "points": 1.0
+      "points": -1.7
      },
      {
-      "date": "2025-01-23",
-      "opp": "SJS",
+      "date": "2024-03-19",
+      "opp": "STL",
       "home": 0,
       "decision": "W",
       "saves": 30,
-      "ga": 5,
+      "ga": 3,
       "so": 0,
-      "points": 1.5
+      "points": 4.5
      },
      {
-      "date": "2024-10-20",
-      "opp": "SJS",
+      "date": "2023-02-18",
+      "opp": "STL",
       "home": 0,
       "decision": "W",
-      "saves": 25,
+      "saves": 19,
       "ga": 1,
       "so": 0,
-      "points": 6.5
+      "points": 5.3
      }
     ]
    },
@@ -7155,31 +7241,31 @@
    "team": "NSH",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NSH/8477424.png",
    "next_game": {
-    "game_id": 2026020115,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020131,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T00:00:00Z",
     "home": 1,
-    "opp": "SJS",
+    "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.7393,
-   "expected_points": 2.86,
+   "prob_positive": 0.6965,
+   "expected_points": 2.44,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "63% positive lately vs 74% career (save % 0.895)",
+     "detail": "63% positive lately vs 74% career (save % 0.900)",
      "tone": "bad"
     },
     {
-     "label": "History vs SJS",
-     "detail": "19 career starts; adjusted positive rate 82% vs 74% overall",
-     "tone": "good"
+     "label": "History vs STL",
+     "detail": "24 career starts; adjusted positive rate 54% vs 74% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "SJS scoring 2.73 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "STL scoring 3.60 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -7194,82 +7280,92 @@
    ],
    "starter_share_last10": 0.7,
    "career": {
-    "starts": 455,
-    "record": "231-173-45",
+    "starts": 456,
+    "record": "231-173-46",
     "shutouts": 27,
-    "pos_rate": 0.736,
+    "pos_rate": 0.737,
     "avg_points": 3.37,
     "save_pct": 0.912
    },
    "season": {
-    "starts": 5,
-    "record": "2-2-1",
+    "starts": 6,
+    "record": "2-2-2",
     "shutouts": 0,
-    "pos_rate": 0.6,
-    "avg_points": 2.16,
-    "save_pct": 0.897
+    "pos_rate": 0.667,
+    "avg_points": 2.47,
+    "save_pct": 0.904
    },
    "vs_opponent": {
-    "starts": 19,
-    "record": "15-2-1",
-    "shutouts": 2,
-    "pos_rate": 0.842,
-    "avg_points": 4.81,
-    "save_pct": 0.925,
+    "starts": 24,
+    "record": "10-11-2",
+    "shutouts": 1,
+    "pos_rate": 0.5,
+    "avg_points": 1.6,
+    "save_pct": 0.885,
     "games": [
      {
-      "date": "2026-04-04",
-      "opp": "SJS",
-      "home": 0,
-      "decision": "W",
-      "saves": 24,
-      "ga": 3,
-      "so": 0,
-      "points": 3.3
-     },
-     {
-      "date": "2026-03-24",
-      "opp": "SJS",
-      "home": 1,
-      "decision": "W",
-      "saves": 27,
-      "ga": 3,
-      "so": 0,
-      "points": 3.9
-     },
-     {
-      "date": "2025-03-11",
-      "opp": "SJS",
-      "home": 0,
-      "decision": "W",
-      "saves": 25,
-      "ga": 2,
-      "so": 0,
-      "points": 5.0
-     },
-     {
-      "date": "2025-01-21",
-      "opp": "SJS",
+      "date": "2026-02-02",
+      "opp": "STL",
       "home": 1,
       "decision": "-",
-      "saves": 4,
-      "ga": 4,
+      "saves": 16,
+      "ga": 5,
       "so": 0,
-      "points": -5.2
+      "points": -4.3
      },
      {
-      "date": "2024-03-19",
-      "opp": "SJS",
-      "home": 1,
+      "date": "2025-12-27",
+      "opp": "STL",
+      "home": 0,
+      "decision": "L",
+      "saves": 17,
+      "ga": 3,
+      "so": 0,
+      "points": -1.1
+     },
+     {
+      "date": "2025-12-15",
+      "opp": "STL",
+      "home": 0,
       "decision": "W",
-      "saves": 18,
+      "saves": 20,
       "ga": 2,
       "so": 0,
-      "points": 3.6
+      "points": 4.0
+     },
+     {
+      "date": "2025-12-11",
+      "opp": "STL",
+      "home": 1,
+      "decision": "W",
+      "saves": 24,
+      "ga": 2,
+      "so": 0,
+      "points": 4.8
+     },
+     {
+      "date": "2025-03-27",
+      "opp": "STL",
+      "home": 1,
+      "decision": "L",
+      "saves": 18,
+      "ga": 3,
+      "so": 0,
+      "points": -0.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "SJS",
+     "home": 1,
+     "decision": "O",
+     "saves": 30,
+     "ga": 2,
+     "so": 0,
+     "points": 4.0
+    },
     {
      "date": "2026-10-13",
      "opp": "VGK",
@@ -7309,16 +7405,6 @@
      "ga": 1,
      "so": 0,
      "points": 7.3
-    },
-    {
-     "date": "2026-10-01",
-     "opp": "MIN",
-     "home": 1,
-     "decision": "L",
-     "saves": 27,
-     "ga": 3,
-     "so": 0,
-     "points": 0.9
     }
    ]
   },
@@ -7328,30 +7414,30 @@
    "team": "UTA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/UTA/8478872.png",
    "next_game": {
-    "game_id": 2026020117,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T01:00:00Z",
-    "home": 0,
+    "game_id": 2026020133,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
+    "home": 1,
     "opp": "EDM",
     "state": "FUT"
    },
-   "prob_positive": 0.629,
-   "expected_points": 1.68,
-   "verdict": "Lean positive",
+   "prob_positive": 0.6634,
+   "expected_points": 2.01,
+   "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "70% positive lately vs 68% career (save % 0.895)",
-     "tone": "neutral"
+     "detail": "77% positive lately vs 68% career (save % 0.903)",
+     "tone": "good"
     },
     {
      "label": "History vs EDM",
-     "detail": "9 career starts; adjusted positive rate 39% vs 68% overall",
+     "detail": "10 career starts; adjusted positive rate 43% vs 68% overall",
      "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "EDM scoring 3.47 goals/game (league 2.82)",
+     "detail": "EDM scoring 3.40 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -7361,35 +7447,45 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 2 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.7,
+   "starter_share_last10": 0.8,
    "career": {
-    "starts": 254,
-    "record": "110-116-22",
+    "starts": 255,
+    "record": "111-116-22",
     "shutouts": 9,
-    "pos_rate": 0.681,
-    "avg_points": 2.32,
+    "pos_rate": 0.682,
+    "avg_points": 2.33,
     "save_pct": 0.898
    },
    "season": {
-    "starts": 5,
-    "record": "4-1-0",
+    "starts": 6,
+    "record": "5-1-0",
     "shutouts": 1,
-    "pos_rate": 0.8,
-    "avg_points": 4.22,
-    "save_pct": 0.908
+    "pos_rate": 0.833,
+    "avg_points": 4.25,
+    "save_pct": 0.909
    },
    "vs_opponent": {
-    "starts": 9,
-    "record": "2-6-1",
+    "starts": 10,
+    "record": "3-6-1",
     "shutouts": 0,
-    "pos_rate": 0.222,
-    "avg_points": -0.91,
-    "save_pct": 0.846,
+    "pos_rate": 0.3,
+    "avg_points": -0.38,
+    "save_pct": 0.852,
     "games": [
+     {
+      "date": "2026-10-15",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "W",
+      "saves": 22,
+      "ga": 2,
+      "so": 0,
+      "points": 4.4
+     },
      {
       "date": "2026-04-07",
       "opp": "EDM",
@@ -7429,20 +7525,20 @@
       "ga": 3,
       "so": 0,
       "points": -2.1
-     },
-     {
-      "date": "2024-11-29",
-      "opp": "EDM",
-      "home": 1,
-      "decision": "O",
-      "saves": 28,
-      "ga": 4,
-      "so": 0,
-      "points": 0.6
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "EDM",
+     "home": 0,
+     "decision": "W",
+     "saves": 22,
+     "ga": 2,
+     "so": 0,
+     "points": 4.4
+    },
     {
      "date": "2026-10-13",
      "opp": "TOR",
@@ -7482,16 +7578,6 @@
      "ga": 3,
      "so": 0,
      "points": -0.9
-    },
-    {
-     "date": "2026-10-01",
-     "opp": "CHI",
-     "home": 1,
-     "decision": "W",
-     "saves": 15,
-     "ga": 0,
-     "so": 1,
-     "points": 10.0
     }
    ]
   },
@@ -7501,15 +7587,15 @@
    "team": "VAN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VAN/8480947.png",
    "next_game": {
-    "game_id": 2026020112,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020123,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T20:00:00Z",
     "home": 0,
-    "opp": "FLA",
-    "state": "PRE"
+    "opp": "TBL",
+    "state": "FUT"
    },
-   "prob_positive": 0.57,
-   "expected_points": 1.38,
+   "prob_positive": 0.5996,
+   "expected_points": 1.65,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -7518,14 +7604,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs FLA",
-     "detail": "13 career starts; adjusted positive rate 74% vs 66% overall",
-     "tone": "good"
+     "label": "History vs TBL",
+     "detail": "8 career starts; adjusted positive rate 56% vs 66% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "FLA scoring 3.00 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "TBL scoring 2.53 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -7534,11 +7620,11 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 4 days rest",
+     "detail": "Road game, 6 days rest",
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.7,
+   "starter_share_last10": 0.6,
    "career": {
     "starts": 198,
     "record": "80-88-27",
@@ -7556,62 +7642,62 @@
     "save_pct": 0.781
    },
    "vs_opponent": {
-    "starts": 13,
-    "record": "8-3-2",
-    "shutouts": 3,
-    "pos_rate": 0.769,
-    "avg_points": 5.37,
-    "save_pct": 0.926,
+    "starts": 8,
+    "record": "1-5-1",
+    "shutouts": 0,
+    "pos_rate": 0.5,
+    "avg_points": 0.15,
+    "save_pct": 0.876,
     "games": [
      {
-      "date": "2026-03-17",
-      "opp": "FLA",
+      "date": "2026-03-19",
+      "opp": "TBL",
       "home": 1,
+      "decision": "L",
+      "saves": 25,
+      "ga": 6,
+      "so": 0,
+      "points": -4.0
+     },
+     {
+      "date": "2025-11-16",
+      "opp": "TBL",
+      "home": 0,
       "decision": "W",
-      "saves": 21,
+      "saves": 28,
       "ga": 2,
       "so": 0,
-      "points": 4.2
+      "points": 5.6
      },
      {
-      "date": "2024-12-12",
-      "opp": "FLA",
+      "date": "2024-12-08",
+      "opp": "TBL",
       "home": 1,
-      "decision": "W",
-      "saves": 27,
-      "ga": 0,
-      "so": 1,
-      "points": 12.4
-     },
-     {
-      "date": "2024-10-17",
-      "opp": "FLA",
-      "home": 0,
-      "decision": "W",
-      "saves": 26,
-      "ga": 2,
+      "decision": "L",
+      "saves": 29,
+      "ga": 3,
       "so": 0,
-      "points": 5.2
+      "points": 1.3
      },
      {
-      "date": "2024-03-21",
-      "opp": "FLA",
+      "date": "2022-04-01",
+      "opp": "TBL",
       "home": 0,
-      "decision": "W",
-      "saves": 33,
-      "ga": 0,
-      "so": 1,
-      "points": 13.6
-     },
-     {
-      "date": "2023-03-02",
-      "opp": "FLA",
-      "home": 0,
-      "decision": "W",
-      "saves": 30,
-      "ga": 1,
+      "decision": "L",
+      "saves": 38,
+      "ga": 4,
       "so": 0,
-      "points": 7.5
+      "points": 1.6
+     },
+     {
+      "date": "2021-04-27",
+      "opp": "TBL",
+      "home": 1,
+      "decision": "-",
+      "saves": 8,
+      "ga": 3,
+      "so": 0,
+      "points": -2.9
      }
     ]
    },
@@ -7674,31 +7760,31 @@
    "team": "VAN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VAN/8482447.png",
    "next_game": {
-    "game_id": 2026020112,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020123,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T20:00:00Z",
     "home": 0,
-    "opp": "FLA",
-    "state": "PRE"
+    "opp": "TBL",
+    "state": "FUT"
    },
-   "prob_positive": 0.5858,
-   "expected_points": 1.41,
+   "prob_positive": 0.6173,
+   "expected_points": 1.62,
    "verdict": "Lean positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "54% positive lately vs 67% career (save % 0.875)",
+     "detail": "62% positive lately vs 68% career (save % 0.886)",
      "tone": "bad"
     },
     {
-     "label": "History vs FLA",
-     "detail": "2 career starts; adjusted positive rate 48% vs 67% overall",
-     "tone": "bad"
+     "label": "History vs TBL",
+     "detail": "No career starts against them yet",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "FLA scoring 3.00 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "TBL scoring 2.53 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -7711,54 +7797,43 @@
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.3,
+   "starter_share_last10": 0.4,
    "career": {
-    "starts": 35,
-    "record": "17-13-3",
+    "starts": 36,
+    "record": "17-13-4",
     "shutouts": 3,
-    "pos_rate": 0.657,
-    "avg_points": 2.21,
-    "save_pct": 0.89
+    "pos_rate": 0.667,
+    "avg_points": 2.26,
+    "save_pct": 0.892
    },
    "season": {
-    "starts": 3,
-    "record": "1-1-0",
+    "starts": 4,
+    "record": "1-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 3.43,
-    "save_pct": 0.927
+    "avg_points": 3.5,
+    "save_pct": 0.926
    },
    "vs_opponent": {
-    "starts": 2,
-    "record": "0-2-0",
+    "starts": 0,
+    "record": "0-0-0",
     "shutouts": 0,
-    "pos_rate": 0.0,
-    "avg_points": -1.8,
-    "save_pct": 0.818,
-    "games": [
-     {
-      "date": "2026-01-10",
-      "opp": "FLA",
-      "home": 1,
-      "decision": "L",
-      "saves": 18,
-      "ga": 3,
-      "so": 0,
-      "points": -0.9
-     },
-     {
-      "date": "2023-04-06",
-      "opp": "FLA",
-      "home": 0,
-      "decision": "L",
-      "saves": 9,
-      "ga": 3,
-      "so": 0,
-      "points": -2.7
-     }
-    ]
+    "pos_rate": null,
+    "avg_points": null,
+    "save_pct": null,
+    "games": []
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "FLA",
+     "home": 0,
+     "decision": "O",
+     "saves": 36,
+     "ga": 3,
+     "so": 0,
+     "points": 3.7
+    },
     {
      "date": "2026-10-13",
      "opp": "NYI",
@@ -7798,16 +7873,6 @@
      "ga": 6,
      "so": 0,
      "points": -5.4
-    },
-    {
-     "date": "2026-01-14",
-     "opp": "NYR",
-     "home": 0,
-     "decision": "W",
-     "saves": 18,
-     "ga": 4,
-     "so": 0,
-     "points": 0.6
     }
    ]
   },
@@ -7817,31 +7882,31 @@
    "team": "OTT",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/OTT/8476999.png",
    "next_game": {
-    "game_id": 2026020109,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
-    "home": 1,
-    "opp": "NYI",
-    "state": "LIVE"
+    "game_id": 2026020128,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
+    "home": 0,
+    "opp": "PHI",
+    "state": "FUT"
    },
-   "prob_positive": 0.7981,
-   "expected_points": 3.54,
+   "prob_positive": 0.7672,
+   "expected_points": 3.04,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "88% positive lately vs 82% career (save % 0.928)",
+     "detail": "96% positive lately vs 82% career (save % 0.937)",
      "tone": "good"
     },
     {
-     "label": "History vs NYI",
-     "detail": "18 career starts; adjusted positive rate 83% vs 82% overall",
+     "label": "History vs PHI",
+     "detail": "13 career starts; adjusted positive rate 84% vs 82% overall",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "NYI scoring 2.67 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "PHI scoring 2.20 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -7850,88 +7915,98 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 3 days rest",
-     "tone": "good"
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.6,
    "career": {
-    "starts": 335,
-    "record": "196-97-34",
+    "starts": 336,
+    "record": "197-97-34",
     "shutouts": 15,
     "pos_rate": 0.821,
     "avg_points": 3.63,
-    "save_pct": 0.914
+    "save_pct": 0.915
    },
    "season": {
-    "starts": 5,
-    "record": "5-0-0",
+    "starts": 6,
+    "record": "6-0-0",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 5.6,
-    "save_pct": 0.948
+    "avg_points": 5.58,
+    "save_pct": 0.949
    },
    "vs_opponent": {
-    "starts": 18,
-    "record": "10-7-1",
-    "shutouts": 1,
-    "pos_rate": 0.833,
-    "avg_points": 3.04,
-    "save_pct": 0.906,
+    "starts": 13,
+    "record": "9-2-2",
+    "shutouts": 0,
+    "pos_rate": 0.846,
+    "avg_points": 4.09,
+    "save_pct": 0.919,
     "games": [
      {
-      "date": "2026-04-11",
-      "opp": "NYI",
-      "home": 0,
-      "decision": "W",
-      "saves": 23,
-      "ga": 0,
-      "so": 1,
-      "points": 11.6
-     },
-     {
-      "date": "2025-10-18",
-      "opp": "NYI",
-      "home": 1,
-      "decision": "L",
-      "saves": 18,
-      "ga": 5,
-      "so": 0,
-      "points": -3.9
-     },
-     {
-      "date": "2024-03-02",
-      "opp": "NYI",
-      "home": 0,
-      "decision": "L",
-      "saves": 21,
-      "ga": 5,
-      "so": 0,
-      "points": -3.3
-     },
-     {
-      "date": "2023-12-15",
-      "opp": "NYI",
-      "home": 0,
-      "decision": "W",
-      "saves": 33,
-      "ga": 4,
-      "so": 0,
-      "points": 3.6
-     },
-     {
-      "date": "2023-11-09",
-      "opp": "NYI",
+      "date": "2026-10-08",
+      "opp": "PHI",
       "home": 1,
       "decision": "W",
-      "saves": 27,
+      "saves": 28,
+      "ga": 1,
+      "so": 0,
+      "points": 7.1
+     },
+     {
+      "date": "2025-11-08",
+      "opp": "PHI",
+      "home": 0,
+      "decision": "W",
+      "saves": 20,
       "ga": 2,
       "so": 0,
-      "points": 5.4
+      "points": 4.0
+     },
+     {
+      "date": "2025-10-23",
+      "opp": "PHI",
+      "home": 1,
+      "decision": "W",
+      "saves": 22,
+      "ga": 1,
+      "so": 0,
+      "points": 5.9
+     },
+     {
+      "date": "2024-11-14",
+      "opp": "PHI",
+      "home": 1,
+      "decision": "O",
+      "saves": 14,
+      "ga": 5,
+      "so": 0,
+      "points": -3.7
+     },
+     {
+      "date": "2024-03-23",
+      "opp": "PHI",
+      "home": 0,
+      "decision": "L",
+      "saves": 26,
+      "ga": 3,
+      "so": 0,
+      "points": 0.7
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "NYI",
+     "home": 1,
+     "decision": "W",
+     "saves": 20,
+     "ga": 1,
+     "so": 0,
+     "points": 5.5
+    },
     {
      "date": "2026-10-12",
      "opp": "NJD",
@@ -7971,16 +8046,6 @@
      "ga": 0,
      "so": 0,
      "points": 5.0
-    },
-    {
-     "date": "2026-10-03",
-     "opp": "TOR",
-     "home": 0,
-     "decision": "W",
-     "saves": 27,
-     "ga": 2,
-     "so": 0,
-     "points": 5.4
     }
    ]
   },
@@ -7997,8 +8062,8 @@
     "opp": "NJD",
     "state": "FUT"
    },
-   "prob_positive": 0.7551,
-   "expected_points": 3.14,
+   "prob_positive": 0.7422,
+   "expected_points": 3.03,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -8013,8 +8078,8 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "NJD scoring 2.60 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "NJD scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -8170,8 +8235,8 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.6945,
-   "expected_points": 2.33,
+   "prob_positive": 0.6953,
+   "expected_points": 2.34,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -8303,8 +8368,8 @@
     "opp": "PIT",
     "state": "FUT"
    },
-   "prob_positive": 0.723,
-   "expected_points": 2.86,
+   "prob_positive": 0.7242,
+   "expected_points": 2.87,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -8477,7 +8542,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.7109,
-   "expected_points": 2.58,
+   "expected_points": 2.57,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -8571,111 +8636,111 @@
    "team": "NJD",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8482076.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
-    "home": 1,
-    "opp": "NYR",
-    "state": "PRE"
+    "game_id": 2026020121,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T17:00:00Z",
+    "home": 0,
+    "opp": "WSH",
+    "state": "FUT"
    },
-   "prob_positive": 0.662,
-   "expected_points": 1.87,
-   "verdict": "Likely positive",
+   "prob_positive": 0.6343,
+   "expected_points": 1.6,
+   "verdict": "Lean positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "60% positive lately vs 62% career (save % 0.901)",
+     "detail": "60% positive lately vs 62% career (save % 0.903)",
      "tone": "neutral"
     },
     {
-     "label": "History vs NYR",
-     "detail": "4 career starts; adjusted positive rate 56% vs 62% overall",
+     "label": "History vs WSH",
+     "detail": "3 career starts; adjusted positive rate 51% vs 62% overall",
      "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "NYR scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "WSH scoring 3.33 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 47% of its last 15",
+     "detail": "His team has won 53% of its last 15",
      "tone": "neutral"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 3 days rest",
-     "tone": "good"
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.4,
+   "starter_share_last10": 0.5,
    "career": {
-    "starts": 52,
-    "record": "24-26-1",
+    "starts": 53,
+    "record": "25-26-1",
     "shutouts": 1,
-    "pos_rate": 0.596,
-    "avg_points": 2.01,
-    "save_pct": 0.894
+    "pos_rate": 0.604,
+    "avg_points": 2.07,
+    "save_pct": 0.895
    },
    "season": {
-    "starts": 2,
-    "record": "0-2-0",
+    "starts": 3,
+    "record": "1-2-0",
     "shutouts": 0,
-    "pos_rate": 0.0,
-    "avg_points": -2.55,
-    "save_pct": 0.824
+    "pos_rate": 0.333,
+    "avg_points": 0.0,
+    "save_pct": 0.857
    },
    "vs_opponent": {
-    "starts": 4,
-    "record": "1-3-0",
+    "starts": 3,
+    "record": "1-2-0",
     "shutouts": 0,
-    "pos_rate": 0.5,
-    "avg_points": -0.53,
-    "save_pct": 0.853,
+    "pos_rate": 0.333,
+    "avg_points": -1.43,
+    "save_pct": 0.824,
     "games": [
      {
-      "date": "2024-02-22",
-      "opp": "NYR",
-      "home": 1,
-      "decision": "L",
-      "saves": 13,
-      "ga": 5,
-      "so": 0,
-      "points": -4.9
-     },
-     {
-      "date": "2022-04-05",
-      "opp": "NYR",
-      "home": 1,
-      "decision": "L",
-      "saves": 14,
-      "ga": 3,
-      "so": 0,
-      "points": -1.7
-     },
-     {
-      "date": "2022-03-22",
-      "opp": "NYR",
-      "home": 1,
-      "decision": "W",
-      "saves": 31,
-      "ga": 4,
-      "so": 0,
-      "points": 3.2
-     },
-     {
-      "date": "2022-03-04",
-      "opp": "NYR",
+      "date": "2024-02-20",
+      "opp": "WSH",
       "home": 0,
       "decision": "L",
-      "saves": 29,
+      "saves": 20,
+      "ga": 6,
+      "so": 0,
+      "points": -5.0
+     },
+     {
+      "date": "2024-01-03",
+      "opp": "WSH",
+      "home": 0,
+      "decision": "W",
+      "saves": 23,
       "ga": 3,
       "so": 0,
-      "points": 1.3
+      "points": 3.1
+     },
+     {
+      "date": "2022-03-26",
+      "opp": "WSH",
+      "home": 0,
+      "decision": "L",
+      "saves": 18,
+      "ga": 4,
+      "so": 0,
+      "points": -2.4
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "NYR",
+     "home": 1,
+     "decision": "W",
+     "saves": 18,
+     "ga": 1,
+     "so": 0,
+     "points": 5.1
+    },
     {
      "date": "2026-10-12",
      "opp": "OTT",
@@ -8715,16 +8780,6 @@
      "ga": 3,
      "so": 0,
      "points": 3.9
-    },
-    {
-     "date": "2025-10-22",
-     "opp": "MIN",
-     "home": 1,
-     "decision": "W",
-     "saves": 30,
-     "ga": 1,
-     "so": 0,
-     "points": 7.5
     }
    ]
   },
@@ -8734,31 +8789,31 @@
    "team": "SEA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/SEA/8475831.png",
    "next_game": {
-    "game_id": 2026020111,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020124,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T22:00:00Z",
     "home": 0,
-    "opp": "TBL",
-    "state": "PRE"
+    "opp": "FLA",
+    "state": "FUT"
    },
-   "prob_positive": 0.7089,
-   "expected_points": 2.4,
+   "prob_positive": 0.6661,
+   "expected_points": 2.12,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "79% positive lately vs 74% career (save % 0.907)",
+     "detail": "79% positive lately vs 74% career (save % 0.902)",
      "tone": "good"
     },
     {
-     "label": "History vs TBL",
-     "detail": "12 career starts; adjusted positive rate 75% vs 74% overall",
-     "tone": "neutral"
+     "label": "History vs FLA",
+     "detail": "10 career starts; adjusted positive rate 65% vs 74% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "TBL scoring 2.33 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "FLA scoring 3.07 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -8771,84 +8826,94 @@
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.3,
+   "starter_share_last10": 0.4,
    "career": {
-    "starts": 368,
-    "record": "175-149-36",
+    "starts": 369,
+    "record": "175-149-37",
     "shutouts": 22,
     "pos_rate": 0.745,
     "avg_points": 2.96,
     "save_pct": 0.908
    },
    "season": {
-    "starts": 3,
-    "record": "2-1-0",
+    "starts": 4,
+    "record": "2-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 4.1,
-    "save_pct": 0.923
+    "avg_points": 3.38,
+    "save_pct": 0.913
    },
    "vs_opponent": {
-    "starts": 12,
-    "record": "4-6-1",
+    "starts": 10,
+    "record": "4-4-2",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 1.82,
-    "save_pct": 0.896,
+    "pos_rate": 0.6,
+    "avg_points": 2.31,
+    "save_pct": 0.9,
     "games": [
      {
-      "date": "2026-03-26",
-      "opp": "TBL",
-      "home": 0,
-      "decision": "W",
-      "saves": 30,
-      "ga": 3,
-      "so": 0,
-      "points": 4.5
-     },
-     {
-      "date": "2026-03-17",
-      "opp": "TBL",
+      "date": "2022-12-03",
+      "opp": "FLA",
       "home": 1,
       "decision": "L",
-      "saves": 20,
+      "saves": 23,
       "ga": 5,
       "so": 0,
-      "points": -3.5
+      "points": -2.9
      },
      {
-      "date": "2024-12-14",
-      "opp": "TBL",
+      "date": "2022-01-23",
+      "opp": "FLA",
       "home": 1,
-      "decision": "L",
-      "saves": 26,
-      "ga": 4,
-      "so": 0,
-      "points": -0.8
-     },
-     {
-      "date": "2023-12-09",
-      "opp": "TBL",
-      "home": 1,
-      "decision": "-",
-      "saves": 21,
-      "ga": 2,
-      "so": 0,
-      "points": 1.2
-     },
-     {
-      "date": "2023-10-30",
-      "opp": "TBL",
-      "home": 0,
       "decision": "W",
-      "saves": 34,
+      "saves": 28,
       "ga": 3,
       "so": 0,
-      "points": 5.3
+      "points": 4.1
+     },
+     {
+      "date": "2019-10-30",
+      "opp": "FLA",
+      "home": 1,
+      "decision": "O",
+      "saves": 34,
+      "ga": 4,
+      "so": 0,
+      "points": 1.8
+     },
+     {
+      "date": "2019-10-18",
+      "opp": "FLA",
+      "home": 0,
+      "decision": "W",
+      "saves": 40,
+      "ga": 4,
+      "so": 0,
+      "points": 5.0
+     },
+     {
+      "date": "2018-12-06",
+      "opp": "FLA",
+      "home": 0,
+      "decision": "W",
+      "saves": 33,
+      "ga": 2,
+      "so": 0,
+      "points": 6.6
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "TBL",
+     "home": 0,
+     "decision": "O",
+     "saves": 31,
+     "ga": 4,
+     "so": 0,
+     "points": 1.2
+    },
     {
      "date": "2026-10-13",
      "opp": "PHI",
@@ -8888,16 +8953,6 @@
      "ga": 3,
      "so": 0,
      "points": -1.5
-    },
-    {
-     "date": "2026-04-04",
-     "opp": "CHI",
-     "home": 1,
-     "decision": "L",
-     "saves": 27,
-     "ga": 3,
-     "so": 0,
-     "points": 0.9
     }
    ]
   },
@@ -8914,8 +8969,8 @@
     "opp": "WPG",
     "state": "FUT"
    },
-   "prob_positive": 0.7517,
-   "expected_points": 2.96,
+   "prob_positive": 0.7578,
+   "expected_points": 3.04,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -8930,7 +8985,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "WPG scoring 2.60 goals/game (league 2.82)",
+     "detail": "WPG scoring 2.53 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -9060,15 +9115,15 @@
    "team": "NJD",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NJD/8482465.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
-    "home": 1,
-    "opp": "NYR",
-    "state": "PRE"
+    "game_id": 2026020121,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T17:00:00Z",
+    "home": 0,
+    "opp": "WSH",
+    "state": "FUT"
    },
-   "prob_positive": 0.745,
-   "expected_points": 2.9,
+   "prob_positive": 0.7155,
+   "expected_points": 2.56,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9077,24 +9132,24 @@
      "tone": "neutral"
     },
     {
-     "label": "History vs NYR",
+     "label": "History vs WSH",
      "detail": "No career starts against them yet",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "NYR scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "WSH scoring 3.33 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 47% of its last 15",
+     "detail": "His team has won 53% of its last 15",
      "tone": "neutral"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 4 days rest",
-     "tone": "good"
+     "detail": "Road game, 4 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.0,
@@ -9124,16 +9179,16 @@
    "team": "OTT",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/OTT/8481035.png",
    "next_game": {
-    "game_id": 2026020109,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
-    "home": 1,
-    "opp": "NYI",
-    "state": "LIVE"
+    "game_id": 2026020128,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
+    "home": 0,
+    "opp": "PHI",
+    "state": "FUT"
    },
-   "prob_positive": 0.6697,
-   "expected_points": 2.18,
-   "verdict": "Likely positive",
+   "prob_positive": 0.6497,
+   "expected_points": 1.96,
+   "verdict": "Lean positive",
    "signals": [
     {
      "label": "Recent form",
@@ -9141,14 +9196,14 @@
      "tone": "good"
     },
     {
-     "label": "History vs NYI",
-     "detail": "7 career starts; adjusted positive rate 68% vs 64% overall",
-     "tone": "good"
+     "label": "History vs PHI",
+     "detail": "No career starts against them yet",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "NYI scoring 2.67 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "PHI scoring 2.20 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -9157,8 +9212,8 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 2 days rest",
-     "tone": "good"
+     "detail": "Road game, 4 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.2,
@@ -9179,64 +9234,13 @@
     "save_pct": 0.82
    },
    "vs_opponent": {
-    "starts": 7,
-    "record": "5-1-0",
-    "shutouts": 1,
-    "pos_rate": 0.714,
-    "avg_points": 3.49,
-    "save_pct": 0.9,
-    "games": [
-     {
-      "date": "2026-01-26",
-      "opp": "NYI",
-      "home": 1,
-      "decision": "L",
-      "saves": 19,
-      "ga": 4,
-      "so": 0,
-      "points": -2.2
-     },
-     {
-      "date": "2025-11-28",
-      "opp": "NYI",
-      "home": 0,
-      "decision": "W",
-      "saves": 28,
-      "ga": 3,
-      "so": 0,
-      "points": 4.1
-     },
-     {
-      "date": "2025-10-25",
-      "opp": "NYI",
-      "home": 1,
-      "decision": "W",
-      "saves": 23,
-      "ga": 3,
-      "so": 0,
-      "points": 3.1
-     },
-     {
-      "date": "2025-04-12",
-      "opp": "NYI",
-      "home": 1,
-      "decision": "W",
-      "saves": 37,
-      "ga": 3,
-      "so": 0,
-      "points": 5.9
-     },
-     {
-      "date": "2025-01-16",
-      "opp": "NYI",
-      "home": 0,
-      "decision": "W",
-      "saves": 26,
-      "ga": 3,
-      "so": 0,
-      "points": 3.7
-     }
-    ]
+    "starts": 0,
+    "record": "0-0-0",
+    "shutouts": 0,
+    "pos_rate": null,
+    "avg_points": null,
+    "save_pct": null,
+    "games": []
    },
    "last5": [
     {
@@ -9304,7 +9308,7 @@
     "opp": "BUF",
     "state": "FUT"
    },
-   "prob_positive": 0.6723,
+   "prob_positive": 0.6706,
    "expected_points": 2.07,
    "verdict": "Likely positive",
    "signals": [
@@ -9320,8 +9324,8 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "BUF scoring 2.93 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "BUF scoring 3.07 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -9470,7 +9474,7 @@
     "opp": "PIT",
     "state": "FUT"
    },
-   "prob_positive": 0.722,
+   "prob_positive": 0.7225,
    "expected_points": 2.76,
    "verdict": "Likely positive",
    "signals": [
@@ -9636,15 +9640,15 @@
    "team": "UTA",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/UTA/8482657.png",
    "next_game": {
-    "game_id": 2026020117,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T01:00:00Z",
-    "home": 0,
+    "game_id": 2026020133,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
+    "home": 1,
     "opp": "EDM",
     "state": "FUT"
    },
-   "prob_positive": 0.7187,
-   "expected_points": 2.6,
+   "prob_positive": 0.7483,
+   "expected_points": 2.99,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9659,7 +9663,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "EDM scoring 3.47 goals/game (league 2.82)",
+     "detail": "EDM scoring 3.40 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -9669,8 +9673,8 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
     }
    ],
    "starter_share_last10": 0.2,
@@ -9728,121 +9732,131 @@
    "team": "NYI",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYI/8473575.png",
    "next_game": {
-    "game_id": 2026020109,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020125,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "OTT",
-    "state": "LIVE"
+    "opp": "TOR",
+    "state": "FUT"
    },
-   "prob_positive": 0.7332,
-   "expected_points": 2.51,
+   "prob_positive": 0.7362,
+   "expected_points": 2.68,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "64% positive lately vs 79% career (save % 0.901)",
+     "detail": "64% positive lately vs 79% career (save % 0.902)",
      "tone": "bad"
     },
     {
-     "label": "History vs OTT",
-     "detail": "17 career starts; adjusted positive rate 77% vs 79% overall",
-     "tone": "neutral"
+     "label": "History vs TOR",
+     "detail": "14 career starts; adjusted positive rate 68% vs 79% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "OTT scoring 2.87 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "TOR scoring 3.00 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 33% of its last 15",
+     "detail": "His team has won 27% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
+     "detail": "Road game, 2 days rest",
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.1,
+   "starter_share_last10": 0.2,
    "career": {
-    "starts": 594,
-    "record": "286-229-70",
+    "starts": 595,
+    "record": "286-229-71",
     "shutouts": 41,
-    "pos_rate": 0.786,
+    "pos_rate": 0.787,
     "avg_points": 3.61,
     "save_pct": 0.916
    },
    "season": {
-    "starts": 1,
-    "record": "0-1-0",
+    "starts": 2,
+    "record": "0-1-1",
     "shutouts": 0,
-    "pos_rate": 0.0,
-    "avg_points": -0.7,
-    "save_pct": 0.864
+    "pos_rate": 0.5,
+    "avg_points": 1.3,
+    "save_pct": 0.905
    },
    "vs_opponent": {
-    "starts": 17,
-    "record": "8-5-3",
-    "shutouts": 1,
-    "pos_rate": 0.765,
-    "avg_points": 3.08,
-    "save_pct": 0.906,
+    "starts": 14,
+    "record": "6-6-2",
+    "shutouts": 0,
+    "pos_rate": 0.643,
+    "avg_points": 1.66,
+    "save_pct": 0.887,
     "games": [
      {
-      "date": "2024-11-07",
-      "opp": "OTT",
-      "home": 0,
-      "decision": "W",
-      "saves": 28,
-      "ga": 2,
-      "so": 0,
-      "points": 5.6
-     },
-     {
-      "date": "2024-03-16",
-      "opp": "OTT",
+      "date": "2022-01-22",
+      "opp": "TOR",
       "home": 1,
-      "decision": "O",
-      "saves": 26,
-      "ga": 4,
-      "so": 0,
-      "points": 0.2
-     },
-     {
-      "date": "2023-11-24",
-      "opp": "OTT",
-      "home": 0,
-      "decision": "W",
-      "saves": 28,
+      "decision": "L",
+      "saves": 20,
       "ga": 3,
       "so": 0,
-      "points": 4.1
+      "points": -0.5
      },
      {
-      "date": "2023-01-25",
-      "opp": "OTT",
+      "date": "2020-01-04",
+      "opp": "TOR",
       "home": 0,
       "decision": "L",
-      "saves": 36,
+      "saves": 20,
       "ga": 2,
       "so": 0,
-      "points": 4.2
+      "points": 1.0
      },
      {
-      "date": "2022-11-14",
-      "opp": "OTT",
+      "date": "2019-11-13",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "W",
+      "saves": 23,
+      "ga": 4,
+      "so": 0,
+      "points": 1.6
+     },
+     {
+      "date": "2019-02-12",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "L",
+      "saves": 13,
+      "ga": 4,
+      "so": 0,
+      "points": -3.4
+     },
+     {
+      "date": "2019-01-14",
+      "opp": "TOR",
       "home": 0,
       "decision": "W",
-      "saves": 36,
-      "ga": 2,
+      "saves": 17,
+      "ga": 3,
       "so": 0,
-      "points": 7.2
+      "points": 1.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "OTT",
+     "home": 0,
+     "decision": "O",
+     "saves": 19,
+     "ga": 1,
+     "so": 0,
+     "points": 3.3
+    },
     {
      "date": "2026-10-06",
      "opp": "NYR",
@@ -9882,16 +9896,6 @@
      "ga": 1,
      "so": 0,
      "points": 5.5
-    },
-    {
-     "date": "2024-11-14",
-     "opp": "VAN",
-     "home": 0,
-     "decision": "W",
-     "saves": 24,
-     "ga": 2,
-     "so": 0,
-     "points": 4.8
     }
    ]
   },
@@ -9901,121 +9905,131 @@
    "team": "TOR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8475683.png",
    "next_game": {
-    "game_id": 2026020108,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020125,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 1,
-    "opp": "BUF",
-    "state": "PRE"
+    "opp": "NYI",
+    "state": "FUT"
    },
-   "prob_positive": 0.6841,
-   "expected_points": 2.33,
+   "prob_positive": 0.7084,
+   "expected_points": 2.59,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "72% positive lately vs 77% career (save % 0.898)",
+     "detail": "64% positive lately vs 77% career (save % 0.889)",
      "tone": "bad"
     },
     {
-     "label": "History vs BUF",
-     "detail": "29 career starts; adjusted positive rate 73% vs 77% overall",
-     "tone": "bad"
+     "label": "History vs NYI",
+     "detail": "32 career starts; adjusted positive rate 83% vs 77% overall",
+     "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "BUF scoring 2.93 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "NYI scoring 2.40 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 27% of its last 15",
+     "detail": "His team has won 20% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 5 days rest",
+     "detail": "Home game, 2 days rest",
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.4,
+   "starter_share_last10": 0.5,
    "career": {
-    "starts": 795,
-    "record": "455-265-59",
+    "starts": 796,
+    "record": "455-265-60",
     "shutouts": 53,
-    "pos_rate": 0.771,
+    "pos_rate": 0.77,
     "avg_points": 3.52,
     "save_pct": 0.912
    },
    "season": {
-    "starts": 4,
-    "record": "1-2-1",
+    "starts": 5,
+    "record": "1-2-2",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 2.35,
-    "save_pct": 0.907
+    "pos_rate": 0.6,
+    "avg_points": 1.78,
+    "save_pct": 0.896
    },
    "vs_opponent": {
-    "starts": 29,
-    "record": "17-9-2",
-    "shutouts": 1,
-    "pos_rate": 0.724,
-    "avg_points": 3.29,
-    "save_pct": 0.91,
+    "starts": 32,
+    "record": "19-12-0",
+    "shutouts": 3,
+    "pos_rate": 0.844,
+    "avg_points": 4.31,
+    "save_pct": 0.925,
     "games": [
      {
-      "date": "2026-02-02",
-      "opp": "BUF",
-      "home": 1,
+      "date": "2026-03-01",
+      "opp": "NYI",
+      "home": 0,
       "decision": "L",
-      "saves": 15,
+      "saves": 21,
       "ga": 5,
       "so": 0,
-      "points": -4.5
+      "points": -3.3
      },
      {
-      "date": "2026-01-12",
-      "opp": "BUF",
-      "home": 0,
-      "decision": "W",
-      "saves": 20,
-      "ga": 3,
-      "so": 0,
-      "points": 2.5
-     },
-     {
-      "date": "2025-10-18",
-      "opp": "BUF",
+      "date": "2022-12-23",
+      "opp": "NYI",
       "home": 0,
       "decision": "L",
-      "saves": 28,
-      "ga": 3,
+      "saves": 38,
+      "ga": 4,
       "so": 0,
-      "points": 1.1
+      "points": 1.6
      },
      {
-      "date": "2024-10-28",
-      "opp": "BUF",
+      "date": "2022-10-13",
+      "opp": "NYI",
       "home": 0,
       "decision": "W",
-      "saves": 26,
-      "ga": 2,
+      "saves": 32,
+      "ga": 1,
       "so": 0,
-      "points": 5.2
+      "points": 7.9
      },
      {
-      "date": "2024-04-13",
-      "opp": "BUF",
+      "date": "2022-04-19",
+      "opp": "NYI",
+      "home": 0,
+      "decision": "W",
+      "saves": 24,
+      "ga": 2,
+      "so": 0,
+      "points": 4.8
+     },
+     {
+      "date": "2021-11-16",
+      "opp": "NYI",
       "home": 1,
       "decision": "W",
       "saves": 27,
-      "ga": 2,
+      "ga": 1,
       "so": 0,
-      "points": 5.4
+      "points": 6.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "BUF",
+     "home": 1,
+     "decision": "O",
+     "saves": 30,
+     "ga": 5,
+     "so": 0,
+     "points": -0.5
+    },
     {
      "date": "2026-10-10",
      "opp": "COL",
@@ -10055,16 +10069,6 @@
      "ga": 3,
      "so": 0,
      "points": -0.3
-    },
-    {
-     "date": "2026-04-09",
-     "opp": "OTT",
-     "home": 0,
-     "decision": "L",
-     "saves": 21,
-     "ga": 4,
-     "so": 0,
-     "points": -1.8
     }
    ]
   },
@@ -10081,13 +10085,13 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.6786,
-   "expected_points": 2.17,
+   "prob_positive": 0.6776,
+   "expected_points": 2.16,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "71% positive lately vs 71% career (save % 0.903)",
+     "detail": "71% positive lately vs 72% career (save % 0.903)",
      "tone": "neutral"
     },
     {
@@ -10196,35 +10200,35 @@
    "team": "CHI",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CHI/8481519.png",
    "next_game": {
-    "game_id": 2026020114,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020130,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 1,
-    "opp": "WPG",
+    "opp": "DAL",
     "state": "FUT"
    },
-   "prob_positive": 0.6744,
-   "expected_points": 2.12,
+   "prob_positive": 0.6892,
+   "expected_points": 2.32,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "55% positive lately vs 72% career (save % 0.879)",
+     "detail": "55% positive lately vs 72% career (save % 0.874)",
      "tone": "bad"
     },
     {
-     "label": "History vs WPG",
-     "detail": "6 career starts; adjusted positive rate 60% vs 72% overall",
-     "tone": "bad"
+     "label": "History vs DAL",
+     "detail": "4 career starts; adjusted positive rate 73% vs 72% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "WPG scoring 2.60 goals/game (league 2.82)",
+     "detail": "DAL scoring 2.67 goals/game (league 2.82)",
      "tone": "good"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 27% of its last 15",
+     "detail": "His team has won 33% of its last 15",
      "tone": "bad"
     },
     {
@@ -10233,84 +10237,84 @@
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.7,
+   "starter_share_last10": 0.8,
    "career": {
-    "starts": 145,
-    "record": "65-60-20",
+    "starts": 146,
+    "record": "66-60-20",
     "shutouts": 8,
-    "pos_rate": 0.717,
-    "avg_points": 2.67,
+    "pos_rate": 0.719,
+    "avg_points": 2.69,
     "save_pct": 0.902
    },
    "season": {
-    "starts": 5,
-    "record": "2-3-0",
+    "starts": 6,
+    "record": "3-3-0",
     "shutouts": 0,
-    "pos_rate": 0.6,
-    "avg_points": 1.36,
-    "save_pct": 0.885
+    "pos_rate": 0.667,
+    "avg_points": 1.92,
+    "save_pct": 0.89
    },
    "vs_opponent": {
-    "starts": 6,
-    "record": "1-2-3",
-    "shutouts": 1,
-    "pos_rate": 0.5,
-    "avg_points": 1.9,
-    "save_pct": 0.887,
+    "starts": 4,
+    "record": "3-1-0",
+    "shutouts": 0,
+    "pos_rate": 0.75,
+    "avg_points": 2.32,
+    "save_pct": 0.884,
     "games": [
      {
-      "date": "2026-03-31",
-      "opp": "WPG",
-      "home": 1,
-      "decision": "O",
-      "saves": 20,
-      "ga": 4,
-      "so": 0,
-      "points": -1.0
-     },
-     {
-      "date": "2026-03-03",
-      "opp": "WPG",
-      "home": 0,
-      "decision": "O",
-      "saves": 29,
-      "ga": 3,
-      "so": 0,
-      "points": 2.3
-     },
-     {
-      "date": "2026-01-19",
-      "opp": "WPG",
+      "date": "2026-01-01",
+      "opp": "DAL",
       "home": 1,
       "decision": "W",
-      "saves": 32,
-      "ga": 0,
-      "so": 1,
-      "points": 13.4
+      "saves": 22,
+      "ga": 3,
+      "so": 0,
+      "points": 2.9
      },
      {
-      "date": "2025-10-30",
-      "opp": "WPG",
+      "date": "2024-11-02",
+      "opp": "DAL",
+      "home": 1,
+      "decision": "W",
+      "saves": 23,
+      "ga": 2,
+      "so": 0,
+      "points": 4.6
+     },
+     {
+      "date": "2023-01-08",
+      "opp": "DAL",
       "home": 0,
       "decision": "L",
-      "saves": 26,
-      "ga": 6,
-      "so": 0,
-      "points": -3.8
-     },
-     {
-      "date": "2025-04-12",
-      "opp": "WPG",
-      "home": 1,
-      "decision": "O",
-      "saves": 38,
+      "saves": 29,
       "ga": 4,
       "so": 0,
-      "points": 2.6
+      "points": -0.2
+     },
+     {
+      "date": "2021-05-03",
+      "opp": "DAL",
+      "home": 1,
+      "decision": "W",
+      "saves": 25,
+      "ga": 4,
+      "so": 0,
+      "points": 2.0
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "WPG",
+     "home": 1,
+     "decision": "W",
+     "saves": 31,
+     "ga": 3,
+     "so": 0,
+     "points": 4.7
+    },
     {
      "date": "2026-10-13",
      "opp": "PIT",
@@ -10350,16 +10354,6 @@
      "ga": 4,
      "so": 0,
      "points": -1.2
-    },
-    {
-     "date": "2026-09-29",
-     "opp": "VGK",
-     "home": 0,
-     "decision": "L",
-     "saves": 32,
-     "ga": 4,
-     "so": 0,
-     "points": 0.4
     }
    ]
   },
@@ -10369,15 +10363,15 @@
    "team": "NYR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/NYR/8477484.png",
    "next_game": {
-    "game_id": 2026020113,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020129,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "NJD",
-    "state": "PRE"
+    "opp": "CBJ",
+    "state": "FUT"
    },
-   "prob_positive": 0.7146,
-   "expected_points": 2.41,
+   "prob_positive": 0.7195,
+   "expected_points": 2.42,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10386,13 +10380,13 @@
      "tone": "bad"
     },
     {
-     "label": "History vs NJD",
-     "detail": "1 career starts; adjusted positive rate 50% vs 60% overall",
-     "tone": "bad"
+     "label": "History vs CBJ",
+     "detail": "3 career starts; adjusted positive rate 63% vs 60% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "NJD scoring 2.60 goals/game (league 2.82)",
+     "detail": "CBJ scoring 2.27 goals/game (league 2.82)",
      "tone": "good"
     },
     {
@@ -10402,7 +10396,7 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
+     "detail": "Road game, 2 days rest",
      "tone": "neutral"
     }
    ],
@@ -10417,22 +10411,42 @@
    },
    "season": null,
    "vs_opponent": {
-    "starts": 1,
-    "record": "0-1-0",
+    "starts": 3,
+    "record": "1-1-1",
     "shutouts": 0,
-    "pos_rate": 0.0,
-    "avg_points": -2.6,
-    "save_pct": 0.81,
+    "pos_rate": 0.667,
+    "avg_points": -0.13,
+    "save_pct": 0.85,
     "games": [
      {
-      "date": "2024-11-21",
-      "opp": "NJD",
+      "date": "2024-04-16",
+      "opp": "CBJ",
       "home": 0,
       "decision": "L",
-      "saves": 17,
+      "saves": 19,
+      "ga": 6,
+      "so": 0,
+      "points": -5.2
+     },
+     {
+      "date": "2024-02-29",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "W",
+      "saves": 20,
+      "ga": 2,
+      "so": 0,
+      "points": 4.0
+     },
+     {
+      "date": "2022-10-18",
+      "opp": "CBJ",
+      "home": 0,
+      "decision": "O",
+      "saves": 29,
       "ga": 4,
       "so": 0,
-      "points": -2.6
+      "points": 0.8
      }
     ]
    },
@@ -10495,121 +10509,131 @@
    "team": "WPG",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WPG/8479973.png",
    "next_game": {
-    "game_id": 2026020114,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
-    "home": 0,
-    "opp": "CHI",
+    "game_id": 2026020122,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T19:30:00Z",
+    "home": 1,
+    "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.7125,
-   "expected_points": 2.43,
+   "prob_positive": 0.6513,
+   "expected_points": 2.01,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "70% positive lately vs 72% career (save % 0.897)",
+     "detail": "70% positive lately vs 72% career (save % 0.898)",
      "tone": "neutral"
     },
     {
-     "label": "History vs CHI",
-     "detail": "5 career starts; adjusted positive rate 86% vs 72% overall",
-     "tone": "good"
+     "label": "History vs CAR",
+     "detail": "8 career starts; adjusted positive rate 66% vs 72% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "CHI scoring 2.27 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "CAR scoring 3.73 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 53% of its last 15",
+     "detail": "His team has won 47% of its last 15",
      "tone": "neutral"
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 2 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.4,
+   "starter_share_last10": 0.5,
    "career": {
-    "starts": 222,
-    "record": "124-70-24",
+    "starts": 223,
+    "record": "124-70-25",
     "shutouts": 9,
-    "pos_rate": 0.721,
-    "avg_points": 2.88,
+    "pos_rate": 0.717,
+    "avg_points": 2.86,
     "save_pct": 0.902
    },
    "season": {
-    "starts": 4,
-    "record": "3-0-1",
+    "starts": 5,
+    "record": "3-0-2",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 4.3,
-    "save_pct": 0.917
+    "pos_rate": 0.8,
+    "avg_points": 3.4,
+    "save_pct": 0.906
    },
    "vs_opponent": {
-    "starts": 5,
-    "record": "5-0-0",
+    "starts": 8,
+    "record": "3-2-3",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 4.96,
-    "save_pct": 0.925,
+    "pos_rate": 0.625,
+    "avg_points": 2.5,
+    "save_pct": 0.9,
     "games": [
      {
-      "date": "2025-11-01",
-      "opp": "CHI",
+      "date": "2026-03-22",
+      "opp": "CAR",
       "home": 1,
-      "decision": "W",
-      "saves": 27,
-      "ga": 2,
-      "so": 0,
-      "points": 5.4
-     },
-     {
-      "date": "2024-01-09",
-      "opp": "CHI",
-      "home": 0,
-      "decision": "W",
-      "saves": 25,
-      "ga": 1,
-      "so": 0,
-      "points": 6.5
-     },
-     {
-      "date": "2023-12-12",
-      "opp": "CHI",
-      "home": 1,
-      "decision": "W",
-      "saves": 22,
-      "ga": 1,
-      "so": 0,
-      "points": 5.9
-     },
-     {
-      "date": "2022-11-30",
-      "opp": "CHI",
-      "home": 0,
-      "decision": "W",
+      "decision": "L",
       "saves": 21,
       "ga": 4,
       "so": 0,
-      "points": 1.2
+      "points": -1.8
      },
      {
-      "date": "2021-11-20",
-      "opp": "CHI",
+      "date": "2026-03-18",
+      "opp": "CAR",
+      "home": 0,
+      "decision": "O",
+      "saves": 38,
+      "ga": 6,
+      "so": 0,
+      "points": -0.4
+     },
+     {
+      "date": "2026-03-10",
+      "opp": "CAR",
+      "home": 0,
+      "decision": "O",
+      "saves": 40,
+      "ga": 4,
+      "so": 0,
+      "points": 3.0
+     },
+     {
+      "date": "2025-12-30",
+      "opp": "CAR",
       "home": 1,
       "decision": "W",
-      "saves": 29,
-      "ga": 2,
+      "saves": 27,
+      "ga": 1,
       "so": 0,
-      "points": 5.8
+      "points": 6.9
+     },
+     {
+      "date": "2025-11-15",
+      "opp": "CAR",
+      "home": 0,
+      "decision": "W",
+      "saves": 33,
+      "ga": 3,
+      "so": 0,
+      "points": 5.1
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "CHI",
+     "home": 0,
+     "decision": "O",
+     "saves": 24,
+     "ga": 4,
+     "so": 0,
+     "points": -0.2
+    },
     {
      "date": "2026-10-13",
      "opp": "MIN",
@@ -10649,16 +10673,6 @@
      "ga": 4,
      "so": 0,
      "points": 0.2
-    },
-    {
-     "date": "2026-04-14",
-     "opp": "STL",
-     "home": 0,
-     "decision": "-",
-     "saves": 17,
-     "ga": 4,
-     "so": 0,
-     "points": -2.6
     }
    ]
   },
@@ -10668,16 +10682,16 @@
    "team": "VAN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VAN/8477967.png",
    "next_game": {
-    "game_id": 2026020112,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020123,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T20:00:00Z",
     "home": 0,
-    "opp": "FLA",
-    "state": "PRE"
+    "opp": "TBL",
+    "state": "FUT"
    },
-   "prob_positive": 0.6497,
-   "expected_points": 1.92,
-   "verdict": "Lean positive",
+   "prob_positive": 0.6796,
+   "expected_points": 2.2,
+   "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
@@ -10685,14 +10699,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs FLA",
-     "detail": "5 career starts; adjusted positive rate 68% vs 75% overall",
-     "tone": "bad"
+     "label": "History vs TBL",
+     "detail": "4 career starts; adjusted positive rate 75% vs 75% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "FLA scoring 3.00 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "TBL scoring 2.53 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -10716,62 +10730,52 @@
    },
    "season": null,
    "vs_opponent": {
-    "starts": 5,
-    "record": "2-3-0",
-    "shutouts": 1,
-    "pos_rate": 0.6,
-    "avg_points": 3.3,
-    "save_pct": 0.906,
+    "starts": 4,
+    "record": "1-3-0",
+    "shutouts": 0,
+    "pos_rate": 0.75,
+    "avg_points": 2.3,
+    "save_pct": 0.914,
     "games": [
      {
-      "date": "2023-12-14",
-      "opp": "FLA",
+      "date": "2023-12-12",
+      "opp": "TBL",
       "home": 1,
       "decision": "W",
-      "saves": 36,
-      "ga": 0,
-      "so": 1,
-      "points": 14.2
-     },
-     {
-      "date": "2022-12-01",
-      "opp": "FLA",
-      "home": 1,
-      "decision": "L",
-      "saves": 15,
-      "ga": 3,
+      "saves": 28,
+      "ga": 1,
       "so": 0,
-      "points": -1.5
+      "points": 7.1
      },
      {
-      "date": "2022-01-11",
-      "opp": "FLA",
+      "date": "2023-10-19",
+      "opp": "TBL",
       "home": 0,
       "decision": "L",
-      "saves": 21,
-      "ga": 5,
+      "saves": 32,
+      "ga": 4,
       "so": 0,
-      "points": -3.3
+      "points": 0.4
      },
      {
-      "date": "2020-01-09",
-      "opp": "FLA",
-      "home": 0,
-      "decision": "L",
-      "saves": 44,
-      "ga": 5,
-      "so": 0,
-      "points": 1.3
-     },
-     {
-      "date": "2019-10-28",
-      "opp": "FLA",
+      "date": "2022-03-13",
+      "opp": "TBL",
       "home": 1,
-      "decision": "W",
+      "decision": "L",
       "saves": 29,
       "ga": 2,
       "so": 0,
-      "points": 5.8
+      "points": 2.8
+     },
+     {
+      "date": "2022-01-13",
+      "opp": "TBL",
+      "home": 0,
+      "decision": "L",
+      "saves": 17,
+      "ga": 3,
+      "so": 0,
+      "points": -1.1
      }
     ]
    },
@@ -10834,15 +10838,15 @@
    "team": "EDM",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8477465.png",
    "next_game": {
-    "game_id": 2026020117,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T01:00:00Z",
-    "home": 1,
+    "game_id": 2026020133,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-18T02:00:00Z",
+    "home": 0,
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.7525,
-   "expected_points": 3.32,
+   "prob_positive": 0.737,
+   "expected_points": 3.01,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10857,18 +10861,18 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "UTA scoring 3.87 goals/game (league 2.82)",
+     "detail": "UTA scoring 3.67 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 67% of its last 15",
+     "detail": "His team has won 60% of its last 15",
      "tone": "good"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 5 days rest",
-     "tone": "good"
+     "detail": "Road game, 7 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.2,
@@ -10977,31 +10981,31 @@
    "team": "BUF",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/BUF/8480045.png",
    "next_game": {
-    "game_id": 2026020108,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-15T23:00:00Z",
+    "game_id": 2026020126,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "TOR",
-    "state": "PRE"
+    "opp": "MTL",
+    "state": "FUT"
    },
-   "prob_positive": 0.6288,
-   "expected_points": 1.82,
-   "verdict": "Lean positive",
+   "prob_positive": 0.6573,
+   "expected_points": 2.06,
+   "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "78% positive lately vs 72% career (save % 0.887)",
+     "detail": "78% positive lately vs 73% career (save % 0.880)",
      "tone": "good"
     },
     {
-     "label": "History vs TOR",
-     "detail": "8 career starts; adjusted positive rate 43% vs 72% overall",
+     "label": "History vs MTL",
+     "detail": "6 career starts; adjusted positive rate 69% vs 73% overall",
      "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "TOR scoring 3.07 goals/game (league 2.82)",
-     "tone": "bad"
+     "detail": "MTL scoring 2.67 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -11014,84 +11018,94 @@
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.5,
+   "starter_share_last10": 0.6,
    "career": {
-    "starts": 189,
-    "record": "94-73-19",
+    "starts": 190,
+    "record": "95-73-19",
     "shutouts": 8,
-    "pos_rate": 0.725,
-    "avg_points": 2.58,
+    "pos_rate": 0.726,
+    "avg_points": 2.57,
     "save_pct": 0.899
    },
    "season": {
-    "starts": 4,
-    "record": "1-2-1",
+    "starts": 5,
+    "record": "2-2-1",
     "shutouts": 0,
-    "pos_rate": 0.5,
-    "avg_points": -0.73,
-    "save_pct": 0.839
+    "pos_rate": 0.6,
+    "avg_points": -0.14,
+    "save_pct": 0.846
    },
    "vs_opponent": {
-    "starts": 8,
-    "record": "0-5-2",
+    "starts": 6,
+    "record": "2-2-1",
     "shutouts": 0,
-    "pos_rate": 0.25,
-    "avg_points": -1.64,
-    "save_pct": 0.825,
+    "pos_rate": 0.667,
+    "avg_points": 1.17,
+    "save_pct": 0.882,
     "games": [
      {
-      "date": "2026-01-27",
-      "opp": "TOR",
-      "home": 0,
-      "decision": "-",
-      "saves": 3,
-      "ga": 2,
-      "so": 0,
-      "points": -2.4
-     },
-     {
-      "date": "2025-10-25",
-      "opp": "TOR",
+      "date": "2026-10-13",
+      "opp": "MTL",
       "home": 0,
       "decision": "O",
-      "saves": 19,
-      "ga": 4,
-      "so": 0,
-      "points": -1.2
-     },
-     {
-      "date": "2025-04-15",
-      "opp": "TOR",
-      "home": 1,
-      "decision": "L",
-      "saves": 28,
+      "saves": 35,
       "ga": 3,
       "so": 0,
-      "points": 1.1
+      "points": 3.5
      },
      {
-      "date": "2024-12-20",
-      "opp": "TOR",
-      "home": 1,
-      "decision": "L",
-      "saves": 9,
-      "ga": 4,
+      "date": "2026-01-22",
+      "opp": "MTL",
+      "home": 0,
+      "decision": "W",
+      "saves": 32,
+      "ga": 2,
       "so": 0,
-      "points": -4.2
+      "points": 6.4
      },
      {
-      "date": "2024-03-30",
-      "opp": "TOR",
+      "date": "2025-03-01",
+      "opp": "MTL",
       "home": 1,
       "decision": "L",
-      "saves": 19,
+      "saves": 25,
       "ga": 3,
       "so": 0,
-      "points": -0.7
+      "points": 0.5
+     },
+     {
+      "date": "2024-12-17",
+      "opp": "MTL",
+      "home": 0,
+      "decision": "L",
+      "saves": 15,
+      "ga": 6,
+      "so": 0,
+      "points": -6.0
+     },
+     {
+      "date": "2024-11-11",
+      "opp": "MTL",
+      "home": 1,
+      "decision": "-",
+      "saves": 14,
+      "ga": 4,
+      "so": 0,
+      "points": -3.2
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-15",
+     "opp": "TOR",
+     "home": 0,
+     "decision": "W",
+     "saves": 26,
+     "ga": 4,
+     "so": 0,
+     "points": 2.2
+    },
     {
      "date": "2026-10-13",
      "opp": "MTL",
@@ -11131,16 +11145,6 @@
      "ga": 5,
      "so": 0,
      "points": -4.1
-    },
-    {
-     "date": "2026-04-13",
-     "opp": "CHI",
-     "home": 0,
-     "decision": "W",
-     "saves": 15,
-     "ga": 1,
-     "so": 0,
-     "points": 4.5
     }
    ]
   },
@@ -11157,8 +11161,8 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.7099,
-   "expected_points": 2.43,
+   "prob_positive": 0.7107,
+   "expected_points": 2.44,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -11323,15 +11327,15 @@
    "team": "SJS",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/SJS/8482137.png",
    "next_game": {
-    "game_id": 2026020115,
-    "date": "2026-10-15",
-    "start_utc": "2026-10-16T00:00:00Z",
+    "game_id": 2026020127,
+    "date": "2026-10-17",
+    "start_utc": "2026-10-17T23:00:00Z",
     "home": 0,
-    "opp": "NSH",
+    "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.585,
-   "expected_points": 1.35,
+   "prob_positive": 0.6057,
+   "expected_points": 1.59,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -11340,14 +11344,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs NSH",
-     "detail": "2 career starts; adjusted positive rate 45% vs 63% overall",
+     "label": "History vs DET",
+     "detail": "1 career starts; adjusted positive rate 53% vs 63% overall",
      "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "NSH scoring 2.73 goals/game (league 2.82)",
-     "tone": "neutral"
+     "detail": "DET scoring 2.67 goals/game (league 2.82)",
+     "tone": "good"
     },
     {
      "label": "Team support",
@@ -11356,11 +11360,11 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 2 days rest",
+     "detail": "Road game, 4 days rest",
      "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.7,
+   "starter_share_last10": 0.6,
    "career": {
     "starts": 66,
     "record": "28-30-6",
@@ -11378,32 +11382,22 @@
     "save_pct": 0.848
    },
    "vs_opponent": {
-    "starts": 2,
-    "record": "0-2-0",
+    "starts": 1,
+    "record": "0-1-0",
     "shutouts": 0,
     "pos_rate": 0.0,
-    "avg_points": -2.25,
-    "save_pct": 0.845,
+    "avg_points": -0.3,
+    "save_pct": 0.875,
     "games": [
      {
-      "date": "2026-04-04",
-      "opp": "NSH",
-      "home": 1,
+      "date": "2026-01-16",
+      "opp": "DET",
+      "home": 0,
       "decision": "L",
-      "saves": 28,
-      "ga": 5,
+      "saves": 21,
+      "ga": 3,
       "so": 0,
-      "points": -1.9
-     },
-     {
-      "date": "2025-01-23",
-      "opp": "NSH",
-      "home": 1,
-      "decision": "L",
-      "saves": 32,
-      "ga": 6,
-      "so": 0,
-      "points": -2.6
+      "points": -0.3
      }
     ]
    },
