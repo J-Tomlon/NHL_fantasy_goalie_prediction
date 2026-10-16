@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T17:24:04+00:00",
+ "generated_at": "2026-10-16T22:53:01+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.2094131607590662,
-   "log_loss": 0.6096559871099301,
+   "brier": 0.20941337198017987,
+   "log_loss": 0.609656496296729,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5419355418422305
+   "auc": 0.5419334682547582
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.524504619952888
   },
-  "points_mae": 3.2853393185783437,
+  "points_mae": 3.2853394973755377,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10732,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-16T17:23:56+00:00"
+  "trained_at": "2026-10-16T22:52:56+00:00"
  },
  "default_goalies": [
   8474596,
@@ -1685,7 +1685,7 @@
     "opp": "CBJ",
     "state": "FUT"
    },
-   "prob_positive": 0.7704,
+   "prob_positive": 0.7702,
    "expected_points": 3.1,
    "verdict": "Likely positive",
    "signals": [
@@ -2970,70 +2970,6 @@
    ]
   },
   {
-   "id": 8484900,
-   "name": "Cooper Black",
-   "team": "FLA",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/FLA/8484900.png",
-   "next_game": {
-    "game_id": 2026020124,
-    "date": "2026-10-17",
-    "start_utc": "2026-10-17T22:00:00Z",
-    "home": 1,
-    "opp": "SEA",
-    "state": "FUT"
-   },
-   "prob_positive": 0.7598,
-   "expected_points": 3.09,
-   "verdict": "Likely positive",
-   "signals": [
-    {
-     "label": "Recent form",
-     "detail": "72% positive lately vs 72% career (save % 0.901)",
-     "tone": "neutral"
-    },
-    {
-     "label": "History vs SEA",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
-    },
-    {
-     "label": "Opponent offense",
-     "detail": "SEA scoring 3.00 goals/game (league 2.82)",
-     "tone": "bad"
-    },
-    {
-     "label": "Team support",
-     "detail": "His team has won 47% of its last 15",
-     "tone": "neutral"
-    },
-    {
-     "label": "Venue & rest",
-     "detail": "Home game, 4 days rest",
-     "tone": "good"
-    }
-   ],
-   "starter_share_last10": 0.0,
-   "career": {
-    "starts": 0,
-    "record": "0-0-0",
-    "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null
-   },
-   "season": null,
-   "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
-    "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
-   },
-   "last5": []
-  },
-  {
    "id": 8478435,
    "name": "Dan Vladar",
    "team": "PHI",
@@ -3210,7 +3146,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.6764,
-   "expected_points": 1.99,
+   "expected_points": 2.0,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3801,7 +3737,7 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.6562,
+   "prob_positive": 0.656,
    "expected_points": 2.01,
    "verdict": "Likely positive",
    "signals": [
@@ -3845,26 +3781,26 @@
     "record": "4-1-0",
     "shutouts": 0,
     "pos_rate": 0.6,
-    "avg_points": 3.08,
-    "save_pct": 0.897
+    "avg_points": 3.12,
+    "save_pct": 0.898
    },
    "vs_opponent": {
     "starts": 1,
     "record": "0-1-0",
     "shutouts": 0,
     "pos_rate": 0.0,
-    "avg_points": -0.5,
-    "save_pct": 0.87,
+    "avg_points": -0.3,
+    "save_pct": 0.875,
     "games": [
      {
       "date": "2026-10-15",
       "opp": "UTA",
       "home": 1,
       "decision": "L",
-      "saves": 20,
+      "saves": 21,
       "ga": 3,
       "so": 0,
-      "points": -0.5
+      "points": -0.3
      }
     ]
    },
@@ -3874,10 +3810,10 @@
      "opp": "UTA",
      "home": 1,
      "decision": "L",
-     "saves": 20,
+     "saves": 21,
      "ga": 3,
      "so": 0,
-     "points": -0.5
+     "points": -0.3
     },
     {
      "date": "2026-10-13",
@@ -4209,7 +4145,7 @@
     "opp": "CBJ",
     "state": "FUT"
    },
-   "prob_positive": 0.8084,
+   "prob_positive": 0.8082,
    "expected_points": 3.81,
    "verdict": "Likely positive",
    "signals": [
@@ -4375,7 +4311,7 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.7381,
+   "prob_positive": 0.738,
    "expected_points": 3.04,
    "verdict": "Likely positive",
    "signals": [
@@ -5841,7 +5777,7 @@
     "record": "25-13-7",
     "shutouts": 5,
     "pos_rate": 0.8,
-    "avg_points": 3.77,
+    "avg_points": 3.78,
     "save_pct": 0.912
    },
    "season": {
@@ -5849,8 +5785,8 @@
     "record": "5-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 4.01,
-    "save_pct": 0.92
+    "avg_points": 4.04,
+    "save_pct": 0.921
    },
    "vs_opponent": {
     "starts": 1,
@@ -5878,10 +5814,10 @@
      "opp": "STL",
      "home": 1,
      "decision": "W",
-     "saves": 21,
+     "saves": 22,
      "ga": 4,
      "so": 0,
-     "points": 1.2
+     "points": 1.4
     },
     {
      "date": "2026-10-12",
@@ -6081,7 +6017,7 @@
     "opp": "NSH",
     "state": "FUT"
    },
-   "prob_positive": 0.6919,
+   "prob_positive": 0.6917,
    "expected_points": 2.39,
    "verdict": "Likely positive",
    "signals": [
@@ -6125,7 +6061,7 @@
     "record": "2-2-1",
     "shutouts": 1,
     "pos_rate": 0.8,
-    "avg_points": 3.2,
+    "avg_points": 3.24,
     "save_pct": 0.906
    },
    "vs_opponent": {
@@ -6194,10 +6130,10 @@
      "opp": "MIN",
      "home": 0,
      "decision": "L",
-     "saves": 33,
+     "saves": 34,
      "ga": 5,
      "so": 0,
-     "points": -0.9
+     "points": -0.7
     },
     {
      "date": "2026-10-13",
@@ -6756,7 +6692,7 @@
     "opp": "NSH",
     "state": "FUT"
    },
-   "prob_positive": 0.6826,
+   "prob_positive": 0.6824,
    "expected_points": 2.27,
    "verdict": "Likely positive",
    "signals": [
@@ -7102,7 +7038,7 @@
     "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.6363,
+   "prob_positive": 0.6365,
    "expected_points": 1.8,
    "verdict": "Lean positive",
    "signals": [
@@ -7248,7 +7184,7 @@
     "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.6965,
+   "prob_positive": 0.6966,
    "expected_points": 2.44,
    "verdict": "Likely positive",
    "signals": [
@@ -10845,7 +10781,7 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.737,
+   "prob_positive": 0.7369,
    "expected_points": 3.01,
    "verdict": "Likely positive",
    "signals": [
