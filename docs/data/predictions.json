@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T16:32:28+00:00",
+ "generated_at": "2026-10-18T22:26:44+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.5245053111487121
   },
-  "points_mae": 3.28533661267607,
+  "points_mae": 3.285336612676069,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10764,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-18T16:32:19+00:00"
+  "trained_at": "2026-10-18T22:26:36+00:00"
  },
  "default_goalies": [
   8474596,
@@ -1653,7 +1653,7 @@
     "start_utc": "2026-10-18T22:00:00Z",
     "home": 1,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7712,
    "expected_points": 3.08,
@@ -1826,7 +1826,7 @@
     "start_utc": "2026-10-18T22:00:00Z",
     "home": 0,
     "opp": "MIN",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7011,
    "expected_points": 2.42,
@@ -4081,7 +4081,7 @@
     "start_utc": "2026-10-18T22:00:00Z",
     "home": 1,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.8083,
    "expected_points": 3.79,
@@ -5706,7 +5706,7 @@
     "start_utc": "2026-10-18T22:00:00Z",
     "home": 1,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7873,
    "expected_points": 3.49,
@@ -5839,7 +5839,7 @@
     "start_utc": "2026-10-18T22:00:00Z",
     "home": 0,
     "opp": "MIN",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7149,
    "expected_points": 2.48,
