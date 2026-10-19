@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T19:21:12+00:00",
+ "generated_at": "2026-10-19T23:42:20+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.2094151559268283,
-   "log_loss": 0.6096608212419168,
+   "brier": 0.20941522674753738,
+   "log_loss": 0.6096609935892334,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5418961436802583
+   "auc": 0.541892687701138
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.5244990903862955
   },
-  "points_mae": 3.2853386895801475,
+  "points_mae": 3.285338749006091,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10768,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-19T19:21:05+00:00"
+  "trained_at": "2026-10-19T23:42:14+00:00"
  },
  "default_goalies": [
   8474596,
@@ -532,7 +532,7 @@
     "start_utc": "2026-10-19T23:30:00Z",
     "home": 0,
     "opp": "TOR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.681,
    "expected_points": 2.29,
@@ -878,7 +878,7 @@
     "start_utc": "2026-10-19T23:30:00Z",
     "home": 1,
     "opp": "SJS",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7382,
    "expected_points": 2.79,
@@ -1224,7 +1224,7 @@
     "start_utc": "2026-10-19T23:30:00Z",
     "home": 1,
     "opp": "SJS",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6833,
    "expected_points": 2.27,
@@ -1883,13 +1883,13 @@
     "opp": "TOR",
     "state": "FUT"
    },
-   "prob_positive": 0.7458,
+   "prob_positive": 0.7456,
    "expected_points": 2.96,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "56% positive lately vs 76% career (save % 0.880)",
+     "detail": "56% positive lately vs 76% career (save % 0.881)",
      "tone": "bad"
     },
     {
@@ -1927,8 +1927,8 @@
     "record": "1-2-0",
     "shutouts": 0,
     "pos_rate": 0.667,
-    "avg_points": 0.6,
-    "save_pct": 0.873
+    "avg_points": 0.67,
+    "save_pct": 0.875
    },
    "vs_opponent": {
     "starts": 16,
@@ -1996,10 +1996,10 @@
      "opp": "MIN",
      "home": 0,
      "decision": "L",
-     "saves": 32,
+     "saves": 33,
      "ga": 2,
      "so": 0,
-     "points": 3.4
+     "points": 3.6
     },
     {
      "date": "2026-10-13",
@@ -2974,7 +2974,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 1,
     "opp": "COL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6294,
    "expected_points": 1.85,
@@ -3597,7 +3597,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6864,
+   "prob_positive": 0.6866,
    "expected_points": 2.35,
    "verdict": "Likely positive",
    "signals": [
@@ -3740,8 +3740,8 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7243,
-   "expected_points": 2.63,
+   "prob_positive": 0.7244,
+   "expected_points": 2.64,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3873,7 +3873,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6821,
+   "prob_positive": 0.6822,
    "expected_points": 2.22,
    "verdict": "Likely positive",
    "signals": [
@@ -4024,7 +4024,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 1,
     "opp": "ANA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.8199,
    "expected_points": 3.92,
@@ -4314,8 +4314,8 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7848,
-   "expected_points": 3.48,
+   "prob_positive": 0.7849,
+   "expected_points": 3.49,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4478,7 +4478,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 1,
     "opp": "ANA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.8224,
    "expected_points": 3.77,
@@ -5916,7 +5916,7 @@
     "opp": "TOR",
     "state": "FUT"
    },
-   "prob_positive": 0.7536,
+   "prob_positive": 0.7534,
    "expected_points": 3.1,
    "verdict": "Likely positive",
    "signals": [
@@ -6586,7 +6586,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 1,
     "opp": "ANA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7464,
    "expected_points": 2.83,
@@ -6925,7 +6925,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 1,
     "opp": "COL",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7131,
    "expected_points": 2.61,
@@ -8191,7 +8191,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6671,
    "expected_points": 1.87,
@@ -8364,7 +8364,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 0,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7428,
    "expected_points": 2.69,
@@ -9511,7 +9511,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 0,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7352,
    "expected_points": 2.68,
@@ -9949,7 +9949,7 @@
     "start_utc": "2026-10-19T23:30:00Z",
     "home": 1,
     "opp": "SJS",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6956,
    "expected_points": 2.38,
@@ -10418,7 +10418,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 1,
     "opp": "ANA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7222,
    "expected_points": 2.55,
@@ -10895,7 +10895,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7715,
+   "prob_positive": 0.7716,
    "expected_points": 3.35,
    "verdict": "Likely positive",
    "signals": [
@@ -11239,7 +11239,7 @@
     "start_utc": "2026-10-19T23:00:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6754,
    "expected_points": 2.0,
@@ -11412,7 +11412,7 @@
     "start_utc": "2026-10-19T23:30:00Z",
     "home": 0,
     "opp": "TOR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6152,
    "expected_points": 1.69,
