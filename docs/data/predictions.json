@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:26:44+00:00",
+ "generated_at": "2026-10-19T19:21:12+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.2094133948068509,
-   "log_loss": 0.6096565998729643,
+   "brier": 0.2094151559268283,
+   "log_loss": 0.6096608212419168,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5419562777169527
+   "auc": 0.5418961436802583
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -26,15 +26,15 @@
   },
   "baseline_career_rate": {
    "n": 2624,
-   "brier": 0.21219701087024653,
-   "log_loss": 0.616659436878721,
+   "brier": 0.212197314682057,
+   "log_loss": 0.6166604737362008,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5245053111487121
+   "auc": 0.5244990903862955
   },
-  "points_mae": 3.285336612676069,
+  "points_mae": 3.2853386895801475,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
-  "training_rows": 10764,
+  "training_rows": 10768,
   "train_seasons": [
    20222023,
    20232024,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-18T22:26:36+00:00"
+  "trained_at": "2026-10-19T19:21:05+00:00"
  },
  "default_goalies": [
   8474596,
@@ -225,7 +225,7 @@
     "opp": "OTT",
     "state": "FUT"
    },
-   "prob_positive": 0.6719,
+   "prob_positive": 0.6731,
    "expected_points": 1.94,
    "verdict": "Likely positive",
    "signals": [
@@ -368,7 +368,7 @@
     "opp": "PHI",
     "state": "FUT"
    },
-   "prob_positive": 0.7477,
+   "prob_positive": 0.7484,
    "expected_points": 2.89,
    "verdict": "Likely positive",
    "signals": [
@@ -534,7 +534,7 @@
     "opp": "TOR",
     "state": "FUT"
    },
-   "prob_positive": 0.6809,
+   "prob_positive": 0.681,
    "expected_points": 2.29,
    "verdict": "Likely positive",
    "signals": [
@@ -707,7 +707,7 @@
     "opp": "VGK",
     "state": "FUT"
    },
-   "prob_positive": 0.7289,
+   "prob_positive": 0.7297,
    "expected_points": 2.74,
    "verdict": "Likely positive",
    "signals": [
@@ -880,7 +880,7 @@
     "opp": "SJS",
     "state": "FUT"
    },
-   "prob_positive": 0.7374,
+   "prob_positive": 0.7382,
    "expected_points": 2.79,
    "verdict": "Likely positive",
    "signals": [
@@ -897,7 +897,7 @@
     {
      "label": "Opponent offense",
      "detail": "SJS scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -1053,7 +1053,7 @@
     "opp": "WSH",
     "state": "FUT"
    },
-   "prob_positive": 0.6412,
+   "prob_positive": 0.6415,
    "expected_points": 1.69,
    "verdict": "Lean positive",
    "signals": [
@@ -1214,6 +1214,91 @@
    ]
   },
   {
+   "id": 8482515,
+   "name": "Artur Akhtyamov",
+   "team": "TOR",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/TOR/8482515.png",
+   "next_game": {
+    "game_id": 2026020139,
+    "date": "2026-10-19",
+    "start_utc": "2026-10-19T23:30:00Z",
+    "home": 1,
+    "opp": "SJS",
+    "state": "FUT"
+   },
+   "prob_positive": 0.6833,
+   "expected_points": 2.27,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "61% positive lately vs 68% career (save % 0.876)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs SJS",
+     "detail": "No career starts against them yet",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "SJS scoring 2.67 goals/game (league 2.82)",
+     "tone": "neutral"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 20% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.0,
+   "career": {
+    "starts": 2,
+    "record": "0-2-0",
+    "shutouts": 0,
+    "pos_rate": 0.5,
+    "avg_points": -1.75,
+    "save_pct": 0.855
+   },
+   "season": null,
+   "vs_opponent": {
+    "starts": 0,
+    "record": "0-0-0",
+    "shutouts": 0,
+    "pos_rate": null,
+    "avg_points": null,
+    "save_pct": null,
+    "games": []
+   },
+   "last5": [
+    {
+     "date": "2026-04-13",
+     "opp": "DAL",
+     "home": 1,
+     "decision": "L",
+     "saves": 26,
+     "ga": 6,
+     "so": 0,
+     "points": -3.8
+    },
+    {
+     "date": "2026-04-09",
+     "opp": "NYI",
+     "home": 0,
+     "decision": "L",
+     "saves": 39,
+     "ga": 5,
+     "so": 0,
+     "points": 0.3
+    }
+   ]
+  },
+  {
    "id": 8481668,
    "name": "Arturs Silovs",
    "team": "PIT",
@@ -1226,7 +1311,7 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.5632,
+   "prob_positive": 0.5635,
    "expected_points": 1.29,
    "verdict": "Lean positive",
    "signals": [
@@ -1359,8 +1444,8 @@
     "opp": "MTL",
     "state": "FUT"
    },
-   "prob_positive": 0.625,
-   "expected_points": 1.48,
+   "prob_positive": 0.626,
+   "expected_points": 1.49,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -1505,31 +1590,31 @@
    "team": "CAR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8483548.png",
    "next_game": {
-    "game_id": 2026020136,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-19T00:00:00Z",
+    "game_id": 2026020150,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-21T02:00:00Z",
     "home": 0,
-    "opp": "CGY",
+    "opp": "VAN",
     "state": "FUT"
    },
-   "prob_positive": 0.6924,
-   "expected_points": 2.41,
+   "prob_positive": 0.674,
+   "expected_points": 2.24,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "81% positive lately vs 83% career (save % 0.885)",
+     "detail": "81% positive lately vs 84% career (save % 0.887)",
      "tone": "neutral"
     },
     {
-     "label": "History vs CGY",
-     "detail": "2 career starts; adjusted positive rate 74% vs 83% overall",
-     "tone": "bad"
+     "label": "History vs VAN",
+     "detail": "1 career starts; adjusted positive rate 86% vs 84% overall",
+     "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "CGY scoring 2.13 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "VAN scoring 2.80 goals/game (league 2.82)",
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -1538,58 +1623,58 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 7 days rest",
+     "detail": "Road game, 2 days rest",
      "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.5,
    "career": {
-    "starts": 43,
-    "record": "33-7-3",
+    "starts": 44,
+    "record": "33-8-3",
     "shutouts": 2,
-    "pos_rate": 0.86,
-    "avg_points": 2.92,
+    "pos_rate": 0.864,
+    "avg_points": 2.9,
     "save_pct": 0.892
    },
    "season": {
-    "starts": 4,
-    "record": "2-1-1",
+    "starts": 5,
+    "record": "2-2-1",
     "shutouts": 0,
-    "pos_rate": 0.75,
-    "avg_points": 1.3,
-    "save_pct": 0.871
+    "pos_rate": 0.8,
+    "avg_points": 1.38,
+    "save_pct": 0.882
    },
    "vs_opponent": {
-    "starts": 2,
-    "record": "1-1-0",
-    "shutouts": 1,
-    "pos_rate": 0.5,
-    "avg_points": 3.35,
-    "save_pct": 0.878,
+    "starts": 1,
+    "record": "1-0-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 0.6,
+    "save_pct": 0.818,
     "games": [
      {
-      "date": "2026-03-07",
-      "opp": "CGY",
+      "date": "2026-03-04",
+      "opp": "VAN",
       "home": 0,
-      "decision": "L",
-      "saves": 20,
-      "ga": 5,
-      "so": 0,
-      "points": -3.5
-     },
-     {
-      "date": "2025-11-30",
-      "opp": "CGY",
-      "home": 1,
       "decision": "W",
-      "saves": 16,
-      "ga": 0,
-      "so": 1,
-      "points": 10.2
+      "saves": 18,
+      "ga": 4,
+      "so": 0,
+      "points": 0.6
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "CGY",
+     "home": 0,
+     "decision": "L",
+     "saves": 31,
+     "ga": 3,
+     "so": 0,
+     "points": 1.7
+    },
     {
      "date": "2026-10-10",
      "opp": "CHI",
@@ -1629,16 +1714,6 @@
      "ga": 1,
      "so": 0,
      "points": 3.3
-    },
-    {
-     "date": "2026-04-14",
-     "opp": "NYI",
-     "home": 0,
-     "decision": "W",
-     "saves": 29,
-     "ga": 1,
-     "so": 0,
-     "points": 7.3
     }
    ]
   },
@@ -1648,15 +1723,15 @@
    "team": "MIN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8475717.png",
    "next_game": {
-    "game_id": 2026020135,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-18T22:00:00Z",
-    "home": 1,
-    "opp": "CBJ",
-    "state": "LIVE"
+    "game_id": 2026020148,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-21T01:00:00Z",
+    "home": 0,
+    "opp": "EDM",
+    "state": "FUT"
    },
-   "prob_positive": 0.7712,
-   "expected_points": 3.08,
+   "prob_positive": 0.692,
+   "expected_points": 2.27,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -1665,14 +1740,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs CBJ",
-     "detail": "8 career starts; adjusted positive rate 64% vs 67% overall",
+     "label": "History vs EDM",
+     "detail": "3 career starts; adjusted positive rate 67% vs 67% overall",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "CBJ scoring 2.20 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "EDM scoring 3.67 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -1681,8 +1756,8 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 5 days rest",
-     "tone": "good"
+     "detail": "Road game, 7 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.1,
@@ -1703,62 +1778,42 @@
     "save_pct": 0.8
    },
    "vs_opponent": {
-    "starts": 8,
-    "record": "3-4-1",
+    "starts": 3,
+    "record": "2-1-0",
     "shutouts": 0,
-    "pos_rate": 0.625,
-    "avg_points": 0.83,
-    "save_pct": 0.873,
+    "pos_rate": 0.667,
+    "avg_points": 3.07,
+    "save_pct": 0.905,
     "games": [
      {
-      "date": "2025-11-13",
-      "opp": "CBJ",
+      "date": "2017-03-25",
+      "opp": "EDM",
       "home": 0,
       "decision": "L",
-      "saves": 20,
-      "ga": 5,
+      "saves": 25,
+      "ga": 4,
       "so": 0,
-      "points": -3.5
+      "points": -1.0
      },
      {
-      "date": "2024-12-05",
-      "opp": "CBJ",
-      "home": 1,
-      "decision": "W",
-      "saves": 19,
-      "ga": 3,
-      "so": 0,
-      "points": 2.3
-     },
-     {
-      "date": "2024-03-07",
-      "opp": "CBJ",
+      "date": "2016-03-20",
+      "opp": "EDM",
       "home": 0,
-      "decision": "L",
-      "saves": 30,
-      "ga": 3,
-      "so": 0,
-      "points": 1.5
-     },
-     {
-      "date": "2021-05-08",
-      "opp": "CBJ",
-      "home": 0,
-      "decision": "O",
-      "saves": 31,
-      "ga": 5,
-      "so": 0,
-      "points": -0.3
-     },
-     {
-      "date": "2021-03-28",
-      "opp": "CBJ",
-      "home": 1,
       "decision": "W",
-      "saves": 16,
-      "ga": 1,
+      "saves": 26,
+      "ga": 2,
       "so": 0,
-      "points": 4.7
+      "points": 5.2
+     },
+     {
+      "date": "2016-02-20",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "W",
+      "saves": 25,
+      "ga": 2,
+      "so": 0,
+      "points": 5.0
      }
     ]
    },
@@ -1821,30 +1876,30 @@
    "team": "CBJ",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CBJ/8475660.png",
    "next_game": {
-    "game_id": 2026020135,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-18T22:00:00Z",
-    "home": 0,
-    "opp": "MIN",
-    "state": "LIVE"
+    "game_id": 2026020145,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-20T23:00:00Z",
+    "home": 1,
+    "opp": "TOR",
+    "state": "FUT"
    },
-   "prob_positive": 0.7011,
-   "expected_points": 2.42,
+   "prob_positive": 0.7458,
+   "expected_points": 2.96,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "56% positive lately vs 76% career (save % 0.878)",
+     "detail": "56% positive lately vs 76% career (save % 0.880)",
      "tone": "bad"
     },
     {
-     "label": "History vs MIN",
-     "detail": "21 career starts; adjusted positive rate 76% vs 76% overall",
+     "label": "History vs TOR",
+     "detail": "16 career starts; adjusted positive rate 75% vs 76% overall",
      "tone": "neutral"
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.13 goals/game (league 2.82)",
+     "detail": "TOR scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -1854,88 +1909,98 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, 5 days rest",
-     "tone": "neutral"
+     "detail": "Home game, 2 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.2,
+   "starter_share_last10": 0.3,
    "career": {
-    "starts": 535,
-    "record": "275-201-53",
+    "starts": 536,
+    "record": "275-202-53",
     "shutouts": 33,
-    "pos_rate": 0.764,
+    "pos_rate": 0.765,
     "avg_points": 3.33,
     "save_pct": 0.911
    },
    "season": {
-    "starts": 2,
-    "record": "1-1-0",
+    "starts": 3,
+    "record": "1-2-0",
     "shutouts": 0,
-    "pos_rate": 0.5,
-    "avg_points": -0.8,
-    "save_pct": 0.822
+    "pos_rate": 0.667,
+    "avg_points": 0.6,
+    "save_pct": 0.873
    },
    "vs_opponent": {
-    "starts": 21,
-    "record": "9-9-3",
+    "starts": 16,
+    "record": "9-5-2",
     "shutouts": 0,
-    "pos_rate": 0.762,
-    "avg_points": 3.23,
-    "save_pct": 0.917,
+    "pos_rate": 0.75,
+    "avg_points": 2.74,
+    "save_pct": 0.902,
     "games": [
      {
-      "date": "2026-04-05",
-      "opp": "MIN",
+      "date": "2025-12-28",
+      "opp": "TOR",
       "home": 1,
-      "decision": "L",
-      "saves": 15,
-      "ga": 5,
-      "so": 0,
-      "points": -4.5
-     },
-     {
-      "date": "2026-01-22",
-      "opp": "MIN",
-      "home": 0,
-      "decision": "O",
-      "saves": 35,
-      "ga": 4,
-      "so": 0,
-      "points": 2.0
-     },
-     {
-      "date": "2025-02-25",
-      "opp": "MIN",
-      "home": 0,
       "decision": "W",
-      "saves": 22,
+      "saves": 25,
       "ga": 2,
       "so": 0,
-      "points": 4.4
+      "points": 5.0
      },
      {
-      "date": "2025-02-22",
-      "opp": "MIN",
-      "home": 1,
-      "decision": "O",
-      "saves": 35,
-      "ga": 4,
+      "date": "2025-10-13",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "W",
+      "saves": 38,
+      "ga": 2,
       "so": 0,
-      "points": 2.0
+      "points": 7.6
      },
      {
-      "date": "2024-04-15",
-      "opp": "MIN",
+      "date": "2025-10-11",
+      "opp": "TOR",
       "home": 1,
-      "decision": "L",
-      "saves": 25,
+      "decision": "W",
+      "saves": 20,
       "ga": 3,
       "so": 0,
-      "points": 0.5
+      "points": 2.5
+     },
+     {
+      "date": "2025-04-17",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "O",
+      "saves": 16,
+      "ga": 4,
+      "so": 0,
+      "points": -1.8
+     },
+     {
+      "date": "2024-12-27",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "L",
+      "saves": 16,
+      "ga": 5,
+      "so": 0,
+      "points": -4.3
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "MIN",
+     "home": 0,
+     "decision": "L",
+     "saves": 32,
+     "ga": 2,
+     "so": 0,
+     "points": 3.4
+    },
     {
      "date": "2026-10-13",
      "opp": "FLA",
@@ -1975,16 +2040,6 @@
      "ga": 5,
      "so": 0,
      "points": -4.5
-    },
-    {
-     "date": "2026-03-04",
-     "opp": "VGK",
-     "home": 1,
-     "decision": "O",
-     "saves": 21,
-     "ga": 4,
-     "so": 0,
-     "points": -0.8
     }
    ]
   },
@@ -2001,7 +2056,7 @@
     "opp": "TBL",
     "state": "FUT"
    },
-   "prob_positive": 0.7676,
+   "prob_positive": 0.767,
    "expected_points": 3.07,
    "verdict": "Likely positive",
    "signals": [
@@ -2174,7 +2229,7 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.7834,
+   "prob_positive": 0.7835,
    "expected_points": 3.34,
    "verdict": "Likely positive",
    "signals": [
@@ -2347,7 +2402,7 @@
     "opp": "LAK",
     "state": "FUT"
    },
-   "prob_positive": 0.7611,
+   "prob_positive": 0.7615,
    "expected_points": 3.26,
    "verdict": "Likely positive",
    "signals": [
@@ -2364,7 +2419,7 @@
     {
      "label": "Opponent offense",
      "detail": "LAK scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -2500,8 +2555,8 @@
     "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.6859,
-   "expected_points": 2.27,
+   "prob_positive": 0.6861,
+   "expected_points": 2.28,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2622,7 +2677,7 @@
     "opp": "PHI",
     "state": "FUT"
    },
-   "prob_positive": 0.7071,
+   "prob_positive": 0.7078,
    "expected_points": 2.45,
    "verdict": "Likely positive",
    "signals": [
@@ -2755,8 +2810,8 @@
     "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.705,
-   "expected_points": 2.54,
+   "prob_positive": 0.7054,
+   "expected_points": 2.55,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2921,7 +2976,7 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.6302,
+   "prob_positive": 0.6294,
    "expected_points": 1.85,
    "verdict": "Lean positive",
    "signals": [
@@ -3094,8 +3149,8 @@
     "opp": "SEA",
     "state": "FUT"
    },
-   "prob_positive": 0.6084,
-   "expected_points": 1.35,
+   "prob_positive": 0.6083,
+   "expected_points": 1.34,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -3247,8 +3302,8 @@
     "opp": "WSH",
     "state": "FUT"
    },
-   "prob_positive": 0.7025,
-   "expected_points": 2.6,
+   "prob_positive": 0.7024,
+   "expected_points": 2.61,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3420,7 +3475,7 @@
     "opp": "VGK",
     "state": "FUT"
    },
-   "prob_positive": 0.7057,
+   "prob_positive": 0.7062,
    "expected_points": 2.42,
    "verdict": "Likely positive",
    "signals": [
@@ -3535,81 +3590,101 @@
    "team": "CGY",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8482445.png",
    "next_game": {
-    "game_id": 2026020136,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-19T00:00:00Z",
+    "game_id": 2026020162,
+    "date": "2026-10-22",
+    "start_utc": "2026-10-23T01:00:00Z",
     "home": 1,
-    "opp": "CAR",
+    "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6695,
-   "expected_points": 2.21,
+   "prob_positive": 0.6864,
+   "expected_points": 2.35,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "46% positive lately vs 64% career (save % 0.876)",
+     "detail": "53% positive lately vs 65% career (save % 0.889)",
      "tone": "bad"
     },
     {
-     "label": "History vs CAR",
-     "detail": "1 career starts; adjusted positive rate 70% vs 64% overall",
-     "tone": "good"
+     "label": "History vs MIN",
+     "detail": "2 career starts; adjusted positive rate 61% vs 65% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "CAR scoring 3.67 goals/game (league 2.82)",
+     "detail": "MIN scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 27% of its last 15",
+     "detail": "His team has won 33% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 7 days rest",
+     "detail": "Home game, 4 days rest",
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.2,
+   "starter_share_last10": 0.3,
    "career": {
-    "starts": 34,
-    "record": "12-15-7",
+    "starts": 35,
+    "record": "13-15-7",
     "shutouts": 0,
-    "pos_rate": 0.618,
-    "avg_points": 2.06,
-    "save_pct": 0.898
+    "pos_rate": 0.629,
+    "avg_points": 2.2,
+    "save_pct": 0.9
    },
    "season": {
+    "starts": 3,
+    "record": "1-2-0",
+    "shutouts": 0,
+    "pos_rate": 0.333,
+    "avg_points": 0.27,
+    "save_pct": 0.868
+   },
+   "vs_opponent": {
     "starts": 2,
     "record": "0-2-0",
     "shutouts": 0,
-    "pos_rate": 0.0,
-    "avg_points": -3.0,
-    "save_pct": 0.818
-   },
-   "vs_opponent": {
-    "starts": 1,
-    "record": "0-0-1",
-    "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 2.7,
-    "save_pct": 0.941,
+    "pos_rate": 0.5,
+    "avg_points": 0.7,
+    "save_pct": 0.902,
     "games": [
      {
-      "date": "2025-11-30",
-      "opp": "CAR",
+      "date": "2026-01-29",
+      "opp": "MIN",
       "home": 0,
-      "decision": "O",
-      "saves": 16,
+      "decision": "L",
+      "saves": 20,
+      "ga": 3,
+      "so": 0,
+      "points": -0.5
+     },
+     {
+      "date": "2025-11-09",
+      "opp": "MIN",
+      "home": 0,
+      "decision": "L",
+      "saves": 17,
       "ga": 1,
       "so": 0,
-      "points": 2.7
+      "points": 1.9
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "CAR",
+     "home": 1,
+     "decision": "W",
+     "saves": 34,
+     "ga": 2,
+     "so": 0,
+     "points": 6.8
+    },
     {
      "date": "2026-10-08",
      "opp": "COL",
@@ -3649,16 +3724,6 @@
      "ga": 4,
      "so": 0,
      "points": -0.8
-    },
-    {
-     "date": "2026-04-04",
-     "opp": "ANA",
-     "home": 0,
-     "decision": "W",
-     "saves": 36,
-     "ga": 3,
-     "so": 0,
-     "points": 5.7
     }
    ]
   },
@@ -3675,8 +3740,8 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7182,
-   "expected_points": 2.59,
+   "prob_positive": 0.7243,
+   "expected_points": 2.63,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3691,7 +3756,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.13 goals/game (league 2.82)",
+     "detail": "MIN scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -3801,16 +3866,16 @@
    "team": "CGY",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CGY/8481692.png",
    "next_game": {
-    "game_id": 2026020136,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-19T00:00:00Z",
+    "game_id": 2026020162,
+    "date": "2026-10-22",
+    "start_utc": "2026-10-23T01:00:00Z",
     "home": 1,
-    "opp": "CAR",
+    "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6294,
-   "expected_points": 1.82,
-   "verdict": "Lean positive",
+   "prob_positive": 0.6821,
+   "expected_points": 2.22,
+   "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
@@ -3818,27 +3883,27 @@
      "tone": "bad"
     },
     {
-     "label": "History vs CAR",
+     "label": "History vs MIN",
      "detail": "3 career starts; adjusted positive rate 81% vs 70% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "CAR scoring 3.67 goals/game (league 2.82)",
+     "detail": "MIN scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
      "label": "Team support",
-     "detail": "His team has won 27% of its last 15",
+     "detail": "His team has won 33% of its last 15",
      "tone": "bad"
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 3 days rest",
+     "detail": "Home game, 7 days rest",
      "tone": "good"
     }
    ],
-   "starter_share_last10": 0.7,
+   "starter_share_last10": 0.6,
    "career": {
     "starts": 129,
     "record": "61-56-12",
@@ -3857,41 +3922,41 @@
    },
    "vs_opponent": {
     "starts": 3,
-    "record": "2-0-1",
+    "record": "3-0-0",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 3.93,
-    "save_pct": 0.913,
+    "avg_points": 3.7,
+    "save_pct": 0.9,
     "games": [
      {
-      "date": "2026-03-07",
-      "opp": "CAR",
+      "date": "2025-12-04",
+      "opp": "MIN",
       "home": 1,
       "decision": "W",
-      "saves": 25,
+      "saves": 26,
+      "ga": 1,
+      "so": 0,
+      "points": 6.7
+     },
+     {
+      "date": "2025-04-11",
+      "opp": "MIN",
+      "home": 1,
+      "decision": "W",
+      "saves": 16,
+      "ga": 2,
+      "so": 0,
+      "points": 3.2
+     },
+     {
+      "date": "2025-01-25",
+      "opp": "MIN",
+      "home": 0,
+      "decision": "W",
+      "saves": 21,
       "ga": 4,
       "so": 0,
-      "points": 2.0
-     },
-     {
-      "date": "2025-03-02",
-      "opp": "CAR",
-      "home": 0,
-      "decision": "O",
-      "saves": 31,
-      "ga": 2,
-      "so": 0,
-      "points": 4.2
-     },
-     {
-      "date": "2023-12-07",
-      "opp": "CAR",
-      "home": 1,
-      "decision": "W",
-      "saves": 28,
-      "ga": 2,
-      "so": 0,
-      "points": 5.6
+      "points": 1.2
      }
     ]
    },
@@ -3962,7 +4027,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.8199,
-   "expected_points": 3.91,
+   "expected_points": 3.92,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4076,15 +4141,15 @@
    "team": "MIN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8479406.png",
    "next_game": {
-    "game_id": 2026020135,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-18T22:00:00Z",
-    "home": 1,
-    "opp": "CBJ",
-    "state": "LIVE"
+    "game_id": 2026020148,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-21T01:00:00Z",
+    "home": 0,
+    "opp": "EDM",
+    "state": "FUT"
    },
-   "prob_positive": 0.8083,
-   "expected_points": 3.79,
+   "prob_positive": 0.7358,
+   "expected_points": 2.89,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4093,14 +4158,14 @@
      "tone": "bad"
     },
     {
-     "label": "History vs CBJ",
-     "detail": "5 career starts; adjusted positive rate 78% vs 76% overall",
-     "tone": "neutral"
+     "label": "History vs EDM",
+     "detail": "5 career starts; adjusted positive rate 68% vs 76% overall",
+     "tone": "bad"
     },
     {
      "label": "Opponent offense",
-     "detail": "CBJ scoring 2.20 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "EDM scoring 3.67 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -4109,11 +4174,11 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 7 days rest",
-     "tone": "good"
+     "detail": "Road game, 7 days rest",
+     "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.1,
+   "starter_share_last10": 0.0,
    "career": {
     "starts": 210,
     "record": "110-71-25",
@@ -4125,61 +4190,61 @@
    "season": null,
    "vs_opponent": {
     "starts": 5,
-    "record": "3-1-1",
+    "record": "3-2-0",
     "shutouts": 0,
-    "pos_rate": 0.8,
-    "avg_points": 3.94,
-    "save_pct": 0.915,
+    "pos_rate": 0.6,
+    "avg_points": 2.2,
+    "save_pct": 0.89,
     "games": [
      {
-      "date": "2025-10-11",
-      "opp": "CBJ",
-      "home": 1,
-      "decision": "L",
-      "saves": 25,
-      "ga": 6,
-      "so": 0,
-      "points": -4.0
-     },
-     {
-      "date": "2024-10-19",
-      "opp": "CBJ",
-      "home": 0,
-      "decision": "W",
-      "saves": 23,
-      "ga": 1,
-      "so": 0,
-      "points": 6.1
-     },
-     {
-      "date": "2024-10-10",
-      "opp": "CBJ",
+      "date": "2025-12-20",
+      "opp": "EDM",
       "home": 1,
       "decision": "W",
-      "saves": 31,
+      "saves": 28,
       "ga": 2,
       "so": 0,
-      "points": 6.2
+      "points": 5.6
      },
      {
-      "date": "2023-10-21",
-      "opp": "CBJ",
+      "date": "2025-01-15",
+      "opp": "EDM",
       "home": 1,
-      "decision": "O",
-      "saves": 49,
+      "decision": "L",
+      "saves": 31,
       "ga": 5,
       "so": 0,
-      "points": 3.3
+      "points": -1.3
      },
      {
-      "date": "2022-04-22",
-      "opp": "CBJ",
+      "date": "2024-12-12",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "L",
+      "saves": 21,
+      "ga": 5,
+      "so": 0,
+      "points": -3.3
+     },
+     {
+      "date": "2024-02-23",
+      "opp": "EDM",
       "home": 0,
       "decision": "W",
-      "saves": 33,
-      "ga": 1,
+      "saves": 41,
+      "ga": 2,
       "so": 0,
-      "points": 8.1
+      "points": 8.2
+     },
+     {
+      "date": "2023-10-24",
+      "opp": "EDM",
+      "home": 1,
+      "decision": "W",
+      "saves": 24,
+      "ga": 4,
+      "so": 0,
+      "points": 1.8
      }
     ]
    },
@@ -4249,8 +4314,8 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7801,
-   "expected_points": 3.44,
+   "prob_positive": 0.7848,
+   "expected_points": 3.48,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -4265,7 +4330,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.13 goals/game (league 2.82)",
+     "detail": "MIN scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -4415,7 +4480,7 @@
     "opp": "ANA",
     "state": "FUT"
    },
-   "prob_positive": 0.8214,
+   "prob_positive": 0.8224,
    "expected_points": 3.77,
    "verdict": "Likely positive",
    "signals": [
@@ -4578,7 +4643,7 @@
     "opp": "ANA",
     "state": "FUT"
    },
-   "prob_positive": 0.791,
+   "prob_positive": 0.7914,
    "expected_points": 3.42,
    "verdict": "Likely positive",
    "signals": [
@@ -4751,7 +4816,7 @@
     "opp": "SJS",
     "state": "FUT"
    },
-   "prob_positive": 0.7503,
+   "prob_positive": 0.7504,
    "expected_points": 3.07,
    "verdict": "Likely positive",
    "signals": [
@@ -4768,7 +4833,7 @@
     {
      "label": "Opponent offense",
      "detail": "SJS scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -5046,7 +5111,7 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.7003,
+   "prob_positive": 0.7,
    "expected_points": 2.46,
    "verdict": "Likely positive",
    "signals": [
@@ -5219,7 +5284,7 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.7573,
+   "prob_positive": 0.7572,
    "expected_points": 3.06,
    "verdict": "Likely positive",
    "signals": [
@@ -5392,7 +5457,7 @@
     "opp": "SJS",
     "state": "FUT"
    },
-   "prob_positive": 0.7084,
+   "prob_positive": 0.7091,
    "expected_points": 2.56,
    "verdict": "Likely positive",
    "signals": [
@@ -5409,7 +5474,7 @@
     {
      "label": "Opponent offense",
      "detail": "SJS scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -5535,7 +5600,7 @@
     "opp": "DAL",
     "state": "FUT"
    },
-   "prob_positive": 0.7073,
+   "prob_positive": 0.7068,
    "expected_points": 2.47,
    "verdict": "Likely positive",
    "signals": [
@@ -5701,31 +5766,31 @@
    "team": "MIN",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/MIN/8482661.png",
    "next_game": {
-    "game_id": 2026020135,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-18T22:00:00Z",
-    "home": 1,
-    "opp": "CBJ",
-    "state": "LIVE"
+    "game_id": 2026020148,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-21T01:00:00Z",
+    "home": 0,
+    "opp": "EDM",
+    "state": "FUT"
    },
-   "prob_positive": 0.7873,
-   "expected_points": 3.49,
+   "prob_positive": 0.7068,
+   "expected_points": 2.54,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "95% positive lately vs 78% career (save % 0.920)",
+     "detail": "95% positive lately vs 79% career (save % 0.920)",
      "tone": "good"
     },
     {
-     "label": "History vs CBJ",
-     "detail": "1 career starts; adjusted positive rate 82% vs 78% overall",
+     "label": "History vs EDM",
+     "detail": "2 career starts; adjusted positive rate 85% vs 79% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "CBJ scoring 2.20 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "EDM scoring 3.67 goals/game (league 2.82)",
+     "tone": "bad"
     },
     {
      "label": "Team support",
@@ -5734,48 +5799,68 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Home game, 3 days rest",
-     "tone": "good"
+     "detail": "Road game, 2 days rest",
+     "tone": "neutral"
     }
    ],
-   "starter_share_last10": 0.8,
+   "starter_share_last10": 0.9,
    "career": {
-    "starts": 45,
-    "record": "25-13-7",
+    "starts": 46,
+    "record": "26-13-7",
     "shutouts": 5,
-    "pos_rate": 0.8,
-    "avg_points": 3.78,
+    "pos_rate": 0.804,
+    "avg_points": 3.79,
     "save_pct": 0.912
    },
    "season": {
-    "starts": 7,
-    "record": "5-1-1",
+    "starts": 8,
+    "record": "6-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 4.04,
-    "save_pct": 0.921
+    "avg_points": 4.07,
+    "save_pct": 0.922
    },
    "vs_opponent": {
-    "starts": 1,
-    "record": "1-0-0",
-    "shutouts": 0,
+    "starts": 2,
+    "record": "2-0-0",
+    "shutouts": 1,
     "pos_rate": 1.0,
-    "avg_points": 5.4,
-    "save_pct": 0.931,
+    "avg_points": 9.95,
+    "save_pct": 0.96,
     "games": [
      {
-      "date": "2025-12-18",
-      "opp": "CBJ",
+      "date": "2026-01-31",
+      "opp": "EDM",
       "home": 0,
       "decision": "W",
-      "saves": 27,
-      "ga": 2,
+      "saves": 39,
+      "ga": 3,
       "so": 0,
-      "points": 5.4
+      "points": 6.3
+     },
+     {
+      "date": "2025-12-02",
+      "opp": "EDM",
+      "home": 0,
+      "decision": "W",
+      "saves": 33,
+      "ga": 0,
+      "so": 1,
+      "points": 13.6
      }
     ]
    },
    "last5": [
+    {
+     "date": "2026-10-18",
+     "opp": "CBJ",
+     "home": 1,
+     "decision": "W",
+     "saves": 14,
+     "ga": 1,
+     "so": 0,
+     "points": 4.3
+    },
     {
      "date": "2026-10-15",
      "opp": "STL",
@@ -5815,16 +5900,6 @@
      "ga": 3,
      "so": 0,
      "points": 1.9
-    },
-    {
-     "date": "2026-10-06",
-     "opp": "BUF",
-     "home": 0,
-     "decision": "O",
-     "saves": 25,
-     "ga": 3,
-     "so": 0,
-     "points": 1.5
     }
    ]
   },
@@ -5834,30 +5909,30 @@
    "team": "CBJ",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CBJ/8482982.png",
    "next_game": {
-    "game_id": 2026020135,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-18T22:00:00Z",
-    "home": 0,
-    "opp": "MIN",
-    "state": "LIVE"
+    "game_id": 2026020145,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-20T23:00:00Z",
+    "home": 1,
+    "opp": "TOR",
+    "state": "FUT"
    },
-   "prob_positive": 0.7149,
-   "expected_points": 2.48,
+   "prob_positive": 0.7536,
+   "expected_points": 3.1,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "64% positive lately vs 77% career (save % 0.901)",
+     "detail": "64% positive lately vs 77% career (save % 0.902)",
      "tone": "bad"
     },
     {
-     "label": "History vs MIN",
-     "detail": "1 career starts; adjusted positive rate 81% vs 77% overall",
+     "label": "History vs TOR",
+     "detail": "3 career starts; adjusted positive rate 86% vs 77% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.13 goals/game (league 2.82)",
+     "detail": "TOR scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -5867,11 +5942,11 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, back-to-back",
-     "tone": "bad"
+     "detail": "Home game, 3 days rest",
+     "tone": "good"
     }
    ],
-   "starter_share_last10": 0.8,
+   "starter_share_last10": 0.7,
    "career": {
     "starts": 77,
     "record": "38-28-11",
@@ -5885,26 +5960,46 @@
     "record": "2-2-0",
     "shutouts": 1,
     "pos_rate": 0.5,
-    "avg_points": 3.43,
-    "save_pct": 0.902
+    "avg_points": 3.52,
+    "save_pct": 0.904
    },
    "vs_opponent": {
-    "starts": 1,
-    "record": "0-1-0",
+    "starts": 3,
+    "record": "1-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 0.1,
-    "save_pct": 0.885,
+    "avg_points": 4.17,
+    "save_pct": 0.931,
     "games": [
      {
-      "date": "2025-12-18",
-      "opp": "MIN",
+      "date": "2025-11-26",
+      "opp": "TOR",
       "home": 1,
+      "decision": "O",
+      "saves": 22,
+      "ga": 2,
+      "so": 0,
+      "points": 2.4
+     },
+     {
+      "date": "2025-11-20",
+      "opp": "TOR",
+      "home": 0,
+      "decision": "W",
+      "saves": 27,
+      "ga": 2,
+      "so": 0,
+      "points": 5.4
+     },
+     {
+      "date": "2023-04-04",
+      "opp": "TOR",
+      "home": 0,
       "decision": "L",
-      "saves": 23,
+      "saves": 46,
       "ga": 3,
       "so": 0,
-      "points": 0.1
+      "points": 4.7
      }
     ]
    },
@@ -5914,10 +6009,10 @@
      "opp": "NYR",
      "home": 1,
      "decision": "W",
-     "saves": 29,
+     "saves": 31,
      "ga": 0,
      "so": 1,
-     "points": 12.8
+     "points": 13.2
     },
     {
      "date": "2026-10-10",
@@ -5974,7 +6069,7 @@
     "opp": "WPG",
     "state": "FUT"
    },
-   "prob_positive": 0.7126,
+   "prob_positive": 0.712,
    "expected_points": 2.69,
    "verdict": "Likely positive",
    "signals": [
@@ -5991,7 +6086,7 @@
     {
      "label": "Opponent offense",
      "detail": "WPG scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -6147,7 +6242,7 @@
     "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.7425,
+   "prob_positive": 0.7428,
    "expected_points": 3.0,
    "verdict": "Likely positive",
    "signals": [
@@ -6320,7 +6415,7 @@
     "opp": "SEA",
     "state": "FUT"
    },
-   "prob_positive": 0.6771,
+   "prob_positive": 0.6776,
    "expected_points": 2.13,
    "verdict": "Likely positive",
    "signals": [
@@ -6493,7 +6588,7 @@
     "opp": "ANA",
     "state": "FUT"
    },
-   "prob_positive": 0.7456,
+   "prob_positive": 0.7464,
    "expected_points": 2.83,
    "verdict": "Likely positive",
    "signals": [
@@ -6659,7 +6754,7 @@
     "opp": "WPG",
     "state": "FUT"
    },
-   "prob_positive": 0.6986,
+   "prob_positive": 0.6981,
    "expected_points": 2.54,
    "verdict": "Likely positive",
    "signals": [
@@ -6676,7 +6771,7 @@
     {
      "label": "Opponent offense",
      "detail": "WPG scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -6832,7 +6927,7 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.7127,
+   "prob_positive": 0.7131,
    "expected_points": 2.61,
    "verdict": "Likely positive",
    "signals": [
@@ -6985,7 +7080,7 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.6313,
+   "prob_positive": 0.6319,
    "expected_points": 1.68,
    "verdict": "Lean positive",
    "signals": [
@@ -7100,7 +7195,7 @@
     "opp": "BOS",
     "state": "FUT"
    },
-   "prob_positive": 0.7268,
+   "prob_positive": 0.7272,
    "expected_points": 2.61,
    "verdict": "Likely positive",
    "signals": [
@@ -7273,7 +7368,7 @@
     "opp": "PIT",
     "state": "FUT"
    },
-   "prob_positive": 0.6685,
+   "prob_positive": 0.6688,
    "expected_points": 2.21,
    "verdict": "Likely positive",
    "signals": [
@@ -7446,8 +7541,8 @@
     "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.5912,
-   "expected_points": 1.7,
+   "prob_positive": 0.5949,
+   "expected_points": 1.74,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -7462,7 +7557,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "CAR scoring 3.67 goals/game (league 2.82)",
+     "detail": "CAR scoring 3.60 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -7619,8 +7714,8 @@
     "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.6153,
-   "expected_points": 1.74,
+   "prob_positive": 0.6198,
+   "expected_points": 1.76,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -7635,7 +7730,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "CAR scoring 3.67 goals/game (league 2.82)",
+     "detail": "CAR scoring 3.60 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -7752,7 +7847,7 @@
     "opp": "FLA",
     "state": "FUT"
    },
-   "prob_positive": 0.771,
+   "prob_positive": 0.7711,
    "expected_points": 3.17,
    "verdict": "Likely positive",
    "signals": [
@@ -7925,8 +8020,8 @@
     "opp": "LAK",
     "state": "FUT"
    },
-   "prob_positive": 0.7365,
-   "expected_points": 3.0,
+   "prob_positive": 0.7359,
+   "expected_points": 2.99,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -7942,7 +8037,7 @@
     {
      "label": "Opponent offense",
      "detail": "LAK scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -8098,7 +8193,7 @@
     "opp": "NYR",
     "state": "FUT"
    },
-   "prob_positive": 0.6664,
+   "prob_positive": 0.6671,
    "expected_points": 1.87,
    "verdict": "Likely positive",
    "signals": [
@@ -8271,7 +8366,7 @@
     "opp": "PHI",
     "state": "FUT"
    },
-   "prob_positive": 0.7422,
+   "prob_positive": 0.7428,
    "expected_points": 2.69,
    "verdict": "Likely positive",
    "signals": [
@@ -8444,7 +8539,7 @@
     "opp": "DAL",
     "state": "FUT"
    },
-   "prob_positive": 0.7041,
+   "prob_positive": 0.7042,
    "expected_points": 2.46,
    "verdict": "Likely positive",
    "signals": [
@@ -8556,7 +8651,7 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.6952,
+   "prob_positive": 0.696,
    "expected_points": 2.25,
    "verdict": "Likely positive",
    "signals": [
@@ -8689,7 +8784,7 @@
     "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.7318,
+   "prob_positive": 0.7325,
    "expected_points": 2.82,
    "verdict": "Likely positive",
    "signals": [
@@ -8855,15 +8950,15 @@
    "team": "CAR",
    "headshot": "https://assets.nhle.com/mugs/nhl/20262027/CAR/8481611.png",
    "next_game": {
-    "game_id": 2026020136,
-    "date": "2026-10-18",
-    "start_utc": "2026-10-19T00:00:00Z",
+    "game_id": 2026020150,
+    "date": "2026-10-20",
+    "start_utc": "2026-10-21T02:00:00Z",
     "home": 0,
-    "opp": "CGY",
+    "opp": "VAN",
     "state": "FUT"
    },
-   "prob_positive": 0.7989,
-   "expected_points": 3.38,
+   "prob_positive": 0.7721,
+   "expected_points": 3.13,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -8872,14 +8967,14 @@
      "tone": "good"
     },
     {
-     "label": "History vs CGY",
-     "detail": "3 career starts; adjusted positive rate 82% vs 71% overall",
+     "label": "History vs VAN",
+     "detail": "5 career starts; adjusted positive rate 76% vs 71% overall",
      "tone": "good"
     },
     {
      "label": "Opponent offense",
-     "detail": "CGY scoring 2.13 goals/game (league 2.82)",
-     "tone": "good"
+     "detail": "VAN scoring 2.80 goals/game (league 2.82)",
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -8888,8 +8983,8 @@
     },
     {
      "label": "Venue & rest",
-     "detail": "Road game, back-to-back",
-     "tone": "bad"
+     "detail": "Road game, 3 days rest",
+     "tone": "neutral"
     }
    ],
    "starter_share_last10": 0.5,
@@ -8910,42 +9005,62 @@
     "save_pct": 0.912
    },
    "vs_opponent": {
-    "starts": 3,
-    "record": "2-1-0",
+    "starts": 5,
+    "record": "3-1-1",
     "shutouts": 0,
-    "pos_rate": 1.0,
-    "avg_points": 3.6,
-    "save_pct": 0.92,
+    "pos_rate": 0.8,
+    "avg_points": 1.84,
+    "save_pct": 0.878,
     "games": [
      {
-      "date": "2025-03-02",
-      "opp": "CGY",
+      "date": "2026-10-08",
+      "opp": "VAN",
       "home": 1,
       "decision": "W",
-      "saves": 15,
-      "ga": 1,
-      "so": 0,
-      "points": 4.5
-     },
-     {
-      "date": "2024-10-24",
-      "opp": "CGY",
-      "home": 0,
-      "decision": "W",
-      "saves": 30,
+      "saves": 18,
       "ga": 2,
       "so": 0,
-      "points": 6.0
+      "points": 3.6
      },
      {
-      "date": "2023-12-07",
-      "opp": "CGY",
+      "date": "2025-11-14",
+      "opp": "VAN",
+      "home": 1,
+      "decision": "W",
+      "saves": 14,
+      "ga": 3,
+      "so": 0,
+      "points": 1.3
+     },
+     {
+      "date": "2024-10-28",
+      "opp": "VAN",
       "home": 0,
-      "decision": "L",
+      "decision": "W",
       "saves": 24,
       "ga": 3,
       "so": 0,
-      "points": 0.3
+      "points": 3.3
+     },
+     {
+      "date": "2024-02-06",
+      "opp": "VAN",
+      "home": 1,
+      "decision": "L",
+      "saves": 16,
+      "ga": 3,
+      "so": 0,
+      "points": -1.3
+     },
+     {
+      "date": "2023-01-15",
+      "opp": "VAN",
+      "home": 1,
+      "decision": "O",
+      "saves": 29,
+      "ga": 3,
+      "so": 0,
+      "points": 2.3
      }
     ]
    },
@@ -9015,8 +9130,8 @@
     "opp": "COL",
     "state": "FUT"
    },
-   "prob_positive": 0.754,
-   "expected_points": 3.02,
+   "prob_positive": 0.7543,
+   "expected_points": 3.03,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9079,8 +9194,8 @@
     "opp": "FLA",
     "state": "FUT"
    },
-   "prob_positive": 0.673,
-   "expected_points": 2.24,
+   "prob_positive": 0.6744,
+   "expected_points": 2.25,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9242,7 +9357,7 @@
     "opp": "SJS",
     "state": "FUT"
    },
-   "prob_positive": 0.711,
+   "prob_positive": 0.7121,
    "expected_points": 2.43,
    "verdict": "Likely positive",
    "signals": [
@@ -9259,7 +9374,7 @@
     {
      "label": "Opponent offense",
      "detail": "SJS scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -9398,8 +9513,8 @@
     "opp": "PHI",
     "state": "FUT"
    },
-   "prob_positive": 0.7353,
-   "expected_points": 2.69,
+   "prob_positive": 0.7352,
+   "expected_points": 2.68,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9571,8 +9686,8 @@
     "opp": "PIT",
     "state": "FUT"
    },
-   "prob_positive": 0.7301,
-   "expected_points": 2.85,
+   "prob_positive": 0.7306,
+   "expected_points": 2.86,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9663,8 +9778,8 @@
     "opp": "ANA",
     "state": "FUT"
    },
-   "prob_positive": 0.7851,
-   "expected_points": 3.3,
+   "prob_positive": 0.7852,
+   "expected_points": 3.31,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9836,7 +9951,7 @@
     "opp": "SJS",
     "state": "FUT"
    },
-   "prob_positive": 0.695,
+   "prob_positive": 0.6956,
    "expected_points": 2.38,
    "verdict": "Likely positive",
    "signals": [
@@ -9853,7 +9968,7 @@
     {
      "label": "Opponent offense",
      "detail": "SJS scoring 2.67 goals/game (league 2.82)",
-     "tone": "good"
+     "tone": "neutral"
     },
     {
      "label": "Team support",
@@ -10009,8 +10124,8 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.6091,
-   "expected_points": 1.51,
+   "prob_positive": 0.6094,
+   "expected_points": 1.52,
    "verdict": "Lean positive",
    "signals": [
     {
@@ -10142,8 +10257,8 @@
     "opp": "MTL",
     "state": "FUT"
    },
-   "prob_positive": 0.6999,
-   "expected_points": 2.46,
+   "prob_positive": 0.7003,
+   "expected_points": 2.47,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10305,7 +10420,7 @@
     "opp": "ANA",
     "state": "FUT"
    },
-   "prob_positive": 0.7213,
+   "prob_positive": 0.7222,
    "expected_points": 2.55,
    "verdict": "Likely positive",
    "signals": [
@@ -10441,7 +10556,7 @@
     "opp": "STL",
     "state": "FUT"
    },
-   "prob_positive": 0.6464,
+   "prob_positive": 0.6471,
    "expected_points": 1.88,
    "verdict": "Lean positive",
    "signals": [
@@ -10614,8 +10729,8 @@
     "opp": "CAR",
     "state": "FUT"
    },
-   "prob_positive": 0.6711,
-   "expected_points": 2.24,
+   "prob_positive": 0.6751,
+   "expected_points": 2.27,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10630,7 +10745,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "CAR scoring 3.67 goals/game (league 2.82)",
+     "detail": "CAR scoring 3.60 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -10780,8 +10895,8 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7661,
-   "expected_points": 3.3,
+   "prob_positive": 0.7715,
+   "expected_points": 3.35,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10796,7 +10911,7 @@
     },
     {
      "label": "Opponent offense",
-     "detail": "MIN scoring 3.13 goals/game (league 2.82)",
+     "detail": "MIN scoring 3.00 goals/game (league 2.82)",
      "tone": "bad"
     },
     {
@@ -10953,7 +11068,7 @@
     "opp": "PHI",
     "state": "FUT"
    },
-   "prob_positive": 0.6953,
+   "prob_positive": 0.696,
    "expected_points": 2.44,
    "verdict": "Likely positive",
    "signals": [
@@ -11126,8 +11241,8 @@
     "opp": "NYR",
     "state": "FUT"
    },
-   "prob_positive": 0.6747,
-   "expected_points": 1.99,
+   "prob_positive": 0.6754,
+   "expected_points": 2.0,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -11299,7 +11414,7 @@
     "opp": "TOR",
     "state": "FUT"
    },
-   "prob_positive": 0.614,
+   "prob_positive": 0.6152,
    "expected_points": 1.69,
    "verdict": "Lean positive",
    "signals": [
