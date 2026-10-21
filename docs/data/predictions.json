@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T18:02:28+00:00",
+ "generated_at": "2026-10-21T23:20:29+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.2094126680632423,
-   "log_loss": 0.6096545366176286,
+   "brier": 0.2094126831937286,
+   "log_loss": 0.6096545790834323,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5419396890171749
+   "auc": 0.5419369242338785
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.5244956344071752
   },
-  "points_mae": 3.2853341364530717,
+  "points_mae": 3.285334077137843,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10798,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-21T18:02:23+00:00"
+  "trained_at": "2026-10-21T23:20:21+00:00"
  },
  "default_goalies": [
   8474596,
@@ -233,7 +233,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.674,
    "expected_points": 1.94,
@@ -376,7 +376,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 1,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7502,
    "expected_points": 2.9,
@@ -1818,7 +1818,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.7085,
-   "expected_points": 2.51,
+   "expected_points": 2.5,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -2579,7 +2579,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 1,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7082,
    "expected_points": 2.45,
@@ -2878,7 +2878,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7446,
    "expected_points": 2.77,
@@ -2942,7 +2942,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 0,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6201,
    "expected_points": 1.66,
@@ -4873,7 +4873,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 0,
     "opp": "OTT",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.708,
    "expected_points": 2.29,
@@ -6129,7 +6129,7 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.6937,
+   "prob_positive": 0.694,
    "expected_points": 2.51,
    "verdict": "Likely positive",
    "signals": [
@@ -6782,7 +6782,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 0,
     "opp": "BUF",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6722,
    "expected_points": 2.11,
@@ -7408,7 +7408,7 @@
     "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.6298,
+   "prob_positive": 0.6297,
    "expected_points": 2.11,
    "verdict": "Lean positive",
    "signals": [
@@ -7581,7 +7581,7 @@
     "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.6256,
+   "prob_positive": 0.6255,
    "expected_points": 1.86,
    "verdict": "Lean positive",
    "signals": [
@@ -7712,7 +7712,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7705,
    "expected_points": 3.15,
@@ -8631,7 +8631,7 @@
     "opp": "UTA",
     "state": "FUT"
    },
-   "prob_positive": 0.6846,
+   "prob_positive": 0.6849,
    "expected_points": 2.42,
    "verdict": "Likely positive",
    "signals": [
@@ -8675,7 +8675,7 @@
     "record": "3-1-1",
     "shutouts": 0,
     "pos_rate": 1.0,
-    "avg_points": 3.28,
+    "avg_points": 3.24,
     "save_pct": 0.907
    },
    "vs_opponent": {
@@ -8734,10 +8734,10 @@
      "opp": "DET",
      "home": 1,
      "decision": "W",
-     "saves": 22,
+     "saves": 21,
      "ga": 3,
      "so": 0,
-     "points": 2.9
+     "points": 2.7
     },
     {
      "date": "2026-10-15",
@@ -8999,7 +8999,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6744,
    "expected_points": 2.24,
@@ -10525,7 +10525,7 @@
     "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.7035,
+   "prob_positive": 0.7034,
    "expected_points": 2.65,
    "verdict": "Likely positive",
    "signals": [
@@ -10842,7 +10842,7 @@
     "start_utc": "2026-10-21T23:30:00Z",
     "home": 1,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.698,
    "expected_points": 2.45,
