@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:53:25+00:00",
+ "generated_at": "2026-10-23T23:09:29+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.2094163838596617,
-   "log_loss": 0.6096633904918697,
+   "brier": 0.20941652321446722,
+   "log_loss": 0.6096637911927366,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5418781725888325
+   "auc": 0.5418995996593787
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.5245108407153047
   },
-  "points_mae": 3.285331236907053,
+  "points_mae": 3.2853314144637595,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10826,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-23T17:53:15+00:00"
+  "trained_at": "2026-10-23T23:09:24+00:00"
  },
  "default_goalies": [
   8474596,
@@ -1645,7 +1645,7 @@
     "opp": "SEA",
     "state": "FUT"
    },
-   "prob_positive": 0.7136,
+   "prob_positive": 0.7139,
    "expected_points": 2.38,
    "verdict": "Likely positive",
    "signals": [
@@ -2732,6 +2732,172 @@
    ]
   },
   {
+   "id": 8476945,
+   "name": "Connor Hellebuyck",
+   "team": "WPG",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/WPG/8476945.png",
+   "next_game": {
+    "game_id": 2026020182,
+    "date": "2026-10-25",
+    "start_utc": "2026-10-25T23:00:00Z",
+    "home": 1,
+    "opp": "MTL",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7482,
+   "expected_points": 3.02,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "73% positive lately vs 81% career (save % 0.895)",
+     "tone": "bad"
+    },
+    {
+     "label": "History vs MTL",
+     "detail": "23 career starts; adjusted positive rate 79% vs 81% overall",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "MTL scoring 2.73 goals/game (league 2.82)",
+     "tone": "neutral"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 33% of its last 15",
+     "tone": "bad"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.0,
+   "career": {
+    "starts": 615,
+    "record": "344-208-55",
+    "shutouts": 45,
+    "pos_rate": 0.813,
+    "avg_points": 3.76,
+    "save_pct": 0.916
+   },
+   "season": null,
+   "vs_opponent": {
+    "starts": 23,
+    "record": "13-7-2",
+    "shutouts": 1,
+    "pos_rate": 0.783,
+    "avg_points": 3.33,
+    "save_pct": 0.909,
+    "games": [
+     {
+      "date": "2026-02-04",
+      "opp": "MTL",
+      "home": 1,
+      "decision": "L",
+      "saves": 22,
+      "ga": 4,
+      "so": 0,
+      "points": -1.6
+     },
+     {
+      "date": "2025-01-28",
+      "opp": "MTL",
+      "home": 0,
+      "decision": "W",
+      "saves": 24,
+      "ga": 1,
+      "so": 0,
+      "points": 6.3
+     },
+     {
+      "date": "2024-12-14",
+      "opp": "MTL",
+      "home": 1,
+      "decision": "W",
+      "saves": 26,
+      "ga": 2,
+      "so": 0,
+      "points": 5.2
+     },
+     {
+      "date": "2023-12-18",
+      "opp": "MTL",
+      "home": 1,
+      "decision": "O",
+      "saves": 23,
+      "ga": 3,
+      "so": 0,
+      "points": 1.1
+     },
+     {
+      "date": "2023-01-17",
+      "opp": "MTL",
+      "home": 0,
+      "decision": "L",
+      "saves": 24,
+      "ga": 4,
+      "so": 0,
+      "points": -1.2
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2026-04-13",
+     "opp": "VGK",
+     "home": 0,
+     "decision": "L",
+     "saves": 32,
+     "ga": 6,
+     "so": 0,
+     "points": -2.6
+    },
+    {
+     "date": "2026-04-11",
+     "opp": "PHI",
+     "home": 1,
+     "decision": "L",
+     "saves": 15,
+     "ga": 5,
+     "so": 0,
+     "points": -4.5
+    },
+    {
+     "date": "2026-04-09",
+     "opp": "STL",
+     "home": 0,
+     "decision": "W",
+     "saves": 20,
+     "ga": 2,
+     "so": 0,
+     "points": 4.0
+    },
+    {
+     "date": "2026-04-06",
+     "opp": "SEA",
+     "home": 1,
+     "decision": "W",
+     "saves": 22,
+     "ga": 2,
+     "so": 0,
+     "points": 4.4
+    },
+    {
+     "date": "2026-04-04",
+     "opp": "CBJ",
+     "home": 0,
+     "decision": "W",
+     "saves": 15,
+     "ga": 1,
+     "so": 0,
+     "points": 4.5
+    }
+   ]
+  },
+  {
    "id": 8484900,
    "name": "Cooper Black",
    "team": "FLA",
@@ -2990,7 +3156,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.6827,
-   "expected_points": 2.01,
+   "expected_points": 2.02,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -3443,7 +3609,7 @@
    "signals": [
     {
      "label": "Recent form",
-     "detail": "61% positive lately vs 66% career (save % 0.902)",
+     "detail": "61% positive lately vs 66% career (save % 0.903)",
      "tone": "bad"
     },
     {
@@ -3481,8 +3647,8 @@
     "record": "2-2-0",
     "shutouts": 0,
     "pos_rate": 0.5,
-    "avg_points": 2.42,
-    "save_pct": 0.899
+    "avg_points": 2.47,
+    "save_pct": 0.9
    },
    "vs_opponent": {
     "starts": 1,
@@ -3510,10 +3676,10 @@
      "opp": "MIN",
      "home": 1,
      "decision": "W",
-     "saves": 37,
+     "saves": 38,
      "ga": 1,
      "so": 0,
-     "points": 8.9
+     "points": 9.1
     },
     {
      "date": "2026-10-18",
@@ -3723,7 +3889,7 @@
     "opp": "DET",
     "state": "FUT"
    },
-   "prob_positive": 0.6927,
+   "prob_positive": 0.6925,
    "expected_points": 2.46,
    "verdict": "Likely positive",
    "signals": [
@@ -3988,7 +4154,7 @@
     "opp": "SEA",
     "state": "FUT"
    },
-   "prob_positive": 0.7444,
+   "prob_positive": 0.7446,
    "expected_points": 2.94,
    "verdict": "Likely positive",
    "signals": [
@@ -5603,7 +5769,7 @@
     "opp": "SEA",
     "state": "FUT"
    },
-   "prob_positive": 0.7209,
+   "prob_positive": 0.7211,
    "expected_points": 2.66,
    "verdict": "Likely positive",
    "signals": [
@@ -6052,7 +6218,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7321,
+   "prob_positive": 0.7322,
    "expected_points": 2.83,
    "verdict": "Likely positive",
    "signals": [
@@ -7311,13 +7477,13 @@
     "opp": "TBL",
     "state": "FUT"
    },
-   "prob_positive": 0.6785,
-   "expected_points": 2.17,
+   "prob_positive": 0.6781,
+   "expected_points": 2.16,
    "verdict": "Likely positive",
    "signals": [
     {
      "label": "Recent form",
-     "detail": "62% positive lately vs 68% career (save % 0.882)",
+     "detail": "62% positive lately vs 68% career (save % 0.883)",
      "tone": "bad"
     },
     {
@@ -7355,8 +7521,8 @@
     "record": "5-3-0",
     "shutouts": 1,
     "pos_rate": 0.625,
-    "avg_points": 2.25,
-    "save_pct": 0.879
+    "avg_points": 2.3,
+    "save_pct": 0.88
    },
    "vs_opponent": {
     "starts": 6,
@@ -7424,10 +7590,10 @@
      "opp": "SEA",
      "home": 0,
      "decision": "L",
-     "saves": 18,
+     "saves": 20,
      "ga": 4,
      "so": 0,
-     "points": -2.4
+     "points": -2.0
     },
     {
      "date": "2026-10-17",
@@ -7484,7 +7650,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6168,
+   "prob_positive": 0.6169,
    "expected_points": 1.98,
    "verdict": "Lean positive",
    "signals": [
@@ -7657,7 +7823,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6177,
+   "prob_positive": 0.6179,
    "expected_points": 1.69,
    "verdict": "Lean positive",
    "signals": [
@@ -8470,6 +8636,132 @@
    ]
   },
   {
+   "id": 8477035,
+   "name": "Matt Tomkins",
+   "team": "EDM",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/EDM/8477035.png",
+   "next_game": {
+    "game_id": 2026020176,
+    "date": "2026-10-24",
+    "start_utc": "2026-10-24T23:00:00Z",
+    "home": 1,
+    "opp": "TOR",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7016,
+   "expected_points": 2.63,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "94% positive lately vs 82% career (save % 0.894)",
+     "tone": "good"
+    },
+    {
+     "label": "History vs TOR",
+     "detail": "1 career starts; adjusted positive rate 85% vs 82% overall",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "TOR scoring 3.27 goals/game (league 2.82)",
+     "tone": "bad"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 67% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 7 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.0,
+   "career": {
+    "starts": 6,
+    "record": "3-2-1",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 2.17,
+    "save_pct": 0.892
+   },
+   "season": null,
+   "vs_opponent": {
+    "starts": 1,
+    "record": "1-0-0",
+    "shutouts": 0,
+    "pos_rate": 1.0,
+    "avg_points": 3.8,
+    "save_pct": 0.895,
+    "games": [
+     {
+      "date": "2024-04-17",
+      "opp": "TOR",
+      "home": 1,
+      "decision": "W",
+      "saves": 34,
+      "ga": 4,
+      "so": 0,
+      "points": 3.8
+     }
+    ]
+   },
+   "last5": [
+    {
+     "date": "2024-04-17",
+     "opp": "TOR",
+     "home": 1,
+     "decision": "W",
+     "saves": 34,
+     "ga": 4,
+     "so": 0,
+     "points": 3.8
+    },
+    {
+     "date": "2024-04-11",
+     "opp": "OTT",
+     "home": 1,
+     "decision": "O",
+     "saves": 25,
+     "ga": 2,
+     "so": 0,
+     "points": 3.0
+    },
+    {
+     "date": "2024-04-04",
+     "opp": "MTL",
+     "home": 0,
+     "decision": "W",
+     "saves": 26,
+     "ga": 4,
+     "so": 0,
+     "points": 2.2
+    },
+    {
+     "date": "2023-11-07",
+     "opp": "MTL",
+     "home": 0,
+     "decision": "W",
+     "saves": 23,
+     "ga": 3,
+     "so": 0,
+     "points": 3.1
+    },
+    {
+     "date": "2023-11-02",
+     "opp": "CBJ",
+     "home": 0,
+     "decision": "L",
+     "saves": 24,
+     "ga": 3,
+     "so": 0,
+     "points": 0.3
+    }
+   ]
+  },
+  {
    "id": 8480022,
    "name": "Michael DiPietro",
    "team": "BOS",
@@ -8822,8 +9114,8 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.7118,
-   "expected_points": 2.54,
+   "prob_positive": 0.712,
+   "expected_points": 2.55,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -9704,8 +9996,8 @@
     "opp": "TBL",
     "state": "FUT"
    },
-   "prob_positive": 0.7315,
-   "expected_points": 2.8,
+   "prob_positive": 0.731,
+   "expected_points": 2.79,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10286,7 +10578,7 @@
     "state": "FUT"
    },
    "prob_positive": 0.7044,
-   "expected_points": 2.52,
+   "expected_points": 2.53,
    "verdict": "Likely positive",
    "signals": [
     {
@@ -10757,7 +11049,7 @@
     "opp": "MIN",
     "state": "FUT"
    },
-   "prob_positive": 0.6966,
+   "prob_positive": 0.6968,
    "expected_points": 2.45,
    "verdict": "Likely positive",
    "signals": [
