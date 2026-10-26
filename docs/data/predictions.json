@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T19:18:28+00:00",
+ "generated_at": "2026-10-26T23:53:53+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,10 +12,10 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.20941185433059942,
-   "log_loss": 0.6096522464668631,
+   "brier": 0.2094118321067276,
+   "log_loss": 0.6096521831419062,
    "accuracy": 0.6996951219512195,
-   "auc": 0.5420198677327671
+   "auc": 0.542018485341119
   },
   "baseline_league_rate": {
    "n": 2624,
@@ -31,7 +31,7 @@
    "accuracy": 0.6996951219512195,
    "auc": 0.5245108407153047
   },
-  "points_mae": 3.2853225851890007,
+  "points_mae": 3.285322526104424,
   "points_mae_baseline": 3.3015498645244645,
   "positive_rate": 0.6996951219512195,
   "training_rows": 10864,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-26T19:18:20+00:00"
+  "trained_at": "2026-10-26T23:53:48+00:00"
  },
  "default_goalies": [
   8474596,
@@ -1011,7 +1011,7 @@
     "start_utc": "2026-10-26T23:00:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6545,
    "expected_points": 1.88,
@@ -2084,7 +2084,7 @@
     "opp": "NJD",
     "state": "FUT"
    },
-   "prob_positive": 0.8145,
+   "prob_positive": 0.8147,
    "expected_points": 3.69,
    "verdict": "Likely positive",
    "signals": [
@@ -2552,7 +2552,7 @@
     "opp": "SJS",
     "state": "FUT"
    },
-   "prob_positive": 0.6637,
+   "prob_positive": 0.6636,
    "expected_points": 2.02,
    "verdict": "Likely positive",
    "signals": [
@@ -3236,7 +3236,7 @@
     "start_utc": "2026-10-26T23:00:00Z",
     "home": 0,
     "opp": "NYR",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7302,
    "expected_points": 2.76,
@@ -3960,7 +3960,7 @@
     "start_utc": "2026-10-26T23:00:00Z",
     "home": 1,
     "opp": "LAK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7947,
    "expected_points": 3.57,
@@ -4404,7 +4404,7 @@
     "start_utc": "2026-10-26T23:00:00Z",
     "home": 1,
     "opp": "LAK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.817,
    "expected_points": 3.66,
@@ -5231,7 +5231,7 @@
     "opp": "NJD",
     "state": "FUT"
    },
-   "prob_positive": 0.7564,
+   "prob_positive": 0.7566,
    "expected_points": 3.01,
    "verdict": "Likely positive",
    "signals": [
@@ -5275,8 +5275,8 @@
     "record": "6-2-1",
     "shutouts": 3,
     "pos_rate": 0.889,
-    "avg_points": 5.1,
-    "save_pct": 0.93
+    "avg_points": 5.08,
+    "save_pct": 0.929
    },
    "vs_opponent": {
     "starts": 5,
@@ -5344,10 +5344,10 @@
      "opp": "NYI",
      "home": 1,
      "decision": "W",
-     "saves": 17,
+     "saves": 16,
      "ga": 3,
      "so": 0,
-     "points": 1.9
+     "points": 1.7
     },
     {
      "date": "2026-10-22",
@@ -5535,7 +5535,7 @@
     "start_utc": "2026-10-26T23:00:00Z",
     "home": 1,
     "opp": "LAK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.773,
    "expected_points": 3.28,
@@ -6771,7 +6771,7 @@
     "start_utc": "2026-10-26T23:00:00Z",
     "home": 1,
     "opp": "LAK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.747,
    "expected_points": 2.85,
@@ -7265,7 +7265,7 @@
     "opp": "NYI",
     "state": "FUT"
    },
-   "prob_positive": 0.6613,
+   "prob_positive": 0.6611,
    "expected_points": 1.91,
    "verdict": "Likely positive",
    "signals": [
@@ -7398,7 +7398,7 @@
     "opp": "NYI",
     "state": "FUT"
    },
-   "prob_positive": 0.7626,
+   "prob_positive": 0.7625,
    "expected_points": 2.98,
    "verdict": "Likely positive",
    "signals": [
