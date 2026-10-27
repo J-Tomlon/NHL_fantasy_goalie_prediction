@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:41:50+00:00",
+ "generated_at": "2026-10-27T23:47:39+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-27T18:41:43+00:00"
+  "trained_at": "2026-10-27T23:47:30+00:00"
  },
  "default_goalies": [
   8474596,
@@ -213,7 +213,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6833,
    "expected_points": 2.17,
@@ -1001,7 +1001,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "CHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6851,
    "expected_points": 2.05,
@@ -1307,7 +1307,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "LAK",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6159,
    "expected_points": 1.41,
@@ -1470,7 +1470,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "BOS",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6454,
    "expected_points": 2.0,
@@ -1746,7 +1746,7 @@
     "start_utc": "2026-10-27T23:00:00Z",
     "home": 0,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7536,
    "expected_points": 2.78,
@@ -1907,6 +1907,70 @@
      "points": -1.4
     }
    ]
+  },
+  {
+   "id": 8483523,
+   "name": "Cameron Whitehead",
+   "team": "VGK",
+   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8483523.png",
+   "next_game": {
+    "game_id": 2026020196,
+    "date": "2026-10-27",
+    "start_utc": "2026-10-28T02:00:00Z",
+    "home": 1,
+    "opp": "OTT",
+    "state": "FUT"
+   },
+   "prob_positive": 0.7767,
+   "expected_points": 3.27,
+   "verdict": "Likely positive",
+   "signals": [
+    {
+     "label": "Recent form",
+     "detail": "72% positive lately vs 72% career (save % 0.901)",
+     "tone": "neutral"
+    },
+    {
+     "label": "History vs OTT",
+     "detail": "No career starts against them yet",
+     "tone": "neutral"
+    },
+    {
+     "label": "Opponent offense",
+     "detail": "OTT scoring 2.67 goals/game (league 2.82)",
+     "tone": "good"
+    },
+    {
+     "label": "Team support",
+     "detail": "His team has won 67% of its last 15",
+     "tone": "good"
+    },
+    {
+     "label": "Venue & rest",
+     "detail": "Home game, 4 days rest",
+     "tone": "good"
+    }
+   ],
+   "starter_share_last10": 0.0,
+   "career": {
+    "starts": 0,
+    "record": "0-0-0",
+    "shutouts": 0,
+    "pos_rate": null,
+    "avg_points": null,
+    "save_pct": null
+   },
+   "season": null,
+   "vs_opponent": {
+    "starts": 0,
+    "record": "0-0-0",
+    "shutouts": 0,
+    "pos_rate": null,
+    "avg_points": null,
+    "save_pct": null,
+    "games": []
+   },
+   "last5": []
   },
   {
    "id": 8479394,
@@ -2092,7 +2156,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.8142,
    "expected_points": 3.69,
@@ -2438,7 +2502,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7151,
    "expected_points": 2.61,
@@ -2682,7 +2746,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "DAL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7404,
    "expected_points": 2.78,
@@ -2848,7 +2912,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7858,
    "expected_points": 3.2,
@@ -2930,7 +2994,7 @@
     "start_utc": "2026-10-27T23:00:00Z",
     "home": 1,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6969,
    "expected_points": 2.33,
@@ -3246,7 +3310,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "CHI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7538,
    "expected_points": 2.92,
@@ -4608,7 +4672,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "NSH",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7832,
    "expected_points": 3.19,
@@ -4781,7 +4845,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "STL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.723,
    "expected_points": 2.71,
@@ -4914,7 +4978,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7526,
    "expected_points": 2.72,
@@ -5087,7 +5151,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "DAL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6808,
    "expected_points": 2.11,
@@ -5260,7 +5324,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7563,
    "expected_points": 3.01,
@@ -5433,7 +5497,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "STL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6658,
    "expected_points": 2.18,
@@ -5739,7 +5803,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "CAR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7138,
    "expected_points": 2.68,
@@ -6045,7 +6109,7 @@
     "start_utc": "2026-10-27T23:00:00Z",
     "home": 0,
     "opp": "PHI",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.754,
    "expected_points": 2.87,
@@ -6208,7 +6272,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "MTL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7231,
    "expected_points": 2.79,
@@ -6975,7 +7039,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "MTL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6918,
    "expected_points": 2.4,
@@ -7148,7 +7212,7 @@
     "start_utc": "2026-10-27T23:00:00Z",
     "home": 1,
     "opp": "CBJ",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7582,
    "expected_points": 3.02,
@@ -7311,7 +7375,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6617,
    "expected_points": 1.91,
@@ -7444,7 +7508,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "NYI",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7626,
    "expected_points": 2.98,
@@ -8872,7 +8936,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "CAR",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7298,
    "expected_points": 2.87,
@@ -9140,7 +9204,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6523,
    "expected_points": 1.97,
@@ -9446,7 +9510,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "BOS",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7568,
    "expected_points": 3.13,
@@ -9619,7 +9683,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "DAL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7261,
    "expected_points": 2.65,
@@ -9816,7 +9880,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "STL",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6322,
    "expected_points": 1.66,
@@ -10247,7 +10311,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 0,
     "opp": "NSH",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7757,
    "expected_points": 2.94,
@@ -10726,7 +10790,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "LAK",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6704,
    "expected_points": 2.15,
@@ -10899,7 +10963,7 @@
     "start_utc": "2026-10-28T00:00:00Z",
     "home": 1,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6573,
    "expected_points": 1.97,
