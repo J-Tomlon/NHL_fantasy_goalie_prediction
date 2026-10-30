@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T18:37:05+00:00",
+ "generated_at": "2026-10-30T23:46:54+00:00",
  "sample": false,
  "scoring": {
   "W": 3.0,
@@ -12,8 +12,8 @@
   "test_season": 20252026,
   "model": {
    "n": 2624,
-   "brier": 0.20940837730759848,
-   "log_loss": 0.6096430179756572,
+   "brier": 0.20940837730759934,
+   "log_loss": 0.6096430179756591,
    "accuracy": 0.6996951219512195,
    "auc": 0.5420661778529798
   },
@@ -42,7 +42,7 @@
    20252026,
    20262027
   ],
-  "trained_at": "2026-10-30T18:36:59+00:00"
+  "trained_at": "2026-10-30T23:46:49+00:00"
  },
  "default_goalies": [
   8474596,
@@ -60,7 +60,7 @@
     "start_utc": "2026-10-30T22:00:00Z",
     "home": 1,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.75,
    "expected_points": 3.0,
@@ -213,7 +213,7 @@
     "start_utc": "2026-10-30T23:00:00Z",
     "home": 1,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7194,
    "expected_points": 2.58,
@@ -1154,7 +1154,7 @@
     "start_utc": "2026-10-31T00:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7424,
    "expected_points": 3.07,
@@ -1984,70 +1984,6 @@
    ]
   },
   {
-   "id": 8483523,
-   "name": "Cameron Whitehead",
-   "team": "VGK",
-   "headshot": "https://assets.nhle.com/mugs/nhl/20262027/VGK/8483523.png",
-   "next_game": {
-    "game_id": 2026020214,
-    "date": "2026-10-30",
-    "start_utc": "2026-10-30T22:00:00Z",
-    "home": 1,
-    "opp": "NJD",
-    "state": "FUT"
-   },
-   "prob_positive": 0.7839,
-   "expected_points": 3.44,
-   "verdict": "Likely positive",
-   "signals": [
-    {
-     "label": "Recent form",
-     "detail": "72% positive lately vs 72% career (save % 0.901)",
-     "tone": "neutral"
-    },
-    {
-     "label": "History vs NJD",
-     "detail": "No career starts against them yet",
-     "tone": "neutral"
-    },
-    {
-     "label": "Opponent offense",
-     "detail": "NJD scoring 2.93 goals/game (league 2.82)",
-     "tone": "neutral"
-    },
-    {
-     "label": "Team support",
-     "detail": "His team has won 67% of its last 15",
-     "tone": "good"
-    },
-    {
-     "label": "Venue & rest",
-     "detail": "Home game, 4 days rest",
-     "tone": "good"
-    }
-   ],
-   "starter_share_last10": 0.0,
-   "career": {
-    "starts": 0,
-    "record": "0-0-0",
-    "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null
-   },
-   "season": null,
-   "vs_opponent": {
-    "starts": 0,
-    "record": "0-0-0",
-    "shutouts": 0,
-    "pos_rate": null,
-    "avg_points": null,
-    "save_pct": null,
-    "games": []
-   },
-   "last5": []
-  },
-  {
    "id": 8479394,
    "name": "Carter Hart",
    "team": "VGK",
@@ -2058,7 +1994,7 @@
     "start_utc": "2026-10-30T22:00:00Z",
     "home": 1,
     "opp": "NJD",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7511,
    "expected_points": 2.93,
@@ -2577,7 +2513,7 @@
     "start_utc": "2026-10-30T23:00:00Z",
     "home": 0,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6509,
    "expected_points": 1.9,
@@ -2832,7 +2768,7 @@
     "start_utc": "2026-10-30T22:00:00Z",
     "home": 0,
     "opp": "VGK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7279,
    "expected_points": 2.74,
@@ -3005,7 +2941,7 @@
     "start_utc": "2026-10-30T23:00:00Z",
     "home": 1,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.8113,
    "expected_points": 3.61,
@@ -3668,7 +3604,7 @@
     "start_utc": "2026-10-31T00:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7001,
    "expected_points": 2.54,
@@ -3954,7 +3890,7 @@
     "start_utc": "2026-10-31T00:00:00Z",
     "home": 1,
     "opp": "SEA",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6564,
    "expected_points": 2.04,
@@ -5070,7 +5006,7 @@
     "start_utc": "2026-10-30T23:00:00Z",
     "home": 1,
     "opp": "WPG",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7753,
    "expected_points": 3.05,
@@ -5243,7 +5179,7 @@
     "start_utc": "2026-10-30T22:00:00Z",
     "home": 0,
     "opp": "VGK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6748,
    "expected_points": 2.19,
@@ -6476,7 +6412,7 @@
     "start_utc": "2026-10-31T00:00:00Z",
     "home": 0,
     "opp": "CGY",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.7139,
    "expected_points": 2.52,
@@ -9140,7 +9076,7 @@
     "start_utc": "2026-10-30T23:00:00Z",
     "home": 0,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6285,
    "expected_points": 1.62,
@@ -9273,7 +9209,7 @@
     "start_utc": "2026-10-31T00:00:00Z",
     "home": 0,
     "opp": "CGY",
-    "state": "FUT"
+    "state": "PRE"
    },
    "prob_positive": 0.6951,
    "expected_points": 2.44,
@@ -9609,7 +9545,7 @@
     "start_utc": "2026-10-30T22:00:00Z",
     "home": 0,
     "opp": "VGK",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.7275,
    "expected_points": 2.75,
@@ -10918,7 +10854,7 @@
     "start_utc": "2026-10-30T23:00:00Z",
     "home": 0,
     "opp": "FLA",
-    "state": "FUT"
+    "state": "LIVE"
    },
    "prob_positive": 0.6393,
    "expected_points": 1.7,
